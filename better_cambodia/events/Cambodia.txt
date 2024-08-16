@@ -1,5 +1,6 @@
 add_namespace = cambodia
 
+#German autobans events
 country_event = {
 	id = cambodia.1
 	title = cambodia.1.t
@@ -11,7 +12,7 @@ country_event = {
 		name = cambodia.1.a
 	}
 }
-
+#For Germany
 country_event = {
 	id = cambodia.2
 	title = cambodia.2.t
@@ -25,6 +26,7 @@ country_event = {
 	}
 }
 
+#Elections
 country_event = {
 	id = cambodia.4
 	title = cambodia.4.t
@@ -42,6 +44,7 @@ country_event = {
 	}
 }
 
+#Peace events
 country_event = {
 	id = cambodia.3
 	title = cambodia.3.t
@@ -117,5 +120,19 @@ country_event = {
 		671 = { add_core_of = CAM }
 		670 = { add_core_of = CAM }
 		286 = { add_core_of = CAM }
+	}
+}
+
+#Pol Pot way final focus event
+country_event = {
+	picture = GFX_final_event_pol_pot_way_icon
+	id = cambodia.8
+	title = cambodia.8.t
+	desc = cambodia.8.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.8.a
 	}
 }
