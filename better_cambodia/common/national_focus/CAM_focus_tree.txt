@@ -3922,6 +3922,12 @@ focus_tree = {
 			air_experience = 150
 			add_threat = 15
 			add_political_power = 500
+			CAM = {
+				country_event = {
+					id = news.1488
+					days = 1
+				}
+			}
 		}
 	}
 	focus = {
