@@ -1,0 +1,255 @@
+characters = {
+	CAM_sisovat_morinet = {
+		name = Sisovat_Morinet
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				follower_of_the_succession_of_power
+			}
+		}
+	}
+
+	CAM_chuol_hell = {
+		name = Chuol_Hell
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				fanatical_courtier
+			}
+		}
+	}
+
+
+	CAM_cheng_heng = {
+		name = Cheng_Heng
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				market_specialist
+			}
+		}
+	}
+
+
+	CAM_hem_chiy = {
+		name = Hem_Chiy
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				nationalist_theocrat
+			}
+		}
+	}
+
+
+	CAM_son_ngok_than = {
+		name = Son_Nkog_Than
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				loyal_to_the_nation
+			}
+		}
+	}
+
+	CAM_ig_abl_ton = {
+		name = Ig_Abl_Ton
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				liberal_banker
+			}
+		}
+	}
+
+	CAM_son_ngok_than = {
+		name = Son_Nkog_Than
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				loyal_to_the_nation
+			}
+		}
+	}
+
+	CAM_saykam_hol = {
+		name = Saykam_hol
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				entrepreneur_from_the_people
+			}
+		}
+	}
+
+	CAM_yeing_sari = {
+		name = Yeing_Sari
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				orthodox_marxist
+			}
+		}
+	}
+
+	CAM_mar_to_nih = {
+		name = Mar_To_Nih
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				pro_japanese_party_figure
+			}
+		}
+	}
+
+	CAM_nik_rud_vol = {
+		name = Nik_Rud_Vol
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				newly_formed_oligarch
+			}
+		}
+	}
+
+	CAM_iv_nush_kurch = {
+		name = Iv_Nush_Kurch
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				stalinist_with_reformist_bent
+			}
+		}
+	}
+
+	CAM_grig_your = {
+		name = Grig_Your
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				capitalist_monopolist
+			}
+		}
+	}
+
+	CAM_vla_do_sir = {
+		name = Vla_Do_Sir
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				advocate_of_industrialization
+			}
+		}
+	}
+
+	CAM_gle_bi_ser = {
+		name = Gle_Bi_Ser
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				road_specialist
+			}
+		}
+	}
+
+	CAM_chi_na_zes = {
+		name = Chi_Na_Zes
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				ideologue_of_panasiatism
+			}
+		}
+	}
+
+	CAM_gos_lin_ryn = {
+		name = Gos_Lin_Ryn
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				CAM_german_agent
+			}
+		}
+	}
+
+	CAM_lon_nol = {
+		name = Lon_Nol
+	
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = CAM
+			}
+			traits = {
+				ardent_farmer
+				radical_pol_potist
+				stalinist_with_reformist_bent
+				newly_formed_oligarch
+				capitalist_monopolist
+				orthodox_marxist
+				advocate_of_industrialization
+				road_specialist
+				nationalist_theocrat
+				loyal_to_the_nation
+				market_specialist
+				liberal_banker
+				entrepreneur_from_the_people
+				follower_of_the_succession_of_power
+				fanatical_courtier
+				CAM_german_agent
+				ideologue_of_panasiatism
+			}
+		}
+	}
+}

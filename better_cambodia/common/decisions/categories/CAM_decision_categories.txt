@@ -1,0 +1,11 @@
+CAM_category = {
+	icon = generic_fascism
+
+	picture = GFX_decision_cat_generic_roman_empire
+
+	priority = 1
+
+	allowed = {
+		original_tag = CAM
+	}
+}

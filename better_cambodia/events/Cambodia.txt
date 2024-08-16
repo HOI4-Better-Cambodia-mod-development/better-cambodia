@@ -1,0 +1,121 @@
+add_namespace = cambodia
+
+country_event = {
+	id = cambodia.1
+	title = cambodia.1.t
+	desc = cambodia.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.1.a
+	}
+}
+
+country_event = {
+	id = cambodia.2
+	title = cambodia.2.t
+	desc = cambodia.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.2.a
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = cambodia.4
+	title = cambodia.4.t
+	desc = cambodia.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.4.a
+		complete_national_focus = CAM_victory_of_the_left
+	}
+	option = {
+		name = cambodia.4.b
+		complete_national_focus = CAM_liberty_victory
+	}
+}
+
+country_event = {
+	id = cambodia.3
+	title = cambodia.3.t
+	desc = cambodia.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.3.a
+		white_peace = CAM
+	}
+	option = {
+		name = cambodia.3.b
+	}
+}
+
+country_event = {
+	id = cambodia.5
+	title = cambodia.5.t
+	desc = cambodia.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.5.a
+		white_peace = CAM
+		CAM = {
+			transfer_state = 286
+		}
+		286 = { add_core_of = CAM }
+	}
+	option = {
+		name = cambodia.5.b
+	}
+}
+
+country_event = {
+	id = cambodia.6
+	title = cambodia.6.t
+	desc = cambodia.6.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.6.a
+		white_peace = CAM
+		CAM = {
+			transfer_state = 286
+			transfer_state = 670
+		}
+		670 = { add_core_of = CAM }
+		286 = { add_core_of = CAM }
+	}
+	option = {
+		name = cambodia.6.b
+	}
+}
+country_event = {
+	id = cambodia.7
+	title = cambodia.7.t
+	desc = cambodia.7.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.7.a
+		white_peace = CAM
+		CAM = {
+			transfer_state = 286
+			transfer_state = 670
+			transfer_state = 671
+		}
+		671 = { add_core_of = CAM }
+		670 = { add_core_of = CAM }
+		286 = { add_core_of = CAM }
+	}
+}
