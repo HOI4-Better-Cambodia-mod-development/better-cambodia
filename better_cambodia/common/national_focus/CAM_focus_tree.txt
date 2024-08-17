@@ -3244,6 +3244,10 @@ focus_tree = {
 				add_idea = CAM_radical_revolution1_idea
 			}
 			remove_ideas = CAM_weak_administration
+			country_event = {
+				tag = CAM
+				id = cambodia.9
+			}
 		}
 	}
 	focus = {
@@ -3259,6 +3263,10 @@ focus_tree = {
 			add_political_power = 100
 			add_stability = -0.1
 			add_war_support = 0.1
+			country_event = {
+				tag = CAM
+				id = cambodia.10
+			}
 		}
 	}
 	focus = {
@@ -3286,6 +3294,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -75
 			add_ideas = CAM_garmony_human_animals_idea
+			country_event = {
+				tag = CAM
+				id = cambodia.11
+			}
 		}
 	}
 	focus = {
@@ -3402,6 +3414,10 @@ focus_tree = {
 		y = 16
 		completion_reward = {
 			add_political_power = 5
+			country_event = {
+				tag = CAM
+				id = cambodia.12
+			}
 		}
 	}
 	focus = {
@@ -3429,6 +3445,10 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = CAM_fight_for_light_future_idea
 			add_dynamic_modifier = { modifier = CAM_pol_pot_attack_defence_bonuses_dynamic_modifier }
+			country_event = {
+				tag = CAM
+				id = cambodia.13
+			}
 		}
 	}
 	focus = {
@@ -3549,6 +3569,10 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 150000
 			add_political_power = 150
+			country_event = {
+				tag = CAM
+				id = cambodia.15
+			}
 		}
 	}
 	focus = {
@@ -3574,7 +3598,12 @@ focus_tree = {
 		}
 		x = 19
 		y = 21
-
+		completion_reward = {
+			country_event = {
+				tag = CAM
+				id = cambodia.16
+			}
+		}
 	}
 	focus = {
 		id = CAM_together_to_light_future
@@ -3588,7 +3617,12 @@ focus_tree = {
 		}
 		x = 18
 		y = 22
-
+		completion_reward = {
+			country_event = {
+				tag = CAM
+				id = cambodia.17
+			}
+		}
 	}
 	focus = {
 		id = CAM_abolish_commodity_money_relations
@@ -3646,7 +3680,12 @@ focus_tree = {
 		}
 		x = 21
 		y = 20
-
+		completion_reward = {
+			country_event = {
+				tag = CAM
+				id = cambodia.18
+			}
+		}
 	}
 	focus = {
 		id = CAM_dialectik_marxism
@@ -3900,6 +3939,11 @@ focus_tree = {
 			navy_experience = 50
 			air_experience = 50
 			command_power = 100
+			news_event = {
+				tag = all_countries
+				id = cambodia.14
+				days = 1
+			}
 		}
 	}
 	focus = {

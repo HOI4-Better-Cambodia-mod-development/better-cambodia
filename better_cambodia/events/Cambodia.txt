@@ -136,3 +136,136 @@ country_event = {
 		name = cambodia.8.a
 	}
 }
+
+#Pol Pot way people's ideology focus event
+country_event = {
+	id = cambodia.9
+	title = cambodia.9.t
+	desc = cambodia.9.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.9.a
+		add_political_power = -25
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+		}
+	}
+}
+
+#Pol Pot way ideological discussions focus event
+country_event = {
+	id = cambodia.10
+	title = cambodia.10.t
+	desc = cambodia.10.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.10.a
+	}
+}
+#Pol Pot way ecological clean territory focus event
+country_event = {
+	id = cambodia.11
+	title = cambodia.11.t
+	desc = cambodia.11.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.11.a
+	}
+}
+
+#Pol Pot way our way is thorny focus event
+country_event = {
+	id = cambodia.12
+	title = cambodia.12.t
+	desc = cambodia.12.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.12.a
+	}
+}
+
+#Pol Pot way surrounden by burjuams focus event
+country_event = {
+	id = cambodia.13
+	title = cambodia.13.t
+	desc = cambodia.13.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.13.a
+	}
+}
+
+#Pol Pot way marx and lenin dreams focus event
+country_event = {
+	id = cambodia.14
+	title = cambodia.14.t
+	desc = cambodia.14.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.14.a
+	}
+}
+
+#Pol Pot way peasant all countries unite focus event
+country_event = {
+	id = cambodia.15
+	title = cambodia.15.t
+	desc = cambodia.15.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.15.a
+	}
+}
+
+#Pol Pot way final strange of preparations focus event
+country_event = {
+	id = cambodia.16
+	title = cambodia.16.t
+	desc = cambodia.16.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.16.a
+	}
+}
+
+#Pol Pot way together to light future focus event
+country_event = {
+	id = cambodia.17
+	title = cambodia.17.t
+	desc = cambodia.17.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.17.a
+	}
+}
+#Pol Pot way victory over religion focus event
+country_event = {
+	id = cambodia.18
+	title = cambodia.18.t
+	desc = cambodia.18.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.18.a
+	}
+}
