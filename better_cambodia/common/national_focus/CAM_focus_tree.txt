@@ -4219,4 +4219,183 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = CAM_partiynaya_safety
+		icon = GFX_party_safety_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_narodnaya_safety
+		}
+		x = 29
+		y = 18
+
+	}
+	focus = {
+		id = CAM_kult_lichhnosti
+		icon = GFX_cult_lichonsi
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_gen_sek_is_our_example
+		}
+		x = 31
+		y = 18
+
+	}
+	focus = {
+		id = CAM_libeariton_of_the_brain
+		icon = GFX_liberation_brain_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_razdavit_religion
+		}
+		x = 33
+		y = 18
+
+	}
+	focus = {
+		id = CAM_stalin_into_marx
+		icon = GFX_goal_marxism_stalinism
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_partiynaya_safety
+		}
+		prerequisite = {
+			focus = CAM_kult_lichhnosti
+		}
+		prerequisite = {
+			focus = CAM_libeariton_of_the_brain
+		}
+		x = 31
+		y = 19
+
+	}
+	focus = {
+		id = CAM_triumph_of_the_centralism_doctrine
+		icon = GFX_triumph_centralism_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_stalin_into_marx
+		}
+		x = 28
+		y = 20
+
+	}
+	focus = {
+		id = CAM_red_terror
+		icon = GFX_red_terror_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_stalin_into_marx
+		}
+		x = 31
+		y = 21
+
+	}
+	focus = {
+		id = CAM_ezhov_example
+		icon = GFX_ezhov_example_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_stalin_into_marx
+		}
+		x = 34
+		y = 20
+
+	}
+	focus = {
+		id = CAM_urbanisation_is_good
+		icon = GFX_urbanisation_is_goos_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_triumph_of_the_centralism_doctrine
+		}
+		x = 28
+		y = 21
+
+	}
+	focus = {
+		id = CAM_nkvd_na_strazhe_poriadka
+		icon = GFX_kbnkp_na_stazhe
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_ezhov_example
+		}
+		x = 34
+		y = 21
+
+	}
+	focus = {
+		id = CAM_worker_heat_peasant
+		icon = GFX_workers_heat_peasant_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_red_terror
+			focus = CAM_urbanisation_is_good
+		}
+		x = 29
+		y = 22
+
+	}
+	focus = {
+		id = CAM_one_party_one_leader_one_state
+		icon = GFX_one_leader_one_state_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_red_terror
+			focus = CAM_nkvd_na_strazhe_poriadka
+		}
+		x = 33
+		y = 22
+
+	}
+	focus = {
+		id = CAM_stalinism_into_totalism
+		icon = GFX_stalinism_into_totalism
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_worker_heat_peasant
+		}
+		prerequisite = {
+			focus = CAM_one_party_one_leader_one_state
+		}
+		prerequisite = {
+			focus = CAM_red_terror
+		}
+		x = 31
+		y = 23
+
+	}
+	focus = {
+		id = CAM_glory_to_us
+		icon = GFX_gloty_to_us_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_stalinism_into_totalism
+		}
+		x = 31
+		y = 24
+
+	}
+	focus = {
+		id = CAM_death_to_the_enemies
+		icon = GFX_death_to_enemies_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_glory_to_us
+		}
+		x = 31
+		y = 25
+
+	}
+	focus = {
+		id = CAM_revolutional_triumphant
+		icon = GFX_stalin_triumph_revolution
+		cost = 10,00
+		prerequisite = {
+			focus = CAM_death_to_the_enemies
+		}
+		x = 31
+		y = 26
+
+	}
 }

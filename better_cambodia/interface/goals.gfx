@@ -4,216 +4,275 @@ spriteTypes = {
 
 	SpriteType = {
 	name = "GFX_goal_narodnya_ideologia"
-	texturefile = "gfx/interface/goals/goal_narodnya_ideologia.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_narodnya_ideologia.png"			
 	}
-
 	SpriteType = {
 	name = "GFX_goal_trees"
-	texturefile = "gfx/interface/goals/trees.png"			
+	texturefile = "gfx/interface/goals/communist_way/trees.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_green_industry"
-	texturefile = "gfx/interface/goals/goal_green_industry.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_green_industry.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_invest_to_biology"
-	texturefile = "gfx/interface/goals/goal_invest_to_biology.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_invest_to_biology.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_agro_selection"
-	texturefile = "gfx/interface/goals/goal_agro_selection.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_agro_selection.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_med"
-	texturefile = "gfx/interface/goals/goal_med.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_med.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_rubber"
-	texturefile = "gfx/interface/goals/goal_rubber.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_rubber.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_psy"
-	texturefile = "gfx/interface/goals/goal_psy.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_psy.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_class_struggle"
-	texturefile = "gfx/interface/goals/goal_class_struggle.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_class_struggle.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_way_thorny"
-	texturefile = "gfx/interface/goals/goal_way_thorny.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_way_thorny.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_ages"
-	texturefile = "gfx/interface/goals/goal_ages.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_ages.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_surrounded"
-	texturefile = "gfx/interface/goals/goal_surrounded.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_surrounded.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_angry_sun"
-	texturefile = "gfx/interface/goals/goal_angry_sun.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_angry_sun.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_raj_pearl"
-	texturefile = "gfx/interface/goals/goal_raj_pearl.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_raj_pearl.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_one_not_enough"
-	texturefile = "gfx/interface/goals/goal_one_not_enough.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_one_not_enough.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_international_comitet"
-	texturefile = "gfx/interface/goals/goal_international_comitet.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_international_comitet.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_peasant_all_countries"
-	texturefile = "gfx/interface/goals/goal_peasant_all_countries.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_peasant_all_countries.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_flame_ideas"
-	texturefile = "gfx/interface/goals/goal_flame_ideas.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_flame_ideas.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_to_utopia"
-	texturefile = "gfx/interface/goals/goal_to_utopia.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_to_utopia.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_last_preparations"
-	texturefile = "gfx/interface/goals/goal_last_preparations.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_last_preparations.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_commodity_money_relations"
-	texturefile = "gfx/interface/goals/goal_commodity_money_relations.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_commodity_money_relations.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_marx_lessons"
-	texturefile = "gfx/interface/goals/goal_marx_lessons.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_marx_lessons.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_class_af"
-	texturefile = "gfx/interface/goals/goal_class_af.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_class_af.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_victory_over_religion"
-	texturefile = "gfx/interface/goals/goal_victory_over_religion.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_victory_over_religion.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_dialectic_materialism"
-	texturefile = "gfx/interface/goals/goal_dialectic_materialism.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_dialectic_materialism.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_science_atheism"
-	texturefile = "gfx/interface/goals/goal_science_atheism.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_science_atheism.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_chi_friends"
-	texturefile = "gfx/interface/goals/goal_chi_friends.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_chi_friends.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_sov_empire"
-	texturefile = "gfx/interface/goals/goal_sov_empire.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_sov_empire.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_free_trade_destroy"
-	texturefile = "gfx/interface/goals/goal_free_trade_destroy.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_free_trade_destroy.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fascism_is_capitalism"
-	texturefile = "gfx/interface/goals/goal_fascism_is_capitalism.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_fascism_is_capitalism.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_little_comrades"
-	texturefile = "gfx/interface/goals/goal_little_comrades.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_little_comrades.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_marxism_leninism_dream"
-	texturefile = "gfx/interface/goals/goal_marxism_leninism_dream.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_marxism_leninism_dream.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_victory_communist_ideas"
-	texturefile = "gfx/interface/goals/goal_victory_communist_ideas.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_victory_communist_ideas.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_adress_sov"
-	texturefile = "gfx/interface/goals/goal_adress_sov.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_adress_sov.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_free_discuss"
-	texturefile = "gfx/interface/goals/goal_free_discuss.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_free_discuss.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_unity_of_actions"
-	texturefile = "gfx/interface/goals/goal_unity_of_actions.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_unity_of_actions.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_defeat_mao"
-	texturefile = "gfx/interface/goals/goal_defeat_mao.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_defeat_mao.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_destroy_kulacks"
-	texturefile = "gfx/interface/goals/goal_destroy_kulacks.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_destroy_kulacks.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_working_lagers"
-	texturefile = "gfx/interface/goals/goal_working_lagers.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_working_lagers.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fascism_on_islands"
-	texturefile = "gfx/interface/goals/goal_fascism_on_islands.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_fascism_on_islands.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_total_decolonization"
-	texturefile = "gfx/interface/goals/goal_total_decolonization.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_total_decolonization.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_one_front_against_ger"
-	texturefile = "gfx/interface/goals/goal_one_front_against_ger.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_one_front_against_ger.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_stalinist_agains_usa"
-	texturefile = "gfx/interface/goals/goal_stalinist_agains_usa.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_stalinist_agains_usa.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_liberty_for_free"
-	texturefile = "gfx/interface/goals/goal_liberty_for_free.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_liberty_for_free.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_united_with_stalinist_sov"
-	texturefile = "gfx/interface/goals/goal_united_with_stalinist_sov.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_united_with_stalinist_sov.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_triumph_revisionism"
-	texturefile = "gfx/interface/goals/goal_triumph_revisionism.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_triumph_revisionism.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_lenin_cult"
-	texturefile = "gfx/interface/goals/goal_lenin_cult.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_lenin_cult.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_kbnkp"
-	texturefile = "gfx/interface/goals/goal_kbnkp.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_kbnkp.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_opium_for_peoples"
-	texturefile = "gfx/interface/goals/goal_opium_for_peoples.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_opium_for_peoples.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_first_party"
-	texturefile = "gfx/interface/goals/goal_first_party.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_first_party.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_safety_people"
-	texturefile = "gfx/interface/goals/goal_safety_people.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_safety_people.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_our_gensec"
-	texturefile = "gfx/interface/goals/goal_our_gensec.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_our_gensec.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_destroy_religions"
-	texturefile = "gfx/interface/goals/goal_destroy_religions.png"			
+	texturefile = "gfx/interface/goals/communist_way/goal_destroy_religions.png"			
+	}
+	SpriteType = {
+	name = "GFX_party_safety_goal"
+	texturefile = "gfx/interface/goals/communist_way/CAM_party_safety_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_liberation_brain_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_liberation_brain_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_cult_lichonsi"
+		texturefile = "gfx/interface/goals/communist_way/CAM_cult_lichonsi_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_goal_marxism_stalinism"
+		texturefile = "gfx/interface/goals/communist_way/goal_marxism_stalinism.png"			
+	}
+	SpriteType = {
+		name = "GFX_triumph_centralism_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_triumph_centralism_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_ezhov_example_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_ezhov_example.png"			
+	}
+	SpriteType = {
+		name = "GFX_urbanisation_is_goos_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_urbanisation_is_goos_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_red_terror_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_red_terror_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_kbnkp_na_stazhe"
+		texturefile = "gfx/interface/goals/communist_way/CAM_kbnkp_na_stazhe.png"			
+	}
+	SpriteType = {
+		name = "GFX_workers_heat_peasant_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_workers_heat_peasant_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_one_leader_one_state_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_one_leader_one_state_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_stalinism_into_totalism"
+		texturefile = "gfx/interface/goals/communist_way/CAM_stalinism_into_totalism.png"			
+	}
+	SpriteType = {
+		name = "GFX_gloty_to_us_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_gloty_to_us_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_death_to_enemies_goal"
+		texturefile = "gfx/interface/goals/communist_way/CAM_death_to_enemies_goal.png"			
+	}
+	SpriteType = {
+		name = "GFX_stalin_triumph_revolution"
+		texturefile = "gfx/interface/goals/communist_way/CAM_stalin_triumph_revolution.png"			
 	}
 
 	SpriteType = {
@@ -224,7 +283,7 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_continuous_non_factory_construct"
 	texturefile = "gfx/interface/goals/goal_continuous_non_factory_construct.dds"			
-	}	
+	}
 	
 	SpriteType = {
 	name = "GFX_goal_continuous_reduce_training_time"
