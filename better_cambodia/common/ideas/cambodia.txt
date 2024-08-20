@@ -1,6 +1,273 @@
 ideas = {
 
 	country = {
+		CAM_safety_union_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = 0.15
+				political_power_factor = 0.05
+				army_core_attack_factor = 0.2
+				drift_defence_factor = 0.5
+			}
+		}
+		CAM_safety_union1_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = 0.2
+				political_power_factor = 0.1
+				army_core_attack_factor = 0.2
+				drift_defence_factor = 0.5
+				production_speed_buildings_factor = 0.1
+				enemy_operative_detection_chance = 1
+			}
+		}
+		CAM_create_kbnkp_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				army_core_attack_factor = 0.05
+				army_core_defense_factor = 0.05
+				operative_slot = 2
+				enemy_operative_detection_chance = 2
+			}
+		}
+		CAM_lenin_cult_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				communism_drift = 0.1
+				war_support_factor = 0.2
+				party_popularity_stability_factor = 0.25
+				org_loss_at_low_org_factor = -0,2
+			}
+		}
+		CAM_defeat_kulaks_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.2
+				production_speed_arms_factory_factor = 0.1
+				drift_defence_factor = 0.5
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		CAM_asia_gulag_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				add_political_power = 0.05
+				war_support_factor = -0.1
+				army_org_factor = -0.05
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = -0.3
+				production_speed_arms_factory_factor = 0.1
+				line_change_production_efficiency_factor = 0.2
+			}
+		}
+		CAM_the_red_down_jap_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = MEN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = MAN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		CAM_the_red_down_usa_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = USA
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		CAM_the_red_down_ger_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		CAM_the_red_down_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.35
+				army_speed_factor = 0.1
+				war_support_factor = 0.05
+			}
+		}
+		CAM_the_red_down1_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.35
+				army_speed_factor = 0.1
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.1
+				political_power_factor = 0.05
+				stability_factor = 0.15
+				war_support_factor = 0.15
+			}
+		}
+		CAM_the_red_down_col_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = ITA
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = SPR
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = POR
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = HOL
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		CAM_the_red_down_chi_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = PRC
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = XSM
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = SIN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = GXC
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = TIB
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = YUN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = SHX
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		CAM_unity_of_action_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				army_core_attack_factor = 0.05
+				army_core_defense_factor = 0.05
+				drift_defence_factor = 0.5
+				communism_drift = 0.05
+			}
+		}
 		CAM_unquenchable_flame_idea = {
 			allowed = {
 				original_tag = CAM
@@ -709,6 +976,21 @@ ideas = {
 					political_power_factor = 0.05
 				}
 		}
+		CAM_moderate_revolution1_idea = {
+			allowed = {
+					original_tag = CAM
+					always = no
+				}
+				removal_cost = -1
+				modifier = {
+					political_power_factor = 0.15
+					stability_factor = 0.1
+					war_support_factor = 0.1
+					consumer_goods_factor = -0.05
+					production_speed_buildings_factor = 0.1
+					production_factory_max_efficiency_factor = 0.1
+				}
+		}
 		CAM_lack_of_industry_prom_update = {
 			allowed = {
 				original_tag = CAM
@@ -913,6 +1195,23 @@ ideas = {
 				production_speed_buildings_factor = -0.1
 				communism_drift = 0.05
 				war_support_factor = 0.05
+			}
+		}
+		CAM_centralism4 = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.15
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = -0.1
+				communism_drift = 0.1
+				war_support_factor = 0.1
+				production_speed_buildings_factor = 0.1
 			}
 		}
 		CAM_party_split = {

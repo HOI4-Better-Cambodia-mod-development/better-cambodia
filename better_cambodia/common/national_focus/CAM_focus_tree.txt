@@ -623,7 +623,7 @@ focus_tree = {
 				}
 			}
 		}
-}
+	}
 	focus = {
 		id = CAM_contact_china
 		icon = GFX_focus_chi_proclaim_rival_government
@@ -3555,6 +3555,7 @@ focus_tree = {
 		y = 19
 		completion_reward = {
 			add_ideas = CAM_international_revolutionary_brigades_idea
+			create_faction = "Интернациональный револционный комитет"
 		}
 	}
 	focus = {
@@ -3730,7 +3731,13 @@ focus_tree = {
 		}
 		x = 26
 		y = 12
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_moderate_revolution_idea
+				add_idea = CAM_moderate_revolution1_idea
+			}
+			remove_ideas = CAM_weak_administration
+		}
 	}
 	focus = {
 		id = CAM_main_directorate_of_labor_camps_system
@@ -3741,7 +3748,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 13
-
+		completion_reward = {
+			add_ideas = CAM_asia_gulag_idea
+		}
 	}
 	focus = {
 		id = CAM_we_will_go_with_stalin
@@ -3752,7 +3761,15 @@ focus_tree = {
 		}
 		x = 26
 		y = 13
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_centralism3
+				add_idea = CAM_centralism4
+			}
+			SOV = {
+				add_to_faction = CAM
+			}
+		}
 	}
 	focus = {
 		id = CAM_liquidation_kulaks
@@ -3763,7 +3780,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 14
-
+		completion_reward = {
+			add_ideas = CAM_defeat_kulaks_idea
+		}
 	}
 	focus = {
 		id = CAM_liquide_of_opportunist_maoism
@@ -3774,7 +3793,50 @@ focus_tree = {
 		}
 		x = 26
 		y = 14
-
+		completion_reward = {
+			create_wargoal = {
+				target = CHI
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = PRC
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SIK
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = TIB
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SHX
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = GXC
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = XSM
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = YUN
+				type = annex_everything
+				expire = 0
+			}
+			
+			add_ideas = CAM_the_red_down_chi_idea
+		}
 	}
 	focus = {
 		id = CAM_fascism_on_the_islands
@@ -3785,7 +3847,14 @@ focus_tree = {
 		}
 		x = 23
 		y = 14
-
+		completion_reward = {
+			create_wargoal = {
+				target = JAP
+				type = annex_everything
+				expire = 0
+			}
+			add_ideas = CAM_the_red_down_jap_idea
+		}
 	}
 	focus = {
 		id = CAM_help_for_chinas_friends
@@ -3984,7 +4053,39 @@ focus_tree = {
 		}
 		x = 23
 		y = 15
-
+		completion_reward = {
+			create_wargoal = {
+				target = ITA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = FRA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = ENG
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SPR
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = POR
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = HOL
+				type = annex_everything
+				expire = 0
+			}
+			add_ideas = CAM_the_red_down_col_idea
+		}
 	}
 	focus = {
 		id = CAM_united_front_against_the_gitler
@@ -3996,7 +4097,14 @@ focus_tree = {
 		}
 		x = 25
 		y = 15
-
+		completion_reward = {
+			create_wargoal = {
+				target = GER
+				type = annex_everything
+				expire = 0
+			}
+			add_ideas = CAM_the_red_down_ger_idea
+		}
 	}
 	focus = {
 		id = CAM_hit_to_the_heart_of_capitalism
@@ -4008,7 +4116,14 @@ focus_tree = {
 		}
 		x = 27
 		y = 15
-
+		completion_reward = {
+			create_wargoal = {
+				target = USA
+				type = annex_everything
+				expire = 0
+			}
+			add_ideas = CAM_the_red_down_usa_idea
+		}
 	}
 	focus = {
 		id = CAM_freedom_for_everyone_is_free
@@ -4022,7 +4137,9 @@ focus_tree = {
 		}
 		x = 24
 		y = 16
-
+		completion_reward = {
+			add_ideas = CAM_the_red_down_idea
+		}
 	}
 	focus = {
 		id = CAM_unity_with_sov
@@ -4053,7 +4170,12 @@ focus_tree = {
 		}
 		x = 25
 		y = 17
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_the_red_down_idea
+				add_idea = CAM_the_red_down1_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_kult_of_the_lenin
@@ -4064,7 +4186,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 15
-
+		completion_reward = {
+			add_ideas = CAM_lenin_cult_idea
+		}
 	}
 	focus = {
 		id = CAM_opium_for_the_people
@@ -4086,7 +4210,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 16
-
+		completion_reward = {
+			add_ideas = CAM_create_kbnkp_idea
+		}
 	}
 	focus = {
 		id = CAM_party_first
@@ -4108,7 +4234,11 @@ focus_tree = {
 		}
 		x = 21
 		y = 13
-
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.05
+			add_war_support = 0.15	
+		}
 	}
 	focus = {
 		id = CAM_unity_of_action
@@ -4119,7 +4249,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 14
-
+		completion_reward = {
+			add_ideas = CAM_unity_of_action_idea
+		}
 	}
 	focus = {
 		id = CAM_gen_sek_is_our_example
@@ -4152,7 +4284,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 17
-
+		completion_reward = {
+			add_ideas = CAM_safety_union_idea
+		}
 	}
 	focus = {
 		id = CAM_give_our_peasant_more_autonomy
@@ -4228,7 +4362,13 @@ focus_tree = {
 		}
 		x = 29
 		y = 18
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_safety_union_idea
+				add_idea = CAM_safety_union1_idea
+			}
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = CAM_kult_lichhnosti
@@ -4396,6 +4536,5 @@ focus_tree = {
 		}
 		x = 31
 		y = 26
-
 	}
 }
