@@ -1014,6 +1014,18 @@ focus_tree = {
 		}
 		x = 42
 		y = 3
+                completion_reward = {
+                add_popularity = {
+                ideology = neutrality
+                popularity = 0.2
+        }       
+                add_popularity = {
+                ideology = fascism
+                popularity = 0.2
+        }  
+                add_stability = -0.05
+                add_war_support = 0.05       
+}
 
 	}
 	focus = {
@@ -1025,7 +1037,19 @@ focus_tree = {
 		}
 		x = 75
 		y = 5
-
+        completion_reward = {
+            add_stability = -0.1
+            add_war_support = -0.1
+            add_political_power = 100
+            add_popularity = {
+                ideology = democratic
+                popularity = -0.2
+            } 
+            add_popularity = {
+                ideology = communism
+                popularity = -0.2
+            }
+        }
 	}
 	focus = {
 		id = CAM_right_sector_activity
@@ -1039,8 +1063,16 @@ focus_tree = {
 		}
 		x = 62
 		y = 6
-
+		completion_reward = {
+		add_popularity = {
+            ideology = fascism
+            popularity = 0.2}
+        }
+        add_stability = -0.1
+        add_war_support = 0.1
+        add_political_power = 200
 	}
+
 	focus = {
 		id = CAM_nationalism_propaganda
 		icon = GFX_goal_unknown
@@ -1050,6 +1082,13 @@ focus_tree = {
 		}
 		x = 62
 		y = 7
+		completion_reward = {
+			add_popularity = {
+			    ideology = fascism
+			    popularity = 0.05
+			}
+			remove_ideas = CAM_weak_administration
+		}
 
 	}
 	focus = {
@@ -1061,7 +1100,15 @@ focus_tree = {
 		}
 		x = 62
 		y = 8
+		completion_reward = {
+		add_popularity = {
+			    ideology = communism
+			    popularity = -1
+			    		}
+		add_stability = 0.2
+		add_political_power = 200
 
+		}
 	}
 	focus = {
 		id = CAM_power_of_mode
@@ -1072,7 +1119,14 @@ focus_tree = {
 		}
 		x = 62
 		y = 9
-
+        completion_reward = {
+        add_popularity = {
+			    ideology = democratic
+			    popularity = -1}
+		add_political_power = 100
+		add_stability = 0.1
+		add_war_support = 0.2
+        }
 	}
 	focus = {
 		id = CAM_our_way_to_great_nation
