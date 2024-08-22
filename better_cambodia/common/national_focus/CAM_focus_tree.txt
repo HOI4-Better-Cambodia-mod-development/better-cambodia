@@ -14,14 +14,14 @@ focus_tree = {
 		cost = 5,00
 		x = 41
 		y = 0
-			completion_reward = {
-					add_dynamic_modifier = {modifier = CAM_pol_pot_uneducated_population_dynamic_modifier}
-					add_ideas = CAM_disorganised_army
-					add_ideas = CAM_lack_of_industry
-					add_ideas = CAM_lack_of_administration
-					custom_effect_tooltip = available_political_advisor
-					show_ideas_tooltip = CAM_sisovat_morinet
-				}
+		completion_reward = {
+				add_dynamic_modifier = {modifier = CAM_pol_pot_uneducated_population_dynamic_modifier}
+				add_ideas = CAM_disorganised_army
+				add_ideas = CAM_lack_of_industry
+				add_ideas = CAM_lack_of_administration
+				custom_effect_tooltip = available_political_advisor
+				show_ideas_tooltip = CAM_sisovat_morinet
+			}
 
 	}
 	focus = {
@@ -4199,7 +4199,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 16
-
+		completion_reward = {
+			add_ideas = CAM_against_religion_idea
+		}
 	}
 	focus = {
 		id = CAM_formation_of_KBNKP
@@ -4223,7 +4225,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 16
-
+		completion_reward = {
+			add_dynamic_modifier = {modifier = CAM_stalinist_way_politburo_dynamic_modifier}
+		}
 	}
 	focus = {
 		id = CAM_freedom_of_discuss
@@ -4262,7 +4266,12 @@ focus_tree = {
 		}
 		x = 31
 		y = 17
-
+		completion_reward = {
+			add_to_variable = {CAM_stalinist_political_power_factor_var = 0.05}
+			add_to_variable = {CAM_stalinist_army_morale_factor_var = 0.1}
+			add_to_variable = {CAM_stalinist_stability_factor_var = 0.05}
+			add_to_variable = {CAM_stalinist_consumer_goods_factor_var = -0.1}
+		}
 	}
 	focus = {
 		id = CAM_razdavit_religion
@@ -4273,7 +4282,12 @@ focus_tree = {
 		}
 		x = 33
 		y = 17
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_against_religion_idea
+				add_idea = CAM_against_religion1_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_narodnaya_safety
@@ -4379,7 +4393,13 @@ focus_tree = {
 		}
 		x = 31
 		y = 18
-
+		completion_reward = {
+			add_to_variable = {CAM_stalinist_consumer_goods_factor_var = -0.05}
+			add_to_variable = {CAM_stalinist_army_org_factor_var = 0.05}
+			add_to_variable = {CAM_stalinist_conscription_var = 0.01}
+			add_to_variable = {CAM_stalinist_mobilization_speed_var = 0.5}
+			add_to_variable = {CAM_stalinist_training_time_army_factor_var = -0.15}
+		}
 	}
 	focus = {
 		id = CAM_libeariton_of_the_brain
@@ -4390,7 +4410,12 @@ focus_tree = {
 		}
 		x = 33
 		y = 18
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_against_religion1_idea
+				add_idea = CAM_against_religion2_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_stalin_into_marx
@@ -4407,7 +4432,11 @@ focus_tree = {
 		}
 		x = 31
 		y = 19
-
+		completion_reward = {
+			add_political_power = 300
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = CAM_triumph_of_the_centralism_doctrine
@@ -4418,7 +4447,14 @@ focus_tree = {
 		}
 		x = 28
 		y = 20
-
+		completion_reward = {
+			add_to_variable = {CAM_stalinist_army_org_factor_var = 0.05}
+			add_to_variable = {CAM_stalinist_max_eff_factor_var = 0.4}
+			add_to_variable = {CAM_stalinist_eff_gain_factor_var = -0.5}
+			add_to_variable = {CAM_stalinist_consumer_goods_factor_var = 0.3}
+			add_to_variable = {CAM_stalinist_building_speed_var = 0.25}
+			add_to_variable = {CAM_stalinist_mounthly_grow_var = -0.05}
+		}
 	}
 	focus = {
 		id = CAM_red_terror
@@ -4427,9 +4463,40 @@ focus_tree = {
 		prerequisite = {
 			focus = CAM_stalin_into_marx
 		}
+		available = {
+			has_idea = CAM_nkvd_cambodia1_idea
+		}
 		x = 31
 		y = 21
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_nkvd_cambodia1_idea
+				add_idea = CAM_nkvd_cambodia2_idea
+			}
+			add_stability = 0.5
+			add_war_support = 0.25
+			741 = {
+				add_manpower = -575000
+			}
+			IF = {
+				286 = {is_controlled_by = CAM}
+				286 = {
+					add_manpower = -150000
+				}
+			}
+			IF = {
+				670 = {is_controlled_by = CAM}
+				670 = {
+					add_manpower = -150000
+				}
+			}
+			IF = {
+				671 = {is_controlled_by = CAM}
+				671 = {
+					add_manpower = -150000
+				}
+			}
+		}
 	}
 	focus = {
 		id = CAM_ezhov_example
@@ -4440,7 +4507,12 @@ focus_tree = {
 		}
 		x = 34
 		y = 20
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_create_kbnkp_idea
+				add_idea = CAM_nkvd_cambodia_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_urbanisation_is_good
@@ -4451,7 +4523,12 @@ focus_tree = {
 		}
 		x = 28
 		y = 21
-
+		completion_reward = {
+			add_to_variable = {CAM_stalinist_building_speed_var = 0.25}
+			add_to_variable = {CAM_stalinist_consumer_goods_factor_var = 0.2}
+			add_to_variable = {CAM_stalinist_building_speed_inf_var = 0.5}
+			add_to_variable = {CAM_stalinist_supply_death_var = 0.1}
+		}
 	}
 	focus = {
 		id = CAM_nkvd_na_strazhe_poriadka
@@ -4462,7 +4539,12 @@ focus_tree = {
 		}
 		x = 34
 		y = 21
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_nkvd_cambodia_idea
+				add_idea = CAM_nkvd_cambodia1_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_worker_heat_peasant
@@ -4474,7 +4556,13 @@ focus_tree = {
 		}
 		x = 29
 		y = 22
-
+		completion_reward = {
+			add_to_variable = {CAM_stalinist_consumer_goods_factor_var = 0.25}
+			add_to_variable = {CAM_stalinist_building_speed_mil_var = 0.15}
+			add_to_variable = {CAM_stalinist_building_speed_civ_var = 0.15}
+			add_to_variable = {CAM_stalinist_line_eff_var = 0.2}
+			add_to_variable = {CAM_stalinist_base_eff_var = 0.1}
+		}
 	}
 	focus = {
 		id = CAM_one_party_one_leader_one_state
@@ -4486,7 +4574,12 @@ focus_tree = {
 		}
 		x = 33
 		y = 22
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_safety_union1_idea
+				add_idea = CAM_safety_union2_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_stalinism_into_totalism
@@ -4503,7 +4596,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 23
-
+		completion_reward = {
+			add_ideas = CAM_totalism_idea
+		}
 	}
 	focus = {
 		id = CAM_glory_to_us
@@ -4514,7 +4609,12 @@ focus_tree = {
 		}
 		x = 31
 		y = 24
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_totalism_idea
+				add_idea = CAM_totalism1_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_death_to_the_enemies
@@ -4525,7 +4625,12 @@ focus_tree = {
 		}
 		x = 31
 		y = 25
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_totalism1_idea
+				add_idea = CAM_totalism2_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_revolutional_triumphant

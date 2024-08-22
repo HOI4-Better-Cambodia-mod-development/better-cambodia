@@ -34,6 +34,27 @@ set_variable = {CAM_pol_pot_light_human_production_speed_buildings_factor_var = 
 set_variable = {CAM_pol_pot_light_human_training_time_factor_var = 0}
 set_variable = {CAM_pol_pot_light_human_research_speed_factor_var = 0}
 
+#Politburo
+set_variable = {CAM_stalinist_political_power_factor_var = 0.1}
+set_variable = {CAM_stalinist_war_support_factor_var = 0.1}
+set_variable = {CAM_stalinist_stability_factor_var = 0.1}
+set_variable = {CAM_stalinist_building_speed_var = 0.1}
+set_variable = {CAM_stalinist_global_building_slots_factor_var = 0.05}
+set_variable = {CAM_stalinist_army_morale_factor_var = 0}
+set_variable = {CAM_stalinist_consumer_goods_factor_var = 0}
+set_variable = {CAM_stalinist_army_org_factor_var = 0}
+set_variable = {CAM_stalinist_conscription_var = 0}
+set_variable = {CAM_stalinist_mobilization_speed_var = 0}
+set_variable = {CAM_stalinist_training_time_army_factor_var = 0}
+set_variable = {CAM_stalinist_max_eff_factor_var = 0}
+set_variable = {CAM_stalinist_eff_gain_factor_var = 0}
+set_variable = {CAM_stalinist_mounthly_grow_var = 0}
+set_variable = {CAM_stalinist_building_speed_inf_var = 0}
+set_variable = {CAM_stalinist_supply_death_var = 0}
+set_variable = {CAM_stalinist_building_speed_mil_var = 0}
+set_variable = {CAM_stalinist_building_speed_civ_var = 0}
+set_variable = {CAM_stalinist_line_eff_var = 0}
+set_variable = {CAM_stalinist_base_eff_var = 0}
 
 set_research_slots = 2
 recruit_character = CAM_sisovat_morinet

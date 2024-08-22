@@ -1,6 +1,102 @@
 ideas = {
 
 	country = {
+		CAM_totalism_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.2
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				monthly_population = -0.15
+				intel_network_gain_factor = 0.15
+				intelligence_agency_defense = 0.3
+			}
+		}
+		CAM_totalism1_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.5
+				stability_factor = -0.3
+				war_support_factor = -0.3
+				monthly_population = -0.15
+				intel_network_gain_factor = 0.15
+				intelligence_agency_defense = 0.3
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		CAM_totalism2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.5
+				stability_factor = -0.3
+				war_support_factor = -0.3
+				monthly_population = -0.15
+				intel_network_gain_factor = 0.15
+				intelligence_agency_defense = 0.3
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = 0.1
+				nuclear_production_factor = 0.25
+				production_speed_nuclear_reactor_factor = 0.25
+			}
+		}
+		CAM_against_religion_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				research_speed_factor = 0.05
+			}
+		}
+		CAM_against_religion1_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				research_speed_factor = 0.1
+				production_speed_buildings_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+		CAM_against_religion2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				research_speed_factor = 0.15
+				production_speed_buildings_factor = 0.05
+				political_power_factor = 0.05
+				command_power_gain_mult = 0.05
+				max_command_power = 30
+			}
+		}
 		CAM_safety_union_idea = {
 			allowed = {
 				original_tag = CAM
@@ -31,6 +127,26 @@ ideas = {
 				enemy_operative_detection_chance = 1
 			}
 		}
+		CAM_safety_union2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = 0.3
+				political_power_factor = 0.25
+				army_core_attack_factor = 0.2
+				drift_defence_factor = 0.5
+				production_speed_buildings_factor = 0.1
+				enemy_operative_detection_chance = 1
+				political_power_factor = 0.25
+				war_support_factor = 0.1
+				annexion_cost = -0.25
+				operative_slot = 1
+			}
+		}
 		CAM_create_kbnkp_idea = {
 			allowed = {
 				original_tag = CAM
@@ -45,6 +161,69 @@ ideas = {
 				army_core_defense_factor = 0.05
 				operative_slot = 2
 				enemy_operative_detection_chance = 2
+			}
+		}
+		CAM_nkvd_cambodia_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defense_factor = 0.05
+				operative_slot = 2
+				enemy_operative_detection_chance = 2
+				stability_factor = 0.25
+				war_support_factor = 0.25
+				conscription_factor = -0.1
+				army_org_factor = 0.05
+				army_morale_factor = -0.05
+			}
+		}
+		CAM_nkvd_cambodia1_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				army_core_attack_factor = 0.05
+				army_core_defense_factor = 0.05
+				operative_slot = 2
+				enemy_operative_detection_chance = 2
+				stability_factor = 0.25
+				war_support_factor = 0.25
+				conscription_factor = -0.1
+				army_org_factor = 0.05
+				army_morale_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				army_attack_factor = 0.1
+				army_defense_factor = -0.2
+			}
+		}
+		CAM_nkvd_cambodia2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defense_factor = 0.05
+				operative_slot = 2
+				enemy_operative_detection_chance = 2
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				conscription_factor = -0.15
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				army_attack_factor = 0.15
+				army_defense_factor = -0.2
 			}
 		}
 		CAM_lenin_cult_idea = {

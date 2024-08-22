@@ -57,6 +57,32 @@ CAM_pol_pot_uneducated_population_dynamic_modifier = {
 	research_speed_factor = CAM_research_speed_var
 }
 
+CAM_stalinist_way_politburo_dynamic_modifier = {
+
+	icon = GFX_modifiers_sabotaged_resource
+	
+	political_power_factor = CAM_stalinist_political_power_factor_var
+	war_support_factor = CAM_stalinist_war_support_factor_var
+	stability_factor = CAM_stalinist_stability_factor_var
+	production_speed_buildings_factor = CAM_stalinist_building_speed_var
+	global_building_slots_factor = CAM_stalinist_global_building_slots_factor_var
+	army_morale_factor = CAM_stalinist_army_morale_factor_var
+	consumer_goods_factor = CAM_stalinist_consumer_goods_factor_var
+	army_org_factor = CAM_stalinist_army_org_factor_var
+	conscription = CAM_stalinist_conscription_var
+	mobilization_speed = CAM_stalinist_mobilization_speed_var
+	training_time_army_factor = CAM_stalinist_training_time_army_factor_var
+	production_factory_max_efficiency_factor = CAM_stalinist_max_eff_factor_var
+	production_factory_efficiency_gain_factor = CAM_stalinist_eff_gain_factor_var
+	monthly_population = CAM_stalinist_mounthly_grow_var
+	attrition = CAM_stalinist_supply_death_var
+	production_speed_infrastructure_factor = CAM_stalinist_building_speed_inf_var
+	production_speed_arms_factory_factor = CAM_stalinist_building_speed_mil_var
+	production_speed_industrial_complex_factor = CAM_stalinist_building_speed_civ_var
+	line_change_production_efficiency_factor = CAM_stalinist_line_eff_var
+	production_factory_start_efficiency_factor = CAM_stalinist_base_eff_var
+}
+
 CAM_pol_pot_light_human_dynamic_modifier = {
 
 	icon = GFX_modifiers_sabotaged_resource
