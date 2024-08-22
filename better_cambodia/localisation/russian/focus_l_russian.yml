@@ -1,4 +1,4 @@
-l_russian:
+﻿l_russian:
  WHILE_FOCUSING: "При выборе этого фокуса будут следующие эффекты:\n$EFF$"
  generic_focus: "Национальный фокус"
  army_effort: "Развитие армии"
@@ -305,7 +305,7 @@ l_russian:
  GER_synthetic_rubber_desc: "Бурное развитие автомобильной и авиационной промышленности требует крупных объемов резины, которыми мы не располагаем. Нужно улучшить методики синтезирования необходимых материалов."
  GER_german_war_economy: "Германская военная экономика"
  GER_german_war_economy_desc: "Народ нашей великой нации должен послужить на благо нашей обороноспособности. Мы переходим на полномасштабную экономику военного времени и надеемся, что каждый серьезно отнесется к своему гражданскому долгу."
- GER_grosraumwirtschaft: "Gro?raumwirtschaft"
+ GER_grosraumwirtschaft: "Großraumwirtschaft"
  GER_grosraumwirtschaft_desc: "Германии суждено стать центром Европы. Наша инфраструктура свяжет воедино запад и восток, юг и север."
  GER_align_hungary: "Дружественный режим в Венгрии"
  GER_align_hungary_desc: "Венгрия уже входит в нашу сферу влияния, однако мы могли бы еще больше склонить их к своему взгляду на мир. В будущем это позволит нам еще легче манипулировать этим государством."
@@ -2550,8 +2550,8 @@ l_russian:
  CAM_glory_to_us: "Слава нам"
  CAM_death_to_the_enemies: "Смерть врагам!"
  CAM_revolutional_triumphant: "Триумф революционного тотализма"
- CAM_connect_with_foreign: "Поддержка зарубежом"
- CAM_japanese_style_military: "Милитаризм Японского образца"
+ CAM_connect_with_foreign_fascism: "Поддержка зарубежом"
+ CAM_japanese_style_millitarism: "Милитаризм Японского образца"
  CAM_japan_economy_integration: "Японская Экономическая Интеграция"
  CAM_join_sphere: "Восточноазиатская сфера сопроцветания"
  CAM_stab_in_the_back_china: "Нож в спину китая"
