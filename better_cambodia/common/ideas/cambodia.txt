@@ -1,9 +1,259 @@
 ideas = {
 
 	country = {
-		
+		CAM_new_liberal_constitution_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.15
+				war_support_factor = 0.1
+				democratic_drift = 0.03
+			}
+		}
+		CAM_new_liberal_constitution2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.2
+				war_support_factor = 0.1
+				democratic_drift = 0.05
+			}
+		}
+		CAM_free_economy_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				production_speed_infrastructure_factor = 0.25
+			}
+		}
+		CAM_dependence_from_franc_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		CAM_federalist_republic_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+				compliance_growth = 0.1
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		CAM_useful_contacts_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		CAM_useful_contacts2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.2
+				production_speed_buildings_factor = 0.2
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.05
+				local_resources_factor = 0.1
+			}
+		}
+		CAM_useful_contacts3_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.25
+				production_speed_buildings_factor = 0.2
+				industrial_capacity_factory = 0.2
+				production_factory_max_efficiency_factor = 0.05
+				local_resources_factor = 0.1
+				political_power_factor = 0.05
+				political_advisor_cost_factor = 0.25
+				economic_laws_cost_factor = 0.25
+				political_advisor_cost_factor = 0.25
+				high_command_cost_factor = 0.25
+				mobilization_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+			}
+		}
+		CAM_independent_currency_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		CAM_united_country_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.15
+				war_support_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				compliance_growth = -0.1
+
+			}
+		}
+		CAM_united_country2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = 0.15
+				war_support_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				compliance_growth = -0.1
+				democratic_drift = 0.05
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.05
+			}
+		}
+		CAM_liberal_conflicts_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.2
+				stability_factor = -0.3
+				war_support_factor = -0.05
+			}
+		}
+		CAM_liberal_conflicts2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.15
+				war_support_factor = -0.1
+			}
+		}
+		CAM_liberal_conflicts2a_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.25
+				war_support_factor = -0.05
+			}
+		}
+		CAM_left_resistance_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
+		CAM_left_resistance2_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.1
+			}
+		}
+		CAM_left_resistance2a_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.2
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.1
+				stability_factor = -0.2
+				war_support_factor = -0.1
+				political_advisor_cost_factor = 0.15
+			}
+		}
+		CAM_left_resistance3a_idea = {
+			allowed = {
+				original_tag = CAM
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.15
+				war_support_factor = -0.1
+			}
+		}
 		CAM_support_group_for_foreign_fascists_idea = {
-		allowed = {
+			allowed = {
 				original_tag = CAM
 				always = no
 			}

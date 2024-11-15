@@ -1687,13 +1687,13 @@ focus_tree = {
 		}
 		x = 26
 		y = 7
-			completion_reward = {
-					swap_ideas = {
-							remove_idea = CAM_party_split
-							add_idea = CAM_party_split2
-						}
-					add_ideas = CAM_moderate_revolution_idea
-				}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_party_split
+				add_idea = CAM_party_split2
+			}
+			add_ideas = CAM_moderate_revolution_idea
+		}
 
 	}
 	focus = {
@@ -1708,7 +1708,11 @@ focus_tree = {
 		}
 		x = 35
 		y = 6
-
+		completion_reward = {
+			remove_ideas = CAM_rural_radicalism
+			add_ideas = CAM_liberal_conflicts_idea
+			add_ideas = CAM_left_resistance_idea
+		}
 	}
 	focus = {
 		id = CAM_our_own_path_to_liberalism
@@ -1722,7 +1726,13 @@ focus_tree = {
 		}
 		x = 33
 		y = 7
-
+		completion_reward = {
+			add_political_power = 150
+			swap_ideas = {
+				remove_idea = CAM_liberal_conflicts_idea
+				add_idea = CAM_liberal_conflicts2_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_europhile_group
@@ -1736,7 +1746,13 @@ focus_tree = {
 		}
 		x = 37
 		y = 7
-
+		completion_reward = {
+			add_political_power = 75
+			swap_ideas = {
+				remove_idea = CAM_liberal_conflicts_idea
+				add_idea = CAM_liberal_conflicts2a_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_japan_economy_integration
@@ -1948,7 +1964,12 @@ focus_tree = {
 		}
 		x = 35
 		y = 8
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_free_economy_idea
+				days = 548
+			}
+		}
 	}
 	focus = {
 		id = CAM_establish_contact_with_industrialists
@@ -1959,7 +1980,13 @@ focus_tree = {
 		}
 		x = 37
 		y = 8
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_left_resistance_idea
+				add_idea = CAM_left_resistance2a_idea
+			}
+			add_ideas = CAM_useful_contacts_idea
+		}
 	}
 	focus = {
 		id = CAM_rely_on_our_people
@@ -1970,7 +1997,13 @@ focus_tree = {
 		}
 		x = 33
 		y = 8
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_left_resistance_idea
+				add_idea = CAM_left_resistance2_idea
+			}
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = CAM_request_foreign_support
@@ -1981,7 +2014,27 @@ focus_tree = {
 		}
 		x = 37
 		y = 9
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_useful_contacts_idea
+				add_idea = CAM_useful_contacts2_idea
+			}
+			add_political_power = 100
+			add_stability = -0.05
+			add_political_power = -25
+			741 = {
+				add_resource = {
+					type = rubber
+					amount = 23
+				}
+			}
+			741 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
 	}
 	focus = {
 		id = CAM_federalist_fepublic
@@ -1992,7 +2045,13 @@ focus_tree = {
 		}
 		x = 37
 		y = 10
-
+		completion_reward = {
+			add_ideas = CAM_federalist_republic_idea
+			swap_ideas = {
+				remove_idea = CAM_left_resistance2a_idea
+				add_idea = CAM_left_resistance3a_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_rely_on_the_franc
@@ -2003,7 +2062,10 @@ focus_tree = {
 		}
 		x = 37
 		y = 11
-
+		completion_reward = {
+			add_ideas = CAM_dependence_from_franc_idea
+			add_political_power = -50
+		}
 	}
 	focus = {
 		id = CAM_perhaps_independence_was_a_mistake
@@ -2014,7 +2076,12 @@ focus_tree = {
 		}
 		x = 37
 		y = 12
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_useful_contacts2_idea
+				add_idea = CAM_useful_contacts3_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_caring_for_our_people
@@ -2025,7 +2092,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 9
-
+		completion_reward = {
+			remove_ideas = CAM_left_resistance2_idea
+		}
 	}
 	focus = {
 		id = CAM_unitary_republic
@@ -2036,7 +2105,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 10
-
+		completion_reward = {
+			add_ideas = CAM_united_country_idea
+		}
 	}
 	focus = {
 		id = CAM_our_own_currency
@@ -2047,7 +2118,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 11
-
+		completion_reward = {
+			add_ideas = CAM_independent_currency_idea
+		}
 	}
 	focus = {
 		id = CAM_our_independence_is_our_heritage
@@ -2058,7 +2131,12 @@ focus_tree = {
 		}
 		x = 33
 		y = 12
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_united_country_idea
+				add_idea = CAM_united_country2_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_form_a_liberal_constitution
@@ -2071,7 +2149,10 @@ focus_tree = {
 		}
 		x = 35
 		y = 10
-
+		completion_reward = {
+			remove_ideas = CAM_liberal_conflicts2a_idea
+			add_idea = CAM_new_liberal_constitution_idea
+		}
 	}
 	focus = {
 		id = CAM_Happiness_for_our_people
@@ -2082,7 +2163,13 @@ focus_tree = {
 		}
 		x = 35
 		y = 11
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_new_liberal_constitution_idea
+				add_idea = CAM_new_liberal_constitution2_idea
+			}
+			add_political_power = 200
+		}
 	}
 	focus = {
 		id = CAM_truly_free_cambodia
@@ -2093,7 +2180,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 12
-
+		completion_reward = {
+			remove_ideas = CAM_weak_administration
+		}
 	}
 	focus = {
 		id = CAM_everything_for_victory
