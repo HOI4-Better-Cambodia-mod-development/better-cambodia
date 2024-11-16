@@ -1154,7 +1154,15 @@ focus_tree = {
 		}
 		x = 69
 		y = 10
-
+		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			add_stability = -0.1
+			add_war_support = 0.1
+			add_ideas = CAM_reliance_on_foreign_fascist_idea
+		}
 	}
 	focus = {
 		id = CAM_japanese_style_millitarism
@@ -1168,7 +1176,12 @@ focus_tree = {
 		}
 		x = 61
 		y = 11
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_reliance_on_foreign_fascist_idea
+				add_idea = CAM_jap_style_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_center_of_world_facsism
@@ -1763,7 +1776,12 @@ focus_tree = {
 		}
 		x = 61
 		y = 12
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_jap_style_idea
+				add_idea = CAM_jap_style2_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_building_schools
@@ -2506,7 +2524,11 @@ focus_tree = {
 		}
 		x = 60
 		y = 13
-
+		completion_reward = {
+			JAP = {
+				add_to_faction = CAM
+			}
+		}
 	}
 	focus = {
 		id = CAM_stab_in_the_back_china
@@ -2517,19 +2539,72 @@ focus_tree = {
 		}
 		x = 62
 		y = 13
-
+		completion_reward = {
+			add_timed_idea = {
+				days = 365
+				idea = CAM_hit_the_back_idea
+			}
+			create_wargoal = {
+				target = CHI
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = PRC
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SIK
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = TIB
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SHX
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = GXC
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = XSM
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = YUN
+				type = annex_everything
+				expire = 0
+			}
+		}
 	}
 	focus = {
 		id = CAM_partner_of_the_empire
 		icon = GFX_goal_unknown
 		cost = 5,00
+		available = {
+			has_idea = CAM_jap_style3_idea
+		}
 		prerequisite = {
 			focus = CAM_stab_in_the_back_china
 			focus = CAM_join_sphere
 		}
 		x = 61
 		y = 14
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_jap_style3_idea
+				add_idea = CAM_jap_style4_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_integration_to_siam
@@ -2540,7 +2615,16 @@ focus_tree = {
 		}
 		x = 61
 		y = 15
-
+		completion_reward = {
+			annex_country = { 
+				target = SIA
+				transfer_troops = yes 
+			}
+			868 = { add_core_of = CAM }
+			869 = { add_core_of = CAM }
+			289 = { add_core_of = CAM }
+			724 = { add_core_of = CAM }
+		}
 	}
 	focus = {
 		id = CAM_south_resourses
@@ -2549,9 +2633,41 @@ focus_tree = {
 		prerequisite = {
 			focus = CAM_integration_to_siam
 		}
+		available = {
+			has_idea = CAM_jap_style6_idea
+		}
 		x = 61
 		y = 16
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_jap_style6_idea
+				add_idea = CAM_jap_style7_idea
+			}
+			741 = {
+				add_resource = {
+					type = rubber
+					amount = 20
+				}
+			}
+			741 = {
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+			}
+			741 = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+			741 = {
+				add_resource = {
+					type = oil
+					amount = 5
+				}
+			}
+		}
 	}
 	focus = {
 		id = CAM_china_integration
@@ -2562,7 +2678,74 @@ focus_tree = {
 		}
 		x = 60
 		y = 17
-
+		completion_reward = {
+			591 = { add_core_of = CAM }
+			594 = { add_core_of = CAM }
+			592 = { add_core_of = CAM }
+			593 = { add_core_of = CAM }
+			599 = { add_core_of = CAM }
+			325 = { add_core_of = CAM }
+			747 = { add_core_of = CAM }
+			603 = { add_core_of = CAM }
+			602 = { add_core_of = CAM }
+			600 = { add_core_of = CAM }
+			595 = { add_core_of = CAM }
+			596 = { add_core_of = CAM }
+			749 = { add_core_of = CAM }
+			613 = { add_core_of = CAM }
+			620 = { add_core_of = CAM }
+			750 = { add_core_of = CAM }
+			605 = { add_core_of = CAM }
+			752 = { add_core_of = CAM }
+			601 = { add_core_of = CAM }
+			744 = { add_core_of = CAM }
+			607 = { add_core_of = CAM }
+			598 = { add_core_of = CAM }
+			606 = { add_core_of = CAM }
+			597 = { add_core_of = CAM }
+			614 = { add_core_of = CAM }
+			608 = { add_core_of = CAM }
+			610 = { add_core_of = CAM }
+			716 = { add_core_of = CAM }
+			328 = { add_core_of = CAM }
+			717 = { add_core_of = CAM }
+			714 = { add_core_of = CAM }
+			761 = { add_core_of = CAM }
+			715 = { add_core_of = CAM }
+			612 = { add_core_of = CAM }
+			611 = { add_core_of = CAM }
+			621 = { add_core_of = CAM }
+			615 = { add_core_of = CAM }
+			746 = { add_core_of = CAM }
+			622 = { add_core_of = CAM }
+			616 = { add_core_of = CAM }
+			283 = { add_core_of = CAM }
+			753 = { add_core_of = CAM }
+			754 = { add_core_of = CAM }
+			604 = { add_core_of = CAM }
+			755 = { add_core_of = CAM }
+			756 = { add_core_of = CAM }
+			700 = { add_core_of = CAM }
+			759 = { add_core_of = CAM }
+			287 = { add_core_of = CAM }
+			619 = { add_core_of = CAM }
+			617 = { add_core_of = CAM }
+			618 = { add_core_of = CAM }
+			322 = { add_core_of = CAM }
+			757 = { add_core_of = CAM }
+			758 = { add_core_of = CAM }
+			748 = { add_core_of = CAM }
+			751 = { add_core_of = CAM }
+			524 = { add_core_of = CAM }
+			745 = { add_core_of = CAM }
+			609 = { add_core_of = CAM }
+			760 = { add_core_of = CAM }
+			728 = { add_core_of = CAM }
+			729 = { add_core_of = CAM }
+			326 = { add_core_of = CAM }
+			257 = { add_core_of = CAM }
+			743 = { add_core_of = CAM }
+		}
 	}
 	focus = {
 		id = CAM_end_of_european_colonialism
@@ -2573,7 +2756,53 @@ focus_tree = {
 		}
 		x = 62
 		y = 17
-
+		completion_reward = {
+			create_wargoal = {
+				target = FRA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = ENG
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = ITA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = LIB
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = USA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SPR
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = POR
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = HOL
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = BEL
+				type = annex_everything
+				expire = 0
+			}
+		}
 	}
 	focus = {
 		id = CAM_greater_ostasia
@@ -2587,7 +2816,12 @@ focus_tree = {
 		}
 		x = 61
 		y = 18
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_jap_style7_idea
+				add_idea = CAM_jap_style8_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_invite_to_siam
@@ -2667,7 +2901,13 @@ focus_tree = {
 		}
 		x = 64
 		y = 13
-
+		completion_reward = {
+			add_ideas = CAM_jap_bridgehead_idea
+			swap_ideas = {
+				remove_idea = CAM_jap_style2_idea
+				add_idea = CAM_jap_style3_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_favorable_geographical_location
@@ -2678,7 +2918,12 @@ focus_tree = {
 		}
 		x = 63
 		y = 14
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_jap_bridgehead_idea
+				add_idea = CAM_jap_bridgehead2_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_advantage_foothold
@@ -2689,7 +2934,12 @@ focus_tree = {
 		}
 		x = 65
 		y = 14
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_jap_bridgehead2_idea
+				add_idea = CAM_jap_bridgehead3_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_independent_economy
@@ -2700,7 +2950,12 @@ focus_tree = {
 		}
 		x = 64
 		y = 15
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_jap_style4_idea
+				add_idea = CAM_jap_style5_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_mutually_beneficial_trade
@@ -2711,7 +2966,12 @@ focus_tree = {
 		}
 		x = 64
 		y = 16
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_jap_style5_idea
+				add_idea = CAM_jap_style6_idea
+			}
+		}
 	}
 	focus = {
 		id = CAM_dotation_from_berlin
