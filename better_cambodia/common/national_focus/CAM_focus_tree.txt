@@ -1195,7 +1195,14 @@ focus_tree = {
 		}
 		x = 77
 		y = 11
-
+		completion_reward = {
+			remove_ideas = CAM_reliance_on_foreign_fascist_idea
+			add_dynamic_modifier = {modifier = CAM_fascist_way_ger_style_dynamic_modifier}
+			add_to_variable = {CAM_ger_style_political_power_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_war_support_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_army_org_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_production_speed_infrastructure_factor_var = 0.1}
+		}
 	}
 	focus = {
 		id = CAM_close_cooperation
@@ -1206,7 +1213,12 @@ focus_tree = {
 		}
 		x = 75
 		y = 12
-
+		completion_reward = {
+			add_to_variable = {CAM_ger_style_war_support_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_drift_defence_factor_var = 0.25}
+			add_to_variable = {CAM_ger_style_army_speed_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_stability_factor_var = 0.05}
+		}
 	}
 	focus = {
 		id = CAM_joint_construction_project
@@ -1217,7 +1229,11 @@ focus_tree = {
 		}
 		x = 69
 		y = 13
-
+		completion_reward = {
+			add_to_variable = {CAM_ger_style_consumer_goods_factor_var = -0.05}
+			add_to_variable = {CAM_ger_style_production_speed_buildings_factor_var = 0.1}
+			add_to_variable = {CAM_ger_style_research_speed_factor_var = 0.05}
+		}
 	}
 	focus = {
 		id = CAM_business_cooperation
@@ -1228,7 +1244,13 @@ focus_tree = {
 		}
 		x = 68
 		y = 14
-
+		completion_reward = {
+			add_to_variable = {CAM_ger_style_war_support_factor_var = -0.05}
+			add_to_variable = {CAM_ger_style_stability_factor_var = -0.05}
+			add_to_variable = {CAM_ger_style_political_power_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_consumer_goods_factor_var = -0.05}
+			add_to_variable = {CAM_ger_style_production_speed_infrastructure_factor_var = 0.15}
+		}
 	}
 	focus = {
 		id = CAM_strategical_value_territory
@@ -1239,7 +1261,28 @@ focus_tree = {
 		}
 		x = 70
 		y = 14
-
+		completion_reward = {
+			add_to_variable = {CAM_ger_style_local_resources_factor_var = 0.1}
+			add_to_variable = {CAM_ger_style_production_speed_infrastructure_factor_var = 0.05}
+			741 = {
+				add_resource = {
+					type = steel
+					amount = 35
+				}
+			}
+			741 = {
+				add_resource = {
+					type = aluminium
+					amount = 5
+				}
+			}
+			741 = {
+				add_resource = {
+					type = wolfram
+					amount = 30
+				}
+			}
+		}
 	}
 	focus = {
 		id = CAM_formation_collaboration_goverment
@@ -1250,7 +1293,12 @@ focus_tree = {
 		}
 		x = 79
 		y = 12
-
+		completion_reward = {
+			add_to_variable = {CAM_ger_style_war_support_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_stability_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_political_power_factor_var = -0.05}
+			add_to_variable = {CAM_ger_style_consumer_goods_factor_var = -0.1}
+		}
 	}
 	focus = {
 		id = CAM_german_administration
@@ -1264,7 +1312,11 @@ focus_tree = {
 		}
 		x = 77
 		y = 13
-
+		completion_reward = {
+			add_political_power = -25
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
 	}
 	focus = {
 		id = CAM_gering
@@ -1279,7 +1331,13 @@ focus_tree = {
 		}
 		x = 72
 		y = 14
-
+		completion_reward = {
+			set_party_name = { 
+				ideology = fascism 
+				long_name = CAM_german_administration_goering_party
+				name = CAM_german_administration_goering_party 
+			}
+		}
 	}
 	focus = {
 		id = CAM_gimmler
@@ -2985,7 +3043,14 @@ focus_tree = {
 		}
 		x = 69
 		y = 15
-
+		completion_reward = {
+			add_to_variable = {CAM_ger_style_local_resources_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_production_speed_buildings_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_research_speed_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_production_speed_arms_factory_factor_var = 0.15}
+			add_to_variable = {CAM_ger_style_production_speed_industrial_complex_factor_var = 0.05}
+			add_to_variable = {CAM_ger_style_production_speed_dockyard_factor_var = 0.1}
+		}
 	}
 	focus = {
 		id = CAM_deep_bowels

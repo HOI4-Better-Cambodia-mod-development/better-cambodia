@@ -2,6 +2,37 @@
 
 oob = "CAM_1936"
 
+#German style dynamic modifier
+set_variable = {CAM_ger_style_political_power_factor_var = 0.05}
+set_variable = {CAM_ger_style_war_support_factor_var = 0.05}
+set_variable = {CAM_ger_style_army_org_factor_var = 0}
+set_variable = {CAM_ger_style_production_speed_infrastructure_factor_var = 0}
+set_variable = {CAM_ger_style_drift_defence_factor_var = 0.5}
+set_variable = {CAM_ger_style_army_speed_factor_var = 0}
+set_variable = {CAM_ger_style_stability_factor_var = -0.1}
+set_variable = {CAM_ger_style_consumer_goods_factor_var = 0}
+set_variable = {CAM_ger_style_production_speed_buildings_factor_var = 0}
+set_variable = {CAM_ger_style_research_speed_factor_var = 0}
+set_variable = {CAM_ger_style_local_resources_factor_var = 0}
+set_variable = {CAM_ger_style_production_speed_industrial_complex_factor_var = 0}
+set_variable = {CAM_ger_style_production_speed_dockyard_factor_var = 0}
+set_variable = {CAM_ger_style_production_speed_arms_factory_factor_var = 0}
+set_variable = {CAM_ger_style_fascism_drift_var = 0.05}
+
+#Goering dynamic modifier
+set_variable = {CAM_goering_mode_political_power_factor_var = 0.05}
+set_variable = {CAM_goering_mode_stability_factor_var = -0.2}
+set_variable = {CAM_goering_mode_war_support_factor_var = -0.1}
+set_variable = {CAM_goering_mode_production_speed_infrastructure_factor_var = 0.05}
+set_variable = {CAM_goering_mode_production_speed_rail_way_factor_var = 0.05}
+set_variable = {CAM_goering_mode_political_advisor_cost_factor_var = -0.25}
+set_variable = {CAM_goering_mode_economic_laws_cost_factor_var = -0.25}
+set_variable = {CAM_goering_mode_political_advisor_cost_factor_var = -0.25}
+set_variable = {CAM_goering_mode_high_command_cost_factor_var = -0.25}
+set_variable = {CAM_goering_mode_mobilization_laws_cost_factor_var = -0.25}
+set_variable = {CAM_goering_mode_economy_cost_factor_var = -0.25}
+set_variable = {CAM_goering_mode_research_speed_factor_var = 0.1}
+
 #Bonus to attack and defence countries on Pol Pol way
 set_variable = {CAM_pol_pot_convoy_escort_efficiency_var = 0}
 set_variable = {CAM_pol_pot_naval_speed_factor_var = 0}
