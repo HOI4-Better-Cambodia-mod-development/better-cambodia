@@ -25,13 +25,21 @@ set_variable = {CAM_goering_mode_stability_factor_var = -0.2}
 set_variable = {CAM_goering_mode_war_support_factor_var = -0.1}
 set_variable = {CAM_goering_mode_production_speed_infrastructure_factor_var = 0.05}
 set_variable = {CAM_goering_mode_production_speed_rail_way_factor_var = 0.05}
+set_variable = {CAM_goering_mode_research_speed_factor_var = 0.1}
+set_variable = {CAM_goering_mode_consumer_goods_factor_var = 0}
+set_variable = {CAM_goering_mode_resistance_growth_on_our_occupied_states_var = 0}
+set_variable = {CAM_goering_mode_resistance_target_var = 0}
+set_variable = {CAM_goering_mode_production_speed_sea_base_factor_var = 0}
+set_variable = {CAM_goering_mode_drift_defence_factor_var = 0}
+set_variable = {CAM_goering_mode_army_org_factor_var = 0}
+set_variable = {CAM_goering_mode_recruitable_population_var = 0}
+
 set_variable = {CAM_goering_mode_political_advisor_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_economic_laws_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_political_advisor_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_high_command_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_mobilization_laws_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_economy_cost_factor_var = -0.25}
-set_variable = {CAM_goering_mode_research_speed_factor_var = 0.1}
 
 #Bonus to attack and defence countries on Pol Pol way
 set_variable = {CAM_pol_pot_convoy_escort_efficiency_var = 0}

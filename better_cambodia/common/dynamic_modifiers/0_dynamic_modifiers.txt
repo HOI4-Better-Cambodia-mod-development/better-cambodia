@@ -41,6 +41,13 @@ CAM_goering_mode_dynamic_modifier = {
 	mobilization_laws_cost_factor = CAM_goering_mode_mobilization_laws_cost_factor_var
 	economy_cost_factor = CAM_goering_mode_economy_cost_factor_var
 	research_speed_factor = CAM_goering_mode_research_speed_factor_var
+	consumer_goods_factor = CAM_goering_mode_consumer_goods_factor_var
+	resistance_growth_on_our_occupied_states = CAM_goering_mode_resistance_growth_on_our_occupied_states_var
+	resistance_target = CAM_goering_mode_resistance_target_var
+	production_speed_sea_base_factor = CAM_goering_mode_production_speed_sea_base_factor_var
+	drift_defence_factor = CAM_goering_mode_drift_defence_factor_var
+	army_org_factor = CAM_goering_mode_army_org_factor_var
+	recruitable_population = CAM_goering_mode_recruitable_population_var
 }
 CAM_fascist_way_ger_style_dynamic_modifier = {
 	icon = GFX_idea_SOV_red_army

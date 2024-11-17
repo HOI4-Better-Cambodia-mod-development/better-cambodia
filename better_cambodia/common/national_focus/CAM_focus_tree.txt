@@ -1337,6 +1337,7 @@ focus_tree = {
 				long_name = CAM_german_administration_goering_party
 				name = CAM_german_administration_goering_party 
 			}
+			add_dynamic_modifier = {modifier = CAM_goering_mode_dynamic_modifier}
 		}
 	}
 	focus = {
@@ -3161,7 +3162,14 @@ focus_tree = {
 		}
 		x = 72
 		y = 15
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_consumer_goods_factor_var = -0.1}
+			add_to_variable = {CAM_goering_mode_stability_factor_var = -0.05}
+			add_to_variable = {CAM_goering_mode_war_support_factor_var = -0.05}
+			add_to_variable = {CAM_goering_mode_resistance_growth_on_our_occupied_states_var = -0.15}
+			add_to_variable = {CAM_goering_mode_resistance_target_var = -0.05}
+			add_to_variable = {CAM_goering_mode_production_speed_sea_base_factor_var = 0.15}
+		}
 	}
 	focus = {
 		id = CAM_contact_with_industrialist
@@ -3183,7 +3191,20 @@ focus_tree = {
 		}
 		x = 73
 		y = 16
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_stability_factor_var = 0.15}
+			add_to_variable = {CAM_goering_mode_political_power_factor_var = 0.1}
+			add_to_variable = {CAM_goering_mode_drift_defence_factor_var = 0.25}
+			add_political_power = 200
+			add_timed_idea = {
+				idea = CAM_goering_clear_administration_idea
+				days = 180
+			}
+			741 = {
+				add_manpower = 15473
+			}
+			add_manpower = -4678
+		}
 	}
 	focus = {
 		id = CAM_army_exclusively_loyal_to_goering
@@ -3194,7 +3215,17 @@ focus_tree = {
 		}
 		x = 73
 		y = 17
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_war_support_factor_var = 0.2}
+			add_to_variable = {CAM_goering_mode_army_org_factor_var = -0.05}
+			add_to_variable = {CAM_goering_mode_recruitable_population_var = 0.01}
+			add_to_variable = {CAM_goering_mode_political_power_factor_var = -0.05}
+			add_timed_idea = {
+				idea = CAM_goering_clear_army_idea
+				days = 180
+			}
+			add_manpower = -45379
+		}
 	}
 	focus = {
 		id = CAM_clear_the_party
