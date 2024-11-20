@@ -3180,7 +3180,13 @@ focus_tree = {
 		}
 		x = 71
 		y = 16
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_consumer_goods_factor_var = -0.15}
+			add_to_variable = {production_speed_industrial_complex_factor = 0.1}
+			add_to_variable = {production_speed_arms_factory_factor = 0.1}
+			add_to_variable = {production_speed_infrastructure_factor = 0.1}
+			add_to_variable = {production_factory_efficiency_gain_factor = 0.05}
+		}
 	}
 	focus = {
 		id = CAM_administration_exclusively_loyal_to_goering
@@ -3236,7 +3242,16 @@ focus_tree = {
 		}
 		x = 71
 		y = 17
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_political_power_factor_var = 0.05}
+			add_to_variable = {CAM_goering_mode_political_advisor_cost_factor_var = -0.25}
+			add_to_variable = {CAM_goering_mode_economic_laws_cost_factor_var = -0.25}
+			add_to_variable = {CAM_goering_mode_high_command_cost_factor_var = -0.25}
+			add_to_variable = {CAM_goering_mode_mobilization_laws_cost_factor_var = -0.25}
+			add_to_variable = {CAM_goering_mode_economy_cost_factor_var = -0.25}
+			add_to_variable = {CAM_goering_mode_monthly_population_var = -0.05}
+			add_to_variable = {CAM_goering_mode_consumer_goods_factor_var = -0.05}
+		}
 	}
 	focus = {
 		id = CAM_corruption_as_tool
@@ -3247,7 +3262,17 @@ focus_tree = {
 		}
 		x = 71
 		y = 18
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_political_power_factor_var = 0.1}
+			add_to_variable = {CAM_goering_mode_war_support_factor_var = -0.05}
+			add_to_variable = {CAM_goering_mode_stability_factor_var = -0.05}
+			add_to_variable = {CAM_goering_mode_consumer_goods_factor_var = -0.05}
+			add_to_variable = {CAM_goering_mode_production_speed_buildings_factor_var = 0.05}
+			add_timed_idea = {
+				idea = CAM_corruption_expansion_idea
+				days = 365
+			}
+		}
 	}
 	focus = {
 		id = CAM_goering_state
@@ -3258,7 +3283,15 @@ focus_tree = {
 		}
 		x = 73
 		y = 18
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_war_support_factor_var = 0.1}
+			add_to_variable = {CAM_goering_mode_stability_factor_var = 0.1}
+			add_to_variable = {CAM_goering_mode_political_power_factor_var = 0.05}
+			add_to_variable = {CAM_goering_mode_mobilization_speed_var = 0.25}
+			add_to_variable = {CAM_goering_mode_monthly_population_var = -0.1}
+			add_to_variable = {CAM_goering_mode_fascism_drift_var = 0.05}
+			add_to_variable = {CAM_goering_mode_industrial_capacity_factory_var = 0.1}
+		}
 	}
 	focus = {
 		id = CAM_kingdom_of_goering
@@ -3272,7 +3305,14 @@ focus_tree = {
 		}
 		x = 72
 		y = 19
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_stability_factor_var = 0.3}
+			add_to_variable = {CAM_goering_mode_war_support_factor_var = 0.3}
+			add_to_variable = {CAM_goering_mode_recruitable_population_var = 0.01}
+			add_to_variable = {CAM_goering_mode_political_power_factor_var = 0.05}
+			add_to_variable = {CAM_goering_mode_army_speed_factor_var = 0.05}
+			add_idea = CAM_goering_return_to_motherland_idea
+		}
 	}
 	focus = {
 		id = CAM_glory
@@ -3283,7 +3323,12 @@ focus_tree = {
 		}
 		x = 70
 		y = 20
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_war_support_factor_var = 0.15}
+			add_to_variable = {CAM_goering_mode_production_speed_buildings_factor_var = 0.05}
+			add_to_variable = {CAM_goering_mode_training_time_factor_var = -0.1}
+			add_to_variable = {CAM_goering_mode_army_speed_factor_var = 0.05}
+		}
 	}
 	focus = {
 		id = CAM_wealth
@@ -3294,7 +3339,12 @@ focus_tree = {
 		}
 		x = 68
 		y = 20
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_consumer_goods_factor_var = -0.1}
+			add_to_variable = {CAM_goering_mode_production_speed_buildings_factor_var = 0.1}
+			add_to_variable = {CAM_goering_mode_local_resources_factor_var = 0.1}
+			add_to_variable = {CAM_goering_mode_production_factory_max_efficiency_factor_var = 0.1}
+		}
 	}
 	focus = {
 		id = CAM_adoration
@@ -3305,7 +3355,11 @@ focus_tree = {
 		}
 		x = 72
 		y = 20
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_army_defence_factor_var = 0.1}
+			add_to_variable = {CAM_goering_mode_dig_in_speed_factor_var = 0.2}
+			remove_dynamic_modifier = {modifier = CAM_pol_pot_uneducated_population_dynamic_modifier} 
+		}
 	}
 	focus = {
 		id = CAM_human_trafficking
@@ -3316,7 +3370,12 @@ focus_tree = {
 		}
 		x = 68
 		y = 21
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_human_trafficking_idea
+				days = 365
+			}
+		}
 	}
 	focus = {
 		id = CAM_i_am_law_there
@@ -3327,7 +3386,13 @@ focus_tree = {
 		}
 		x = 70
 		y = 21
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_stability_factor_var = 0.15}
+			add_to_variable = {CAM_goering_mode_compliance_growth_var = 0.05}
+			add_to_variable = {CAM_goering_mode_production_speed_supply_node_factor_var = 0.2}
+			add_to_variable = {CAM_goering_mode_decryption_factor_var = 0.2}
+			add_to_variable = {new_operative_slot_bonus = 1}
+		}
 	}
 	focus = {
 		id = CAM_likeness_of_god
@@ -3338,7 +3403,12 @@ focus_tree = {
 		}
 		x = 72
 		y = 21
-
+		completion_reward = {
+			add_to_variable = {CAM_goering_mode_stability_factor_var = 0.2}
+			add_to_variable = {CAM_goering_mode_war_support_factor_var = 0.2}
+			add_to_variable = {CAM_goering_mode_consumer_goods_factor_var = -0.1}
+			add_to_variable = {CAM_goering_mode_army_defence_factor_var = 0.05}
+		}
 	}
 	focus = {
 		id = CAM_goeringia
@@ -3355,7 +3425,12 @@ focus_tree = {
 		}
 		x = 70
 		y = 22
-
+		completion_reward = {
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.2
+        	}
+		}
 	}
 	focus = {
 		id = CAM_slaver_as_a_tool_of_progress

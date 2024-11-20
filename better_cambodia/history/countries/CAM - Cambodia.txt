@@ -12,6 +12,7 @@ set_variable = {CAM_ger_style_army_speed_factor_var = 0}
 set_variable = {CAM_ger_style_stability_factor_var = -0.1}
 set_variable = {CAM_ger_style_consumer_goods_factor_var = 0}
 set_variable = {CAM_ger_style_production_speed_buildings_factor_var = 0}
+set_variable = {CAM_ger_style_production_speed_buildings_factor_var = 0}
 set_variable = {CAM_ger_style_research_speed_factor_var = 0}
 set_variable = {CAM_ger_style_local_resources_factor_var = 0}
 set_variable = {CAM_ger_style_production_speed_industrial_complex_factor_var = 0}
@@ -24,6 +25,9 @@ set_variable = {CAM_goering_mode_political_power_factor_var = 0.05}
 set_variable = {CAM_goering_mode_stability_factor_var = -0.2}
 set_variable = {CAM_goering_mode_war_support_factor_var = -0.1}
 set_variable = {CAM_goering_mode_production_speed_infrastructure_factor_var = 0.05}
+set_variable = {CAM_goering_mode_production_speed_industrial_complex_factor_var = 0.05}
+set_variable = {CAM_goering_mode_production_speed_buildings_factor_var = 0}
+set_variable = {CAM_goering_mode_production_speed_infrastructure_factor_var = 0.05}
 set_variable = {CAM_goering_mode_production_speed_rail_way_factor_var = 0.05}
 set_variable = {CAM_goering_mode_research_speed_factor_var = 0.1}
 set_variable = {CAM_goering_mode_consumer_goods_factor_var = 0}
@@ -33,10 +37,25 @@ set_variable = {CAM_goering_mode_production_speed_sea_base_factor_var = 0}
 set_variable = {CAM_goering_mode_drift_defence_factor_var = 0}
 set_variable = {CAM_goering_mode_army_org_factor_var = 0}
 set_variable = {CAM_goering_mode_recruitable_population_var = 0}
+set_variable = {CAM_goering_mode_mobilization_speed_var = 0}
+set_variable = {CAM_goering_mode_fascism_drift_var = 0}
+set_variable = {CAM_goering_mode_industrial_capacity_factory_var = 0}
+set_variable = {CAM_goering_mode_monthly_population_var = 0}
+set_variable = {CAM_goering_mode_production_factory_efficiency_gain_factor_var = 0}
+set_variable = {CAM_goering_mode_army_speed_factor_var = 0}
+set_variable = {CAM_goering_mode_production_speed_supply_node_factor_var = 0}
+set_variable = {CAM_goering_mode_local_resources_factor_var = 0}
+set_variable = {CAM_goering_mode_production_factory_max_efficiency_factor_var = 0}
+set_variable = {CAM_goering_mode_training_time_factor_var = 0}
+set_variable = {CAM_goering_mode_fascism_drift_var = 0}
+set_variable = {CAM_goering_mode_compliance_growth_var = 0}
+set_variable = {CAM_goering_mode_decryption_factor_var = 0}
+set_variable = {CAM_goering_mode_new_operative_slot_bonus_var = 0}
+set_variable = {CAM_goering_mode_army_defence_factor_var = 0}
+set_variable = {CAM_goering_mode_dig_in_speed_factor_var = 0}
 
 set_variable = {CAM_goering_mode_political_advisor_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_economic_laws_cost_factor_var = -0.25}
-set_variable = {CAM_goering_mode_political_advisor_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_high_command_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_mobilization_laws_cost_factor_var = -0.25}
 set_variable = {CAM_goering_mode_economy_cost_factor_var = -0.25}
