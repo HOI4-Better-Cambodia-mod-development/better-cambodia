@@ -1,4 +1,57 @@
 spriteTypes = {	
+	#army_way
+	SpriteType = {
+	name = "GFX_CAM_air_battles_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_air_battles_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_decisive_superpriority_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_decisive_superpriority_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_expropriate_aviation_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_expropriate_aviation_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_expropriate_fra_fleet_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_expropriate_fra_fleet_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_heavy_fleet_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_heavy_fleet_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_hidden_armadas_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_hidden_armadas_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_integration_with_aciation_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_integration_with_aciation_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_jaggernauts_of_the_sea_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_jaggernauts_of_the_sea_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_level_ground_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_level_ground_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_owner_the_seas_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_owner_the_seas_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_speed_fleet_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_speed_fleet_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_the_biggest_cannon_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_the_biggest_cannon_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_total_bombing_goal"
+	texturefile = "gfx/interface/goals/army_way/CAM_total_bombing_goal.png"			
+	}
 	#pro-jap-way
 	SpriteType = {
 	name = "GFX_CAM_advantage_foothold_idea"

@@ -5572,11 +5572,176 @@ focus_tree = {
 		}
 		x = 40
 		y = 1
-			completion_reward = {
-					add_political_power = 100
-					add_stability = 0.1
-					add_war_support = 0.05
-				}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = CAM_expropriate_fra_fleet
+		icon = GFX_CAM_expropriate_fra_fleet_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_fleet_renovation
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = CAM_speed_fleet
+		icon = GFX_CAM_speed_fleet_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_expropriate_fra_fleet
+		}
+		mutually_exclusive = {
+			focus = CAM_heavy_fleet
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = CAM_hidden_armadas
+		icon = GFX_CAM_hidden_armadas_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_speed_fleet
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = CAM_torpedo_battles
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_speed_fleet
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = CAM_heavy_fleet
+		icon = GFX_CAM_heavy_fleet_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_expropriate_fra_fleet
+		}
+		mutually_exclusive = {
+			focus = CAM_speed_fleet
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = CAM_the_biggest_cannon
+		icon = GFX_CAM_the_biggest_cannon_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_heavy_fleet
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = CAM_interaction_with_awiation
+		icon = GFX_CAM_integration_with_aciation_goal
+		cost = 6,00
+		prerequisite = {
+			focus = CAM_heavy_fleet
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = CAM_jaggernauts_of_the_sea
+		icon = GFX_CAM_jaggernauts_of_the_sea_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_the_biggest_cannon
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = CAM_expropriate_fra_aviation
+		icon = GFX_CAM_expropriate_aviation_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_airforce_renovation
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = CAM_total_bombing
+		icon = GFX_CAM_total_bombing_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_expropriate_fra_aviation
+		}
+		mutually_exclusive = {
+			focus = CAM_air_battles
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = CAM_ownet_of_the_seas
+		icon = GFX_CAM_owner_the_seas_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_torpedo_battles
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = CAM_level_with_int_the_ground_enemies
+		icon = GFX_CAM_level_ground_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_total_bombing
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = CAM_air_battles
+		icon = GFX_CAM_air_battles_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_expropriate_fra_aviation
+		}
+		mutually_exclusive = {
+			focus = CAM_total_bombing
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = CAM_decisive_superiority
+		icon = GFX_CAM_decisive_superpriority_goal
+		cost = 5,00
+		prerequisite = {
+			focus = CAM_air_battles
+		}
+		x = 38
+		y = 4
 
 	}
 }
