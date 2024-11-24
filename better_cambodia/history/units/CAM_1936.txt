@@ -1,5 +1,5 @@
 division_template = {
-	name = "Cambodia revolutionares devision"
+	name = "Cambodia revolutionares division"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -7,22 +7,10 @@ division_template = {
 		infantry = { x = 0 y = 2 }
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-		infantry = { x = 3 y = 1 }
-		infantry = { x = 3 y = 2 }
-	}
-	
-	support = {
-        engineer = { x = 0 y = 0 }
-        artillery = { x = 0 y = 1 }
 	}
 }
 division_template = {
-	name = "Cambodia revolutionares devision proffesional"
+	name = "Cambodia division revolutionares"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -31,21 +19,6 @@ division_template = {
 		infantry = { x = 0 y = 3 }
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
-		infantry = { x = 3 y = 0 }
-		infantry = { x = 3 y = 1 }
-		infantry = { x = 3 y = 2 }
-		infantry = { x = 3 y = 3 }
-	}
-	
-	support = {
-        engineer = { x = 0 y = 0 }
-        artillery = { x = 0 y = 1 }
 	}
 }
 
@@ -56,27 +29,7 @@ units = {
 				name_order = 2
 		}
 		location = 12460
-		division_template = "Cambodia revolutionares devision"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 12460
-		division_template = "Cambodia revolutionares devision proffesional"
-		start_experience_factor = 0.8
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 12447
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -86,7 +39,7 @@ units = {
 				name_order = 2
 		}
 		location = 12447
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -96,27 +49,7 @@ units = {
 				name_order = 2
 		}
 		location = 7645
-		division_template = "Cambodia revolutionares devision"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 7645
-		division_template = "Cambodia revolutionares devision proffesional"
-		start_experience_factor = 0.85
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 12167
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -126,7 +59,7 @@ units = {
 				name_order = 2
 		}
 		location = 12167
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -136,17 +69,7 @@ units = {
 				name_order = 2
 		}
 		location = 4596
-		division_template = "Cambodia revolutionares devision"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 4596
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -156,17 +79,7 @@ units = {
 				name_order = 2
 		}
 		location = 1620
-		division_template = "Cambodia revolutionares devision proffesional"
-		start_experience_factor = 0.79
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 1620
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -176,17 +89,7 @@ units = {
 				name_order = 2
 		}
 		location = 10204
-		division_template = "Cambodia revolutionares devision"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 10204
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -196,17 +99,7 @@ units = {
 				name_order = 2
 		}
 		location = 4330
-		division_template = "Cambodia revolutionares devision"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 4330
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -216,17 +109,7 @@ units = {
 				name_order = 2
 		}
 		location = 12260
-		division_template = "Cambodia revolutionares devision"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 12260
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -236,17 +119,7 @@ units = {
 				name_order = 2
 		}
 		location = 12288
-		division_template = "Cambodia revolutionares devision"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 12288
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
@@ -256,18 +129,9 @@ units = {
 				name_order = 2
 		}
 		location = 10317
-		division_template = "Cambodia revolutionares devision"
+		division_template = "Cambodia division revolutionares"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
 	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 10317
-		division_template = "Cambodia revolutionares devision"
-		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}
+	
 }

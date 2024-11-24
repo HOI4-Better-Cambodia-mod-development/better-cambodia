@@ -14,6 +14,11 @@ focus_tree = {
 		cost = 5,00
 		x = 41
 		y = 0
+		available = {
+			CAM = {
+				has_war = no
+			}
+		}
 		completion_reward = {
 				add_dynamic_modifier = {modifier = CAM_pol_pot_uneducated_population_dynamic_modifier}
 				add_ideas = CAM_disorganised_army
@@ -5299,7 +5304,12 @@ focus_tree = {
 		cost = 2,00
 		x = 20
 		y = 0
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_war_for_independent_our_people_idea
+				days = 90
+			}
+		}
 	}
 	focus = {
 		id = CAM_speed_is_the_key
@@ -5310,7 +5320,12 @@ focus_tree = {
 		}
 		x = 17
 		y = 1
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_go_to_north_idea
+				days = 30
+			}
+		}
 	}
 	focus = {
 		id = CAM_national_uprising
@@ -5321,7 +5336,15 @@ focus_tree = {
 		}
 		x = 19
 		y = 1
-
+		completion_reward = {
+			741 = {
+				create_unit = {
+					division = "division_template = \"Cambodia revolutionares division\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					owner = CAM
+					count = 5
+				}
+			}
+		}
 	}
 	focus = {
 		id = CAM_no_step_back
@@ -5335,7 +5358,12 @@ focus_tree = {
 		}
 		x = 18
 		y = 2
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_no_step_back_idea
+				days = 30
+			}
+		}
 	}
 	focus = {
 		id = CAM_give_army_rule
@@ -5346,7 +5374,12 @@ focus_tree = {
 		}
 		x = 21
 		y = 1
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_give_army_rule_idea
+				days = 30
+			}
+		}
 	}
 	focus = {
 		id = CAM_help_from_the_otherside
@@ -5357,7 +5390,20 @@ focus_tree = {
 		}
 		x = 23
 		y = 1
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 7500
+   			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+   			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 500
+   			}
+		}
 	}
 	focus = {
 		id = CAM_anticolonial_war
@@ -5371,7 +5417,12 @@ focus_tree = {
 		}
 		x = 22
 		y = 2
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_anticolonial_war_idea
+				days = 30
+			}
+		}
 	}
 	focus = {
 		id = CAM_last_strike
@@ -5385,7 +5436,12 @@ focus_tree = {
 		}
 		x = 20
 		y = 3
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_last_strike_idea
+				days = 30
+			}
+		}
 	}
 	focus = {
 		id = CAM_endless_glory
@@ -5394,9 +5450,20 @@ focus_tree = {
 		prerequisite = {
 			focus = CAM_last_strike
 		}
+		available = {
+			CAM = {
+				has_war = no
+			}
+		}
 		x = 20
 		y = 4
-
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = -0.05
+			add_political_power = 25
+			remove_ideas = CAM_war_alone_idea
+			complete_national_focus = CAM_independent_cambodia
+		}
 	}
 	focus = {
 		id = CAM_new_cambodian_army
