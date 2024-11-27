@@ -1,0 +1,18 @@
+[CAM_moderate_conservatism] Мы не станем крайне авторитарной, националистической диктатурой и не пойдем на поводу
+у радикальных националистов, стремящихся развалить нашу страну или передать ее под власть еще более мерзких фашистов.
+[CAM_traditional_slope]
+[CAM_invite_the_king]
+======================================
+[CAM_deal_with_liberal_forces]
+[CAM_сreation_of_a_new_aristocracy]
+[CAM_purely_ceremonial_position]
+[CAM_guarantor_of_the_constitution]
+[CAM_defending_our_democracy]
+======================================
+[CAM_collaborate_with_nationalists]
+[CAM_appeal_to_the_old_aristocracy]
+[CAM_coalition_with_the_church]
+[CAM_sole_power]
+[CAM_above_the_constitution]
+[CAM_coronation]
+======================================
