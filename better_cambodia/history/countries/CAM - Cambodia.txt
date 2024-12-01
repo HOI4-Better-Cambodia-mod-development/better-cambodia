@@ -114,6 +114,16 @@ set_variable = {CAM_stalinist_building_speed_civ_var = 0}
 set_variable = {CAM_stalinist_line_eff_var = 0}
 set_variable = {CAM_stalinist_base_eff_var = 0}
 
+#Disorganised army
+set_variable = {CAM_disorganised_army_land_doctrine_cost_factor_var = 0.75}
+set_variable = {CAM_disorganised_army_conscription_var = -0.01}
+set_variable = {CAM_disorganised_army_experience_gain_army_factor_var = -0.2}
+set_variable = {CAM_disorganised_army_experience_gain_air_factor_var = -0.2}
+set_variable = {CAM_disorganised_army_experience_gain_navy_factor_var = -0.2}
+set_variable = {CAM_disorganised_army_army_speed_factor_var = -0.15}
+set_variable = {CAM_disorganised_army_army_org_factor_var = -0.1}
+set_variable = {CAM_disorganised_army_command_power_gain_mult_var = 0}
+
 set_research_slots = 2
 recruit_character = CAM_sisovat_morinet
 recruit_character = CAM_chuol_hell
@@ -144,7 +154,6 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	
 	trench_warfare = 1
 	fleet_in_being = 1
 }
