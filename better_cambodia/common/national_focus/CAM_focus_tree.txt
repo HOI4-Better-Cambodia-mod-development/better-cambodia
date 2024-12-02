@@ -1117,7 +1117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_our_way_to_great_nation
-		icon = GFX_goal_unknown
+		icon = GFX_goal_support_fascism
 		cost = 10,00
 		prerequisite = {
 			focus = CAM_power_of_mode
@@ -1127,6 +1127,9 @@ focus_tree = {
 		}
 		x = 53
 		y = 10
+		completion_reward = {
+			add_ideas = CAM_great_way_idea
+		}
 
 	}
 	focus = {
@@ -2412,22 +2415,33 @@ focus_tree = {
 		}
 		x = 53
 		y = 11
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_great_way_idea
+				add_idea = CAM_great_way_idea2
+			}
+		}
 	}
 	focus = {
 		id = CAM_phdacncar
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SWE_organize_a_putsch
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_restrict_the_rights_of_workers
 		}
 		x = 53
 		y = 12
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_great_way_idea2
+				add_idea = CAM_great_way_idea3
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_full_control_over_society
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_proletarian_dictatorship
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_phdacncar
@@ -2438,7 +2452,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_militaristic_tendencies
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_reorient_production
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_phdacncar
@@ -2449,7 +2463,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_advanced_suppression_apparat
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_infiltration
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_full_control_over_society
@@ -2460,7 +2474,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_financing_of_law_enforcement_agencies
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_full_control_over_society
@@ -2474,7 +2488,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_jobs_in_the_defense_sector
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ICE_state_corporatism
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_militaristic_tendencies
@@ -2539,6 +2553,13 @@ focus_tree = {
 		}
 		x = 56
 		y = 15
+		completion_reward = {
+			 add_popularity = {
+                ideology = fascism
+                popularity = 0.2
+        }  
+			add_ideas = CAM_final_purge
+		}
 
 	}
 	focus = {
@@ -2550,6 +2571,9 @@ focus_tree = {
 		}
 		x = 53
 		y = 18
+		completion_reward = {
+			remove_ideas = CAM_uneducated_population
+		}
 
 	}
 	focus = {
@@ -2603,7 +2627,7 @@ focus_tree = {
 			create_wargoal = {
 				target = PRC
 				type = annex_everything
-				expire = 0
+				expire = 0S
 			}
 			create_wargoal = {
 				target = SIK
@@ -2894,6 +2918,17 @@ focus_tree = {
 		}
 		x = 45
 		y = 15
+		completion_reward = {
+			create_wargoal = {
+				target = FRA
+				type = annex_everything
+				expire = 0
+			}
+			728 = {Add_core_of = CAM}
+			320 = {Add_core_of = CAM}
+
+		}
+
 
 	}
 	focus = {
@@ -2905,6 +2940,12 @@ focus_tree = {
 		}
 		x = 46
 		y = 18
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_new_balance_of_powers2
+				add_idea = CAM_new_balance_of_powers3
+			}
+		}
 
 	}
 	focus = {
@@ -2916,6 +2957,9 @@ focus_tree = {
 		}
 		x = 46
 		y = 14
+		completion_reward = {
+			add_ideas = CAM_new_balance_of_powers1
+		}
 
 	}
 	focus = {
@@ -2930,7 +2974,59 @@ focus_tree = {
 		}
 		x = 46
 		y = 16
-
+		completion_reward = {
+			create_wargoal = {
+				target = ENG
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = RAJ
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = MAL
+				type = annex_everything
+				expire = 0
+			}
+			333 = {add_core_of = CAM}
+			336 = {add_core_of = CAM}
+			733 = {add_core_of = CAM}
+			326 = {add_core_of = CAM}
+			288 = {add_core_of = CAM}
+			640 = {add_core_of = CAM}
+			430 = {add_core_of = CAM}
+			431 = {add_core_of = CAM}
+			432 = {add_core_of = CAM}
+			434 = {add_core_of = CAM}
+			435 = {add_core_of = CAM}
+			426 = {add_core_of = CAM}
+			438 = {add_core_of = CAM}
+			436 = {add_core_of = CAM}
+			427 = {add_core_of = CAM}
+			424 = {add_core_of = CAM}
+			425 = {add_core_of = CAM}
+			429 = {add_core_of = CAM}
+			423 = {add_core_of = CAM}
+			422 = {add_core_of = CAM}
+			281 = {add_core_of = CAM}
+			437 = {add_core_of = CAM}
+			710 = {add_core_of = CAM}
+			711 = {add_core_of = CAM}
+			712 = {add_core_of = CAM}
+			433 = {add_core_of = CAM}
+			428 = {add_core_of = CAM}
+			439 = {add_core_of = CAM}
+			441 = {add_core_of = CAM}
+			440 = {add_core_of = CAM}
+			443 = {add_core_of = CAM}
+			444 = {add_core_of = CAM}
+			445 = {add_core_of = CAM}
+			442 = {add_core_of = CAM}
+			787 = {add_core_of = CAM}
+			709 = {add_core_of = CAM}
+		}
 	}
 	focus = {
 		id = CAM_one_place_in_the_sun
@@ -2941,6 +3037,12 @@ focus_tree = {
 		}
 		x = 46
 		y = 17
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_new_balance_of_powers1
+				add_idea = CAM_new_balance_of_powers2
+			}
+		}
 
 	}
 	focus = {
@@ -6059,6 +6161,12 @@ focus_tree = {
 		}
 		x = 30
 		y = 7
+		completion_reward = {
+			add_timed_idea = {
+				idea = CAM_spain_volunteers_idea
+				days = 730
+			}
+		}
 
 	}
 	focus = {
@@ -6070,6 +6178,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 8
+		completion_reward = {
+			add_ideas = CAM_international_army_idea
+		}
 
 	}
 	focus = {
