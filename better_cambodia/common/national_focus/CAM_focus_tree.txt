@@ -1196,7 +1196,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_close_cooperation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_propaganda_master
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_center_of_world_facsism
@@ -1213,7 +1213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_joint_construction_project
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_university_2
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_close_cooperation
@@ -1229,7 +1229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_business_cooperation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_german_trade
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_joint_construction_project
@@ -1247,7 +1247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_strategical_value_territory
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_south_east_asian_natural_wealth
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_joint_construction_project
@@ -1280,7 +1280,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_formation_collaboration_goverment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_advanced_military_studies
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_center_of_world_facsism
@@ -1297,7 +1297,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_german_administration
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_a_strong_successor
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_formation_collaboration_goverment
@@ -1418,6 +1418,19 @@ focus_tree = {
 		}
 		x = 84
 		y = 14
+		completion_reward = {
+			set_party_name = {
+			ideology = fascism
+			long_name = CAM_german_administration_geidrich_party
+			name = CAM_german_administration_geidrich_party
+			}
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.1
+        	} 
+			add_stability = -0.2
+			add_political_power = 100
+		}
 
 	}
 	focus = {
@@ -1429,22 +1442,28 @@ focus_tree = {
 		}
 		x = 84
 		y = 15
+		completion_reward = {
+			add_ideas = CAM_central_asia_commander_idea
+		}
 
 	}
 	focus = {
 		id = CAM_eliminate_dissent
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_penal_battalions
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_military_district_asia
 		}
 		x = 81
 		y = 16
+		completion_reward = {
+			add_ideas = CAM_central_asia_agency_idea1
+		}
 
 	}
 	focus = {
 		id = CAM_asian_shield_of_the_reich
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_military_sphere
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_military_district_asia
@@ -2408,7 +2427,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_restrict_the_rights_of_workers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SWE_attack_landsorganisationen
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_our_way_to_great_nation
@@ -2499,7 +2518,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_propaganda_of_war_among_young_people
-		icon = GFX_goal_unknown
+		icon = GFX_focus_CHL_departemento_de_las_tropas_nacistas_de_asalto
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_jobs_in_the_defense_sector
@@ -2510,7 +2529,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_large_scale_military_construction_projects
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_wunderwaffe
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_jobs_in_the_defense_sector
@@ -2521,7 +2540,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_monstrous_war_machine
-		icon = GFX_goal_unknown
+		icon = GFX_focus_CONGO_copper_cartridges
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_large_scale_military_construction_projects
@@ -2535,7 +2554,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_full_fanatism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_public_works
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_extermination_of_non_believers
@@ -2546,7 +2565,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_extermination_of_non_believers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_conspiracy
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_advanced_suppression_apparat
@@ -2564,7 +2583,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_renaissance_of_the_cambodian_nation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ARG_fascist_researchers
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_absolute_chauvinism
@@ -2578,7 +2597,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_absolute_chauvinism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_total_war
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_full_fanatism
@@ -2900,7 +2919,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_invite_to_siam
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_improve_relations
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_redefining_the_balance_of_power
@@ -2911,7 +2930,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_second_eastasian_war
-		icon = GFX_goal_unknown
+		icon = GFX_focus_attack_france
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_redefining_the_balance_of_power
@@ -2933,8 +2952,8 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_cambodian_order
-		icon = GFX_goal_unknown
-		cost = 5,00
+		icon = GFX_focus_GER_create_asian_reichskommissariat
+		cost = 30,00
 		prerequisite = {
 			focus = CAM_one_place_in_the_sun
 		}
@@ -2950,7 +2969,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_redefining_the_balance_of_power
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AUS_disregard_the_treaties
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_militaristic_tendencies
@@ -2964,7 +2983,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_end_british_in_asia
-		icon = GFX_goal_unknown
+		icon = GFX_focus_attack_britain
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_invite_to_siam
@@ -3030,7 +3049,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_one_place_in_the_sun
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_end_british_in_asia
@@ -3128,7 +3147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_dotation_from_berlin
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_monetary_union 
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_business_cooperation
@@ -3749,7 +3768,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_rises_sun
-		icon = GFX_goal_unknown
+		icon = GFX_focus_attack_japan
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_military_district_asia
@@ -3760,7 +3779,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_british_brilliant
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RAJ_british_investors
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_rises_sun
@@ -3771,7 +3790,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_tattered_giant
-		icon = GFX_goal_unknown
+		icon = GFX_focus_attack_china
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_british_brilliant
@@ -3782,7 +3801,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_foreign_slaves
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_subjugation
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_tattered_giant
@@ -3793,7 +3812,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_enemies_are_everywhere
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_foreign_slaves
@@ -3804,51 +3823,75 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_search_for_traitors
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_eliminate_dissent
 		}
 		x = 81
 		y = 17
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_central_asia_agency_idea1
+				add_idea = CAM_central_asia_agency_idea2
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_use_connections_with_Interpol
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_intelligence_exchange
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_search_for_traitors
 		}
 		x = 81
 		y = 18
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_central_asia_agency_idea2
+				add_idea = CAM_central_asia_agency_idea3
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_total_anighillation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_demonstration_of_military_achievements
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_use_connections_with_Interpol
 		}
 		x = 81
 		y = 19
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_central_asia_agency_idea3
+				add_idea = CAM_central_asia_agency_idea4
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_traitors_are_everywhere
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_national_security
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_total_anighillation
 		}
 		x = 81
 		y = 20
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_central_asia_agency_idea4
+				add_idea = CAM_central_asia_agency_idea5
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_all_for_the_good_of_Germany
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_mission_to_germany
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_asian_shield_of_the_reich
@@ -3859,7 +3902,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_all_for_the_good_of_fuhrer
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_loyalty_to_the_fuhrer
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_all_for_the_good_of_Germany
@@ -3870,7 +3913,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_loyal_subjects
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_anschluss_historical
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_all_for_the_good_of_fuhrer
@@ -3881,7 +3924,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_germany_are_everywhere
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_the_supreme_leader
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_loyal_subjects
@@ -3892,7 +3935,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_everything_for_the_army
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_appease_the_wehrmacht
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_military_district_asia
@@ -3903,7 +3946,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_every_man_is_a_soldier
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_gebirgsjager
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_everything_for_the_army
@@ -3914,7 +3957,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_the_army_rules_the_roost
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_full_social_mobilization
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_every_man_is_a_soldier
@@ -3925,7 +3968,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_no_civilians
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_afrikakorps
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_the_army_rules_the_roost
@@ -3936,7 +3979,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_soldiers_are_everywhere
-		icon = GFX_goal_unknown
+		icon = GFX_focus_COG_force_publique_mutiny
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_no_civilians
@@ -3947,7 +3990,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAM_hail_heidrich
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_support_the_fuhrer
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_traitors_are_everywhere
@@ -6005,6 +6048,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 13
+		completion_reward = {
+			remove_ideas = CAM_uneducated_population
+		}
 
 	}
 	focus = {
