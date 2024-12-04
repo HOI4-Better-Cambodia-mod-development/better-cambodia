@@ -1470,11 +1470,14 @@ focus_tree = {
 		}
 		x = 83
 		y = 16
+		completion_reward = {
+			add_ideas = CAM_asian_shield_of_reich_idea1
+		}
 
 	}
 	focus = {
 		id = CAM_reactionism_power
-		icon = GFX_goal_unknown
+		icon = GFX_focus_focus_fra_fascist_threat
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_millitary_coup
@@ -1484,11 +1487,20 @@ focus_tree = {
 		}
 		x = 90
 		y = 6
+		completion_reward = {
+			add_stability = -0.05
+			add_war_support = -0.05
+			add_political_power = -50
+			add_popularity = {
+                ideology = neutrality
+                popularity = 0.2
+            } 
+		}
 
 	}
 	focus = {
 		id = CAM_traditional_slope
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SWE_undermine_fascism
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_reactionism_power
@@ -1498,22 +1510,34 @@ focus_tree = {
 		}
 		x = 87
 		y = 7
+		completion_reward = {
+			set_party_name = {
+				ideology = neutrality 
+    			long_name = CAM_people_monarchists_union 
+    			name = CAM_people_monarchists_union
+			}
+			add_ideas = CAM_great_kingdom_idea
+		}
 
 	}
 	focus = {
 		id = CAM_invite_the_king
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_monarchy_2
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_traditional_slope
 		}
 		x = 87
 		y = 8
+		completion_reward = {
+			add_political_power = 75
+			add_ideas = CAM_king_norodom_sianuk_idea
+		}
 
 	}
 	focus = {
 		id = CAM_deal_with_liberal_forces
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_anti_fascist_diplomacy
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_invite_the_king
@@ -1523,11 +1547,13 @@ focus_tree = {
 		}
 		x = 85
 		y = 9
-
+		completion_reward = {
+			add_ideas = CAM_constitutional_kingdom_idea1
+		}
 	}
 	focus = {
 		id = CAM_collaborate_with_nationalists
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BRA_end_the_state_of_emergency
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_invite_the_king
@@ -1537,50 +1563,81 @@ focus_tree = {
 		}
 		x = 89
 		y = 9
+		completion_reward = {
+			add_ideas = CAM_absolute_power_idea1
+		}
 
 	}
 	focus = {
 		id = CAM_appeal_to_the_old_aristocracy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rom_royal_dictatorship
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_collaborate_with_nationalists
 		}
 		x = 89
 		y = 10
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_absolute_power_idea1
+				add_idea = CAM_absolute_power_idea2
+			}
+			
+		}
 
 	}
 	focus = {
 		id = CAM_coalition_with_the_church
-		icon = GFX_goal_unknown
+		icon = GFX_focus_por_concordat
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_appeal_to_the_old_aristocracy
 		}
 		x = 89
 		y = 11
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_absolute_power_idea2
+				add_idea = CAM_absolute_power_idea3
+			}
+			
+		}
 
 	}
 	focus = {
 		id = CAM_sole_power
-		icon = GFX_goal_unknown
+		icon = GFX_goal_demand_sudetenland
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_coalition_with_the_church
 		}
 		x = 89
 		y = 12
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_absolute_power_idea3
+				add_idea = CAM_absolute_power_idea4
+			}
+			
+		}
 
 	}
 	focus = {
 		id = CAM_above_the_constitution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BRA_repeale_national_security_law
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_sole_power
 		}
 		x = 89
 		y = 13
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_absolute_power_idea4
+				add_idea = CAM_absolute_power_idea5
+			}
+			
+		}
 
 	}
 	focus = {
@@ -2356,52 +2413,76 @@ focus_tree = {
 
 	}
 	focus = {
-		id = CAM_сreation_of_a_new_aristocracy
-		icon = GFX_goal_unknown
+		id = CAM_creation_of_a_new_aristocracy
+		icon = GFX_focus_POL_complete_april_constitution
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_deal_with_liberal_forces
 		}
 		x = 85
 		y = 10
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_constitutional_kingdom_idea1
+				add_idea = CAM_constitutional_kingdom_idea2
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_purely_ceremonial_position
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rom_handle_king
 		cost = 5,00
 		prerequisite = {
-			focus = CAM_сreation_of_a_new_aristocracy
+			focus = CAM_creation_of_a_new_aristocracy
 		}
 		x = 85
 		y = 11
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_constitutional_kingdom_idea2
+				add_idea = CAM_constitutional_kingdom_idea3
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_guarantor_of_the_constitution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AUS_lawmaking_leniency
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_purely_ceremonial_position
 		}
 		x = 85
 		y = 12
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_constitutional_kingdom_idea3
+				add_idea = CAM_constitutional_kingdom_idea4
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_defending_our_democracy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_defence
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_guarantor_of_the_constitution
 		}
 		x = 85
 		y = 13
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_constitutional_kingdom_idea4
+				add_idea = CAM_constitutional_kingdom_idea5
+			}
+		}
 
 	}
 	focus = {
 		id = CAM_coronation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BRA_restore_brazilian_honor
 		cost = 5,00
 		prerequisite = {
 			focus = CAM_defending_our_democracy
@@ -2409,6 +2490,16 @@ focus_tree = {
 		}
 		x = 87
 		y = 14
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_king_norodom_sianuk_idea
+				add_idea = CAM_king_norodom_sianuk_idea2
+			}
+			swap_ideas = {
+				remove_idea = CAM_great_kingdom_idea
+				add_idea = CAM_great_kingdom_idea2
+			}
+		}
 
 	}
 	focus = {
@@ -3775,6 +3866,13 @@ focus_tree = {
 		}
 		x = 87
 		y = 16
+		completion_reward = {
+			create_wargoal = {
+				target = JAP
+				type = annex_everything
+				expire = 0
+			}
+		}
 
 	}
 	focus = {
@@ -3786,6 +3884,18 @@ focus_tree = {
 		}
 		x = 87
 		y = 17
+		completion_reward = {
+			create_wargoal = {
+				target = RAJ
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = ENG
+				type = annex_everything
+				expire = 0
+			}
+		}
 
 	}
 	focus = {
@@ -3797,6 +3907,53 @@ focus_tree = {
 		}
 		x = 87
 		y = 18
+		completion_reward = {
+			create_wargoal = {
+				target = CHI
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = PRC
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = XSM
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SHX
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = GXC
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SIK
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = MEN
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = MAN
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = YUN
+				type = annex_everything
+				expire = 0
+			}
+		}
 
 	}
 	focus = {
@@ -3808,6 +3965,28 @@ focus_tree = {
 		}
 		x = 87
 		y = 19
+		completion_reward = {
+			create_wargoal = {
+				target = PHI
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = INS
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = MAL
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SIA
+				type = annex_everything
+				expire = 0
+			}
+		}
 
 	}
 	focus = {
@@ -3819,6 +3998,53 @@ focus_tree = {
 		}
 		x = 87
 		y = 20
+		completion_reward = {
+			create_wargoal = {
+				target = FRA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = USA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SOV
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = MEX
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = BRA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = BEL
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SPA
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = POR
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = SPR
+				type = annex_everything
+				expire = 0
+			}
+		}
 
 	}
 	focus = {
@@ -3898,6 +4124,12 @@ focus_tree = {
 		}
 		x = 83
 		y = 17
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_asian_shield_of_reich_idea1
+				add_idea = CAM_asian_shield_of_reich_idea2
+			}
+		}
 
 	}
 	focus = {
@@ -3909,6 +4141,12 @@ focus_tree = {
 		}
 		x = 83
 		y = 18
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_asian_shield_of_reich_idea2
+				add_idea = CAM_asian_shield_of_reich_idea3
+			}
+		}
 
 	}
 	focus = {
@@ -3920,6 +4158,12 @@ focus_tree = {
 		}
 		x = 83
 		y = 19
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_asian_shield_of_reich_idea3
+				add_idea = CAM_asian_shield_of_reich_idea4
+			}
+		}
 
 	}
 	focus = {
@@ -3931,6 +4175,12 @@ focus_tree = {
 		}
 		x = 83
 		y = 20
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_asian_shield_of_reich_idea4
+				add_idea = CAM_asian_shield_of_reich_idea5
+			}
+		}
 
 	}
 	focus = {
@@ -3942,6 +4192,9 @@ focus_tree = {
 		}
 		x = 85
 		y = 16
+		completion_reward = {
+			add_ideas = CAM_army_higher_command_idea1
+		}
 
 	}
 	focus = {
@@ -3953,6 +4206,12 @@ focus_tree = {
 		}
 		x = 85
 		y = 17
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_army_higher_command_idea1
+				add_idea = CAM_army_higher_command_idea2
+			}
+		}
 
 	}
 	focus = {
@@ -3964,6 +4223,12 @@ focus_tree = {
 		}
 		x = 85
 		y = 18
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_army_higher_command_idea2
+				add_idea = CAM_army_higher_command_idea3
+			}
+		}
 
 	}
 	focus = {
@@ -3975,6 +4240,13 @@ focus_tree = {
 		}
 		x = 85
 		y = 19
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_army_higher_command_idea3
+				add_idea = CAM_army_higher_command_idea4
+			}
+		}
+
 
 	}
 	focus = {
@@ -3986,6 +4258,12 @@ focus_tree = {
 		}
 		x = 85
 		y = 20
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_army_higher_command_idea4
+				add_idea = CAM_army_higher_command_idea5
+			}
+		}
 
 	}
 	focus = {
@@ -4006,6 +4284,12 @@ focus_tree = {
 		}
 		x = 84
 		y = 21
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CAM_central_asia_commander_idea
+				add_idea = CAM_central_asia_commander_idea2
+			}
+		}
 
 	}
 	focus = {
