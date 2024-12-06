@@ -708,9 +708,11 @@
  VIN_neutrality_party: "Национальная партия Вьетнама"
  CAM_fascism_party: "Кхмерская партия"
  CAM_german_administration_goering_party: "Германская администрация - Гёринг"
+ CAM_german_administration_geidrich_party: "Германская администрация - Гейдрих"
  CAM_democratic_party: "Демократическая партия" #formed in 1946
  CAM_communism_party: "Независимые кхмеры"
- CAM_neutrality_party: "Народно-социалистическое общество" #or just Sangkum 1955, democratic but right leaning and anti communist
+ CAM_neutrality_party: "Временное правительство" #or just Sangkum 1955, democratic but right leaning and anti communist
+ CAM_people_monarchists_union_party: "Народно-монархический союз"
  INS_fascism_party: "Новый порядок" #inspired by right wingers from 1960s
  INS_democratic_party: "Национальная партия Индонезии" #Indonesian National Party founded by Sukarno
  INS_communism_party: "Коммунистическая партия Индонезии" #Partai Komunis Indonesia

@@ -1513,8 +1513,8 @@ focus_tree = {
 		completion_reward = {
 			set_party_name = {
 				ideology = neutrality 
-    			long_name = CAM_people_monarchists_union 
-    			name = CAM_people_monarchists_union
+    			long_name = CAM_people_monarchists_union_party
+    			name = CAM_people_monarchists_union_party
 			}
 			add_ideas = CAM_great_kingdom_idea
 		}
