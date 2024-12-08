@@ -1,4 +1,93 @@
 spriteTypes = {	
+	#technocrats
+	SpriteType = {
+	name = "GFX_CAM_all_for_sci_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_all_for_sci_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_all_for_victory_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_all_for_victory_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_brain_influx_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_brain_influx_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_brilliant_isolation_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_brilliant_isolation_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_building_schools_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_building_schools_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_building_universities_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_building_universities_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_effective_gosplan_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_effective_gosplan_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_fight_obsucarntism_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_fight_obsucarntism_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_forest_cutting_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_forest_cutting_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_fully_populated_indochina_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_fully_populated_indochina_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_future_visible_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_future_visible_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_huge_buildings_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_huge_buildings_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_invest_to_laos_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_invest_to_laos_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_invest_to_tonkin_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_invest_to_tonkin_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_isolation_politics"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_isolation_politics.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_monstrous_megalopolices_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_monstrous_megalopolices_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_most_reading_nation_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_most_reading_nation_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_proper_education_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_proper_education_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_rational_solutions_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_rational_solutions_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_tecnokratic_dictature"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_tecnokratic_dictature.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_urban_expansion_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_urban_expansion_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_we_against_religion_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_we_against_religion_goal.png"			
+	}
 	#army_way
 	SpriteType = {
 	name = "GFX_CAM_air_battles_goal"
