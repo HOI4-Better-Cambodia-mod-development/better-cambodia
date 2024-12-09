@@ -1,4 +1,66 @@
 spriteTypes = {	
+	#Goering_way
+	SpriteType = {
+	name = "GFX_CAM_human_trafficking_goal"
+	texturefile = "gfx/interface/goals/Goering_way/CAM_human_trafficking_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_adoration_goal"
+	texturefile = "gfx/interface/goals/Goering_way/CAM_adoration_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_likeness_of_god_goal"
+	texturefile = "gfx/interface/goals/Goering_way/CAM_likeness_of_god_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_best_soldiers_in_the_world_goal"
+	texturefile = "gfx/interface/goals/Goering_way/CAM_best_soldiers_in_the_world_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_goering_state_goal"
+	texturefile = "gfx/interface/goals/Goering_way/CAM_goering_state_goal.png"			
+	}
+	#Gimmler_way
+	SpriteType = {
+	name = "GFX_CAM_fear_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_fear_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_all_for_aryans_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_all_for_aryans_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_new_home_for_truly_nazism_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_new_home_for_truly_nazism_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_ss_on_the_first_place_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_ss_on_the_first_place_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_aryan_supremacy_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_aryan_supremacy_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_death_for_the_untermesch_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_death_for_the_untermesch_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_top_secret_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_top_secret_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_on_guard_of_national-socialism_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_on_guard_of_national-socialism_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_slaver_as_a_tool_of_progress_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_slaver_as_a_tool_of_progress_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_our_home_is_so_far_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_our_home_is_so_far_goal.png"			
+	}
 	#technocrats
 	SpriteType = {
 	name = "GFX_CAM_all_for_sci_goal"
