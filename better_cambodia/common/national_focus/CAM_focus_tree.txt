@@ -1352,6 +1352,14 @@ focus_tree = {
             }
             x = 77
             y = 14
+            completion_reward = {
+                set_party_name = {
+                    ideology = fascism
+                    long_name = CAM_german_administration_gimmler_party
+                    name = CAM_german_administration_gimmler_party
+                }
+                add_ideas = CAM_SS_in_power_idea1
+            }
 
         }
         focus = {
@@ -1363,6 +1371,12 @@ focus_tree = {
             }
             x = 77
             y = 15
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_SS_in_power_idea1
+                    add_idea = CAM_SS_in_power_idea2
+                }
+            }
 
         }
         focus = {
@@ -1374,6 +1388,12 @@ focus_tree = {
             }
             x = 76
             y = 16
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_SS_in_power_idea2
+                    add_idea = CAM_SS_in_power_idea3
+                }
+            }
 
         }
         focus = {
@@ -1383,8 +1403,18 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_ss_ordenstaadt_campuchia
             }
+             available = {
+                has_idea = CAM_SS_in_power_idea5
+            }
             x = 78
             y = 16
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_SS_in_power_idea5
+                    add_idea = CAM_SS_in_power_idea6
+                }
+            }
+            
 
         }
         focus = {
@@ -1396,6 +1426,12 @@ focus_tree = {
             }
             x = 78
             y = 17
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_SS_in_power_idea6
+                    add_idea = CAM_SS_in_power_idea7
+                }
+            }
 
         }
         focus = {
@@ -1407,6 +1443,12 @@ focus_tree = {
             }
             x = 78
             y = 18
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_SS_in_power_idea7
+                    add_idea = CAM_SS_in_power_idea8
+                }
+            }
 
         }
         focus = {
@@ -3720,6 +3762,14 @@ focus_tree = {
             }
             x = 76
             y = 23
+            completion_reward = {
+                add_ideas = CAM_return_to_germany_idea
+                create_wargoal = {
+                    target = GER
+                    type = annex_everything
+                    expire = 0
+                }
+            }
 
         }
         focus = {
@@ -3731,6 +3781,84 @@ focus_tree = {
             }
             x = 76
             y = 24
+            completion_reward = {
+                create_wargoal = {
+                    target = CHI
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = SPA
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = SPR
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = ITA
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = JAP
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = BRA
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = SIA
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = RAJ
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = FRA
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = ENG
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = SOV
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = USA
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = AST
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = CAN
+                    type = annex_everything
+                    expire = 0
+                }
+                create_wargoal = {
+                    target = ETH
+                    type = annex_everything
+                    expire = 0
+                }
+                add_ideas = CAM_last_war_idea
+            }
 
         }
         focus = {
@@ -3742,6 +3870,9 @@ focus_tree = {
             }
             x = 73
             y = 26
+            completion_reward = {
+                 add_ideas =  CAM_weapon_of_doom_idea
+            }
 
         }
         focus = {
@@ -3758,6 +3889,9 @@ focus_tree = {
             y = 27
             completion_reward = {
                 custom_effect_tooltip = CAM_the_new_order_tt
+                add_political_power = 2000
+                add_stability = 0.5
+                add_war_support = 0.5
             }
         }
         focus = {
@@ -3770,6 +3904,12 @@ focus_tree = {
             }
             x = 71
             y = 23
+            completion_reward = {
+                add_timed_idea = {
+                    idea = CAM_war_machin_of_victory_idea
+                    days = 730
+                }
+            }
 
         }
         focus = {
@@ -3781,6 +3921,12 @@ focus_tree = {
             }
             x = 71
             y = 24
+            completion_reward = {
+                add_timed_idea = {
+                    idea = CAM_weapon_of_our_glory_idea
+                    days = 365
+                }
+            }
 
         }
         focus = {
@@ -3792,6 +3938,13 @@ focus_tree = {
             }
             x = 71
             y = 25
+             completion_reward = {
+                add_timed_idea = {
+                    idea = CAM_best_soldiers_in_the_world_idea
+                    days = 730
+                }
+                add_manpower = 500000
+            }
 
         }
         focus = {
@@ -3814,6 +3967,13 @@ focus_tree = {
             }
             x = 76
             y = 17
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_SS_in_power_idea3
+                    add_idea = CAM_SS_in_power_idea4
+                }
+            }
+
 
         }
         focus = {
@@ -3825,6 +3985,12 @@ focus_tree = {
             }
             x = 76
             y = 18
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_SS_in_power_idea4
+                    add_idea = CAM_SS_in_power_idea5
+                }
+            }
 
         }
         focus = {
@@ -3839,6 +4005,13 @@ focus_tree = {
             }
             x = 77
             y = 19
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_SS_in_power_idea8
+                    add_idea = CAM_SS_in_power_idea9
+                }
+                add_ideas = CAM_esoterichal_order_idea1
+            }
 
         }
         focus = {
@@ -3850,7 +4023,12 @@ focus_tree = {
             }
             x = 75
             y = 20
-
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_esoterichal_order_idea1
+                    add_idea = CAM_esoterichal_order_idea2
+                }
+            }
         }
         focus = {
             id = CAM_i_am_fuhrer
@@ -3859,8 +4037,17 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_black_sun_rises_over_asia
             }
+            available = {
+                has_idea = CAM_esoterichal_order_idea2
+            }
             x = 77
             y = 20
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_esoterichal_order_idea2
+                    add_idea = CAM_esoterichal_order_idea3
+                }
+            }
 
         }
         focus = {
@@ -3870,8 +4057,18 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_black_sun_rises_over_asia
             }
+            available = {
+                has_idea = CAM_esoterichal_order_idea4
+            }
             x = 79
             y = 20
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_esoterichal_order_idea4
+                    add_idea = CAM_esoterichal_order_idea5
+                }
+            }
+            
 
         }
         focus = {
@@ -3883,6 +4080,9 @@ focus_tree = {
             }
             x = 79
             y = 21
+            completion_reward = {
+                remove_ideas = CAM_uneducated_population
+            }
 
         }
         focus = {
@@ -3894,6 +4094,12 @@ focus_tree = {
             }
             x = 77
             y = 21
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_esoterichal_order_idea3
+                    add_idea = CAM_esoterichal_order_idea4
+                }
+            }
 
         }
         focus = {
@@ -3905,6 +4111,10 @@ focus_tree = {
             }
             x = 75
             y = 21
+            completion_reward = {
+               add_stability = 0.05
+               add_political_power = 200
+            }
 
         }
         focus = {
@@ -3920,8 +4130,17 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_all_for_Aryans
             }
+            available = {
+                has_idea = CAM_esoterichal_order_idea5
+            }
             x = 77
             y = 22
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_esoterichal_order_idea5
+                    add_idea = CAM_esoterichal_order_idea6
+                }
+            }
 
         }
         focus = {
@@ -6074,6 +6293,9 @@ focus_tree = {
             }
             x = 27
             y = 1
+            completion_reward = {
+                add_ideas = CAM_fleet_of_asian_dominating_idea
+            }
 
         }
         focus = {
@@ -6194,6 +6416,9 @@ focus_tree = {
             }
             x = 35
             y = 1
+            completion_reward = {
+                add_ideas = CAM_airforce_inovation_idea
+            }
 
         }
         focus = {
@@ -6234,6 +6459,12 @@ focus_tree = {
             }
             x = 24
             y = 3
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_fleet_of_asian_dominating_idea
+                    add_idea = CAM_fleet_of_asian_dominating_idea11
+                }
+            }
 
         }
         focus = {
@@ -6245,6 +6476,12 @@ focus_tree = {
             }
             x = 22
             y = 4
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_fleet_of_asian_dominating_idea11
+                    add_idea = CAM_fleet_of_asian_dominating_idea12
+                }
+            }
 
         }
         focus = {
@@ -6254,8 +6491,17 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_speed_fleet
             }
+            available = {
+                has_idea =  CAM_fleet_of_asian_dominating_idea12
+            }
             x = 24
             y = 4
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_fleet_of_asian_dominating_idea12
+                    add_idea = CAM_fleet_of_asian_dominating_idea13
+                }
+            }
 
         }
         focus = {
@@ -6270,6 +6516,12 @@ focus_tree = {
             }
             x = 26
             y = 3
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_fleet_of_asian_dominating_idea
+                    add_idea = CAM_fleet_of_asian_dominating_idea21
+                }
+            }
 
         }
         focus = {
@@ -6279,8 +6531,17 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_heavy_fleet
             }
+            available = {
+                has_idea = CAM_fleet_of_asian_dominating_idea22
+            }
             x = 26
             y = 4
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_fleet_of_asian_dominating_idea22
+                    add_idea = CAM_fleet_of_asian_dominating_idea23
+                }
+            }
 
         }
         focus = {
@@ -6292,6 +6553,12 @@ focus_tree = {
             }
             x = 28
             y = 4
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_fleet_of_asian_dominating_idea21
+                    add_idea = CAM_fleet_of_asian_dominating_idea22
+                }
+            }
 
         }
         focus = {
@@ -6303,6 +6570,12 @@ focus_tree = {
             }
             x = 26
             y = 5
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_fleet_of_asian_dominating_idea23
+                    add_idea = CAM_fleet_of_asian_dominating_idea24
+                }
+            }
 
         }
         focus = {
@@ -6314,6 +6587,7 @@ focus_tree = {
             }
             x = 38
             y = 2
+            completion_reward ={}
 
         }
         focus = {
@@ -6328,6 +6602,12 @@ focus_tree = {
             }
             x = 36
             y = 3
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_airforce_inovation_idea
+                    add_idea = CAM_airforce_inovation_idea11
+                }
+            }
 
         }
         focus = {
@@ -6339,6 +6619,12 @@ focus_tree = {
             }
             x = 24
             y = 5
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_fleet_of_asian_dominating_idea13
+                    add_idea = CAM_fleet_of_asian_dominating_idea14
+                }
+            }
 
         }
         focus = {
@@ -6350,6 +6636,12 @@ focus_tree = {
             }
             x = 36
             y = 4
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_airforce_inovation_idea11
+                    add_idea = CAM_airforce_inovation_idea12
+                }
+            }
 
         }
         focus = {
@@ -6364,6 +6656,12 @@ focus_tree = {
             }
             x = 38
             y = 3
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_airforce_inovation_idea
+                    add_idea = CAM_airforce_inovation_idea21
+                }
+            }
 
         }
         focus = {
@@ -6375,6 +6673,12 @@ focus_tree = {
             }
             x = 38
             y = 4
+            completion_reward = {
+                swap_ideas = {
+                    remove_idea = CAM_airforce_inovation_idea21
+                    add_idea = CAM_airforce_inovation_idea22
+                }
+            }
 
         }
         focus = {

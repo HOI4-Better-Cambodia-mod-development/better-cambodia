@@ -1,6 +1,753 @@
 ideas = {
 
     country = {
+        CAM_airforce_inovation_idea22 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                air_intercept_efficiency = 0.1
+                air_cas_efficiency = 0.1
+                air_mission_xp_gain_factor = 0.1
+                air_accidents_factor = -0.25
+                air_ace_generation_chance_factor = 0.15
+                air_mission_efficiency = 0.3
+                air_weather_penalty = -0.25
+                air_agility_factor = 0.1
+                air_attack_factor = 0.1
+                air_night_penalty = -0.1
+                air_range_factor = 0.1
+                air_power_projection_factor = 0.05
+            }
+        }
+        CAM_airforce_inovation_idea21 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                air_intercept_efficiency = 0.1
+                air_cas_efficiency = 0.1
+                air_mission_xp_gain_factor = 0.1
+                air_accidents_factor = -0.25
+                air_ace_generation_chance_factor = 0.15
+                air_mission_efficiency = 0.2
+                air_weather_penalty = -0.25
+                air_agility_factor = 0.1
+                air_attack_factor = 0.1
+            }
+        }
+        CAM_airforce_inovation_idea12 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                air_intercept_efficiency = 0.1
+                air_cas_efficiency = 0.1
+                air_mission_xp_gain_factor = 0.1
+                air_accidents_factor = -0.25
+                air_ace_generation_chance_factor = 0.15
+                air_mission_efficiency = 0.1
+                air_weather_penalty = -0.25
+                air_strategic_bomber_bombing_factor = 0.2
+                strategic_bomb_visibility = -0.2
+                air_strategic_bomber_night_penalty = -0.1
+                air_range_factor = 0.1
+            }
+        }
+         CAM_airforce_inovation_idea11 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                air_intercept_efficiency = 0.1
+                air_cas_efficiency = 0.1
+                air_mission_xp_gain_factor = 0.1
+                air_accidents_factor = -0.25
+                air_ace_generation_chance_factor = 0.15
+                air_mission_efficiency = 0.1
+                air_weather_penalty = -0.25
+                air_strategic_bomber_bombing_factor = 0.1
+                strategic_bomb_visibility = -0.2
+
+            }
+        }
+        CAM_airforce_inovation_idea = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                air_intercept_efficiency = 0.1
+                air_cas_efficiency = 0.1
+                air_mission_xp_gain_factor = 0.1
+                air_accidents_factor = -0.25
+                air_ace_generation_chance_factor = 0.15
+                air_mission_efficiency = 0.1
+                air_weather_penalty = -0.25
+            }
+        }
+        CAM_fleet_of_asian_dominating_idea24 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.3
+                naval_coordination = 0.05
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+                ship_hull_carrier_design_cost_factor = -0.15
+                ship_hull_cruiser_design_cost_factor = -0.15
+                ship_hull_heavy_design_cost_factor = -0.15
+                naval_coordination = 0.05
+                navy_org_factor = 0.25
+                naval_critical_score_chance_factor = 0.1
+                naval_accidents_chance = -0.1
+                naval_heavy_gun_hit_chance_factor = 0.15
+                naval_light_gun_hit_chance_factor = 0.15
+                navy_carrier_air_attack_factor = 0.15
+                navy_max_range_factor = 0.05
+                navy_carrier_air_agility_factor = 0.1
+                naval_night_attack = 0.1
+                navy_capital_ship_attack_factor = 0.1
+                navy_capital_ship_defence_factor = 0.1
+                naval_morale_factor = 0.2
+
+            }
+        }
+         CAM_fleet_of_asian_dominating_idea23 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
+                naval_coordination = 0.05
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+                ship_hull_carrier_design_cost_factor = -0.15
+                ship_hull_cruiser_design_cost_factor = -0.15
+                ship_hull_heavy_design_cost_factor = -0.15
+                naval_coordination = 0.05
+                navy_org_factor = 0.05
+                naval_critical_score_chance_factor = 0.1
+                naval_accidents_chance = -0.1
+                naval_heavy_gun_hit_chance_factor = 0.15
+                naval_light_gun_hit_chance_factor = 0.15
+                navy_carrier_air_attack_factor = 0.15
+                navy_max_range_factor = 0.05
+                navy_carrier_air_agility_factor = 0.1
+                naval_night_attack = 0.1
+            }
+        }
+        CAM_fleet_of_asian_dominating_idea22 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
+                naval_coordination = 0.05
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+                ship_hull_carrier_design_cost_factor = -0.15
+                ship_hull_cruiser_design_cost_factor = -0.15
+                ship_hull_heavy_design_cost_factor = -0.15
+                naval_coordination = 0.05
+                navy_org_factor = 0.05
+                naval_critical_score_chance_factor = 0.1
+                naval_accidents_chance = -0.1
+                naval_heavy_gun_hit_chance_factor = 0.15
+                naval_light_gun_hit_chance_factor = 0.15
+                navy_carrier_air_attack_factor = 0.15
+            }
+        }
+        CAM_fleet_of_asian_dominating_idea21 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
+                naval_coordination = 0.05
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+                ship_hull_carrier_design_cost_factor = -0.15
+                ship_hull_cruiser_design_cost_factor = -0.15
+                ship_hull_heavy_design_cost_factor = -0.15
+                naval_coordination = 0.05
+                navy_org_factor = 0.05
+            }
+        }
+        CAM_fleet_of_asian_dominating_idea14 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
+                naval_coordination = 0.1
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+                naval_speed_factor = 0.15
+                naval_retreat_speed = 0.15
+                naval_detection = 0.05
+                convoy_retreat_speed = 0.05
+                navy_max_range_factor = 0.1
+                naval_critical_score_chance_factor = 0.1
+                naval_torpedo_hit_chance_factor = 0.1
+                naval_torpedo_cooldown_factor = 0.1
+                repair_speed_factor = 0.25
+                naval_torpedo_screen_penetration_factor = 0.2
+                navy_submarine_attack_factor = 0.1
+                navy_submarine_defence_factor = 0.1
+                ship_hull_submarine_design_cost_factor = -0.15
+                ship_hull_light_design_cost_factor = -0.05
+            }
+        }
+        CAM_fleet_of_asian_dominating_idea13 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
+                naval_coordination = 0.1
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+                naval_speed_factor = 0.15
+                naval_retreat_speed = 0.15
+                naval_detection = 0.05
+                convoy_retreat_speed = 0.05
+                navy_max_range_factor = 0.1
+                naval_critical_score_chance_factor = 0.1
+                naval_torpedo_hit_chance_factor = 0.1
+                naval_torpedo_cooldown_factor = 0.1
+                repair_speed_factor = 0.25
+                naval_torpedo_screen_penetration_factor = 0.2
+            }
+        }
+        CAM_fleet_of_asian_dominating_idea12 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
+                naval_coordination = 0.05
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+                naval_speed_factor = 0.15
+                naval_retreat_speed = 0.15
+                naval_detection = 0.05
+                convoy_retreat_speed = 0.05
+                navy_max_range_factor = 0.1
+                naval_coordination = 0.05
+                naval_critical_score_chance_factor = 0.1
+            }
+        }
+        CAM_fleet_of_asian_dominating_idea11 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
+                naval_coordination = 0.05
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+                naval_speed_factor = 0.15
+                naval_retreat_speed = 0.15
+                naval_detection = 0.05
+                convoy_retreat_speed = 0.05
+                
+            }
+        }
+        CAM_fleet_of_asian_dominating_idea = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                experience_gain_navy_unit_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
+                naval_coordination = 0.05
+                naval_damage_factor = 0.05
+                naval_defense_factor = 0.05
+                convoy_escort_efficiency = 0.05
+            }
+        }
+        CAM_best_soldiers_in_the_world_idea = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                army_attack_factor = 0.1
+                army_defence_factor = 0.1
+                army_org_factor = 0.1
+                army_speed_factor = 0.1
+                weekly_manpower = 1500
+            }
+        }
+        CAM_weapon_of_our_glory_idea = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = 0.3
+            }
+        }
+         CAM_war_machin_of_victory_idea = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                production_factory_efficiency_gain_factor = 0.1
+                production_factory_max_efficiency_factor = 0.1
+                production_factory_start_efficiency_factor = 0.1
+                production_speed_arms_factory_factor = 0.3
+                production_speed_industrial_complex_factor = 0.3
+                consumer_goods_factor = 0.1
+                industrial_capacity_factory = 0.1
+            }
+        }
+        CAM_weapon_of_doom_idea = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                nuclear_production_factor = 0.15
+                production_speed_nuclear_reactor_factor = 0.25
+                research_speed_factor = 0.2
+            }
+        }
+        CAM_last_war_idea = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                army_attack_against_major_factor = 0.15
+                offensive_war_stability_factor = 0.4
+            }
+        }
+         CAM_return_to_germany_idea = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            targeted_modifier = {
+                tag = GER
+                attack_bonus_against = 0.1
+            }
+            modifier = {
+                naval_invasion_prep_speed = 0.5
+                amphibious_invasion = 0.25
+                army_speed_factor = 0.1
+                naval_invasion_capacity = 24
+
+            }
+        }
+        CAM_esoterichal_order_idea6 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            targeted_modifier = {
+                tag = GER
+                attack_bonus_against = 0.2
+                defense_bonus_against = 0.2
+            }
+            modifier = {
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+                fascism_drift = 0.15
+                army_advisor_cost_factor = -0.25
+                consumer_goods_factor = -0.05
+                political_power_factor = 0.05
+                army_org_factor = 0.05
+                planning_speed = 0.15
+                dig_in_speed_factor = 0.25
+                production_speed_buildings_factor = 0.05
+                production_factory_max_efficiency_factor = 0.1
+                production_factory_efficiency_gain_factor = 0.1
+                line_change_production_efficiency_factor = 0.1
+                production_speed_infrastructure_factor = 0.1
+                production_speed_supply_node_factor = 0.1
+                production_speed_rail_way_factor = 0.1
+                resistance_growth = 0.25
+                army_morale_factor = 0.05
+                resistance_target = -0.1
+                operative_slot = 1
+                intelligence_agency_defense = 0.5
+                experience_loss_factor = 0.1
+                army_speed_factor = 0.05
+                production_speed_dockyard_factor = 0.2
+                industrial_capacity_dockyard = 0.2
+                justify_war_goal_time = -0.5
+
+                
+                
+            }
+        }
+        CAM_esoterichal_order_idea5 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+                fascism_drift = 0.15
+                army_advisor_cost_factor = -0.25
+                consumer_goods_factor = -0.05
+                political_power_factor = 0.05
+                army_org_factor = 0.05
+                planning_speed = 0.15
+                dig_in_speed_factor = 0.25
+                production_speed_buildings_factor = 0.05
+                production_factory_max_efficiency_factor = 0.1
+                production_factory_efficiency_gain_factor = 0.1
+                line_change_production_efficiency_factor = 0.1
+                production_speed_infrastructure_factor = 0.1
+                production_speed_supply_node_factor = 0.1
+                production_speed_rail_way_factor = 0.1
+                resistance_growth = 0.25
+                army_morale_factor = 0.05
+                resistance_target = -0.1
+                operative_slot = 1
+                intelligence_agency_defense = 0.5
+                experience_loss_factor = 0.1
+            }
+        }
+        CAM_esoterichal_order_idea4 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+                fascism_drift = 0.15
+                army_advisor_cost_factor = -0.25
+                consumer_goods_factor = -0.05
+                political_power_factor = 0.05
+                army_org_factor = 0.05
+                planning_speed = 0.15
+                dig_in_speed_factor = 0.25
+                production_speed_buildings_factor = 0.05
+                production_factory_max_efficiency_factor = 0.1
+                production_factory_efficiency_gain_factor = 0.1
+                line_change_production_efficiency_factor = 0.1
+                production_speed_infrastructure_factor = 0.1
+                production_speed_supply_node_factor = 0.1
+                production_speed_rail_way_factor = 0.1
+            }
+        }
+        CAM_esoterichal_order_idea3 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+                fascism_drift = 0.15
+                army_advisor_cost_factor = -0.25
+                consumer_goods_factor = -0.05
+                political_power_factor = 0.05
+                army_org_factor = 0.05
+                planning_speed = 0.15
+                dig_in_speed_factor = 0.25
+
+            }
+        }
+        CAM_esoterichal_order_idea2 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+                fascism_drift = 0.15
+                army_advisor_cost_factor = -0.25
+                consumer_goods_factor = -0.05
+                political_power_factor = 0.05
+
+            }
+        }
+        CAM_esoterichal_order_idea1 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+                fascism_drift = 0.1
+                army_advisor_cost_factor = -0.25
+
+            }
+        }
+        CAM_SS_in_power_idea9 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.15
+                stability_factor = -0.3
+                war_support_factor = 0.1
+                monthly_population = -0.25
+                opinion_gain_monthly = -0.5
+                compliance_growth = -0.5
+                consumer_goods_factor = -0.15
+                production_speed_buildings_factor = 0.15
+                agency_upgrade_time = -0.2
+                intelligence_agency_defense = 0.5
+                civilian_intel_to_others = -50
+                airforce_intel_to_others = -50
+                army_intel_to_others = -50
+                naxy_intel_to_others = -50
+                operative_slot = 1
+                conscription = -0.02
+                required_garrison_factor = 0.1
+                production_speed_industrial_complex_factor = 0.1
+                production_speed_arms_factory_factor = 0.1
+                resistance_growth = 0.15
+                army_attack_factor = 0.15
+                army_defence_factor = 0.1
+                drift_defence_factor = 1
+                mobilization_speed = 0.25
+                production_speed_infrastructure_factor = 0.1
+
+            }
+        }
+        CAM_SS_in_power_idea8 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.15
+                stability_factor = -0.2
+                monthly_population = -0.15
+                opinion_gain_monthly = -0.5
+                compliance_growth = -0.5
+                consumer_goods_factor = -0.15
+                production_speed_buildings_factor = 0.15
+                agency_upgrade_time = -0.2
+                intelligence_agency_defense = 0.5
+                civilian_intel_to_others = -50
+                airforce_intel_to_others = -50
+                army_intel_to_others = -50
+                naxy_intel_to_others = -50
+                operative_slot = 1
+                conscription = -0.02
+                required_garrison_factor = 0.1
+                production_speed_industrial_complex_factor = 0.1
+                production_speed_arms_factory_factor = 0.1
+                resistance_growth = 0.15
+                army_attack_factor = 0.15
+                army_defence_factor = 0.1
+
+            }
+        }
+        CAM_SS_in_power_idea7 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.15
+                stability_factor = -0.25
+                war_support_factor = -0.1
+                monthly_population = -0.15
+                opinion_gain_monthly = -0.5
+                compliance_growth = -0.5
+                consumer_goods_factor = -0.2
+                production_speed_buildings_factor = 0.15
+                agency_upgrade_time = -0.2
+                intelligence_agency_defense = 0.5
+                civilian_intel_to_others = -50
+                airforce_intel_to_others = -50
+                army_intel_to_others = -50
+                naxy_intel_to_others = -50
+                operative_slot = 1
+                conscription = -0.005
+                required_garrison_factor = 0.15
+                production_speed_industrial_complex_factor = 0.1
+                production_speed_arms_factory_factor = 0.1
+                resistance_growth = 0.15
+
+            }
+        }
+        CAM_SS_in_power_idea5 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.15
+                stability_factor = -0.3
+                war_support_factor = -0.1
+                monthly_population = -0.15
+                opinion_gain_monthly = -0.5
+                compliance_growth = -0.5
+                consumer_goods_factor = -0.2
+                production_speed_buildings_factor = 0.15
+
+            }
+        }
+        CAM_SS_in_power_idea6 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.15
+                stability_factor = -0.3
+                war_support_factor = -0.1
+                monthly_population = -0.15
+                opinion_gain_monthly = -0.5
+                compliance_growth = -0.5
+                consumer_goods_factor = -0.2
+                production_speed_buildings_factor = 0.15
+                agency_upgrade_time = -0.2
+                intelligence_agency_defense = 0.5
+                civilian_intel_to_others = -50
+                airforce_intel_to_others = -50
+                army_intel_to_others = -50
+                naxy_intel_to_others = -50
+                operative_slot = 1
+
+            }
+        }
+         CAM_SS_in_power_idea4 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.1
+                stability_factor = -0.3
+                war_support_factor = -0.15
+                monthly_population = -0.05
+                opinion_gain_monthly = -0.5
+                resistance_target = 0.05
+                compliance_growth = -0.5
+                consumer_goods_factor = -0.15
+                production_speed_buildings_factor = 0.15
+
+            }
+        }
+        CAM_SS_in_power_idea3 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.1
+                stability_factor = -0.25
+                war_support_factor = -0.15
+                monthly_population = -0.05
+                opinion_gain_monthly = -0.5
+                resistance_target = 0.05
+                compliance_growth = -0.5
+                consumer_goods_factor = -0.05
+                production_speed_buildings_factor = 0.05
+
+            }
+        }
+        CAM_SS_in_power_idea2 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.05
+                stability_factor = -0.25
+                war_support_factor = -0.15
+                monthly_population = -0.05
+                opinion_gain_monthly = -0.5
+                resistance_target = 0.05
+                compliance_growth = -0.5
+
+            }
+        }
+        CAM_SS_in_power_idea1 = {
+            allowed = {
+                original_tag = CAM
+                always = no
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.05
+                stability_factor = -0.3
+                war_support_factor = -0.15
+                monthly_population = -0.05
+
+            }
+        }
         CAM_absolute_power_idea5 = {
             allowed = {
                 original_tag = CAM
