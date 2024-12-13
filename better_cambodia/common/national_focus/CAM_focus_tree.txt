@@ -1364,7 +1364,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_ss_ordenstaadt_campuchia
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_ss_ordenstaadt_campuchia_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_gimmler
@@ -1403,7 +1403,7 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_ss_ordenstaadt_campuchia
             }
-             available = {
+            available = {
                 has_idea = CAM_SS_in_power_idea5
             }
             x = 78
@@ -1414,7 +1414,7 @@ focus_tree = {
                     add_idea = CAM_SS_in_power_idea6
                 }
             }
-            
+
 
         }
         focus = {
@@ -2424,7 +2424,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_indochina_aglomeration
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_indochina_aglomeration_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_complete_construction_surface
@@ -2435,7 +2435,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_underground_buildings
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_underground_buildings_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_brilliant_isolation
@@ -3362,7 +3362,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_deep_bowels
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_deep_bowels_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_underground_buildings
@@ -3437,7 +3437,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_complete_construction_surface
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_complete_construction_surface_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_fully_populated_indochina
@@ -3462,7 +3462,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_german_ost_asia
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_german_ostasia_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_gering
@@ -3871,7 +3871,7 @@ focus_tree = {
             x = 73
             y = 26
             completion_reward = {
-                 add_ideas =  CAM_weapon_of_doom_idea
+                add_ideas =  CAM_weapon_of_doom_idea
             }
 
         }
@@ -3938,7 +3938,7 @@ focus_tree = {
             }
             x = 71
             y = 25
-             completion_reward = {
+            completion_reward = {
                 add_timed_idea = {
                     idea = CAM_best_soldiers_in_the_world_idea
                     days = 730
@@ -3995,7 +3995,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_black_sun_rises_over_asia
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_black_sun_rises_over_asia_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_fear
@@ -4016,7 +4016,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_i_am_reich
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_i_am_reich_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_black_sun_rises_over_asia
@@ -4032,7 +4032,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_i_am_fuhrer
-            icon = GFX_goal_unknown
+            icon = GFX_focus_GER_ascension_of_himmler
             cost = 5,00
             prerequisite = {
                 focus = CAM_black_sun_rises_over_asia
@@ -4052,7 +4052,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_i_am_ss
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_i_am_ss_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_black_sun_rises_over_asia
@@ -4068,7 +4068,7 @@ focus_tree = {
                     add_idea = CAM_esoterichal_order_idea5
                 }
             }
-            
+
 
         }
         focus = {
@@ -4112,8 +4112,8 @@ focus_tree = {
             x = 75
             y = 21
             completion_reward = {
-               add_stability = 0.05
-               add_political_power = 200
+                add_stability = 0.05
+                add_political_power = 200
             }
 
         }
@@ -6420,21 +6420,6 @@ focus_tree = {
                 add_ideas = CAM_airforce_inovation_idea
             }
 
-        }
-        focus = {
-            id = CAM_formation_of_provisional_government
-            icon = GFX_focus_generic_improve_the_administration
-            cost = 5,00
-            prerequisite = {
-                focus = CAM_independent_cambodia
-            }
-            x = 40
-            y = 1
-            completion_reward = {
-                add_political_power = 100
-                add_stability = 0.1
-                add_war_support = 0.05
-            }
         }
         focus = {
             id = CAM_expropriate_fra_fleet

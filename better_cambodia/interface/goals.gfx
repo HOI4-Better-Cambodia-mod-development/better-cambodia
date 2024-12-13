@@ -5,6 +5,26 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/Goering_way/CAM_human_trafficking_goal.png"			
 	}
 	SpriteType = {
+	name = "GFX_CAM_german_ostasia_goal"
+	texturefile = "gfx/interface/goals/Goering_way/CAM_german_ostasia_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_i_am_reich_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_i_am_reich_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_ss_ordenstaadt_campuchia_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_ss_ordenstaadt_campuchia_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_i_am_ss_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_i_am_ss_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_black_sun_rises_over_asia_goal"
+	texturefile = "gfx/interface/goals/Gimmler_way/CAM_black_sun_rises_over_asia_goal.png"			
+	}
+	SpriteType = {
 	name = "GFX_CAM_adoration_goal"
 	texturefile = "gfx/interface/goals/Goering_way/CAM_adoration_goal.png"			
 	}
@@ -149,6 +169,22 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_CAM_we_against_religion_goal"
 	texturefile = "gfx/interface/goals/technokrats_way/CAM_we_against_religion_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_complete_construction_surface_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_complete_construction_surface_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_deep_bowels_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_deep_bowels_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_underground_buildings_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_underground_buildings_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_indochina_aglomeration_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_indochina_aglomeration_goal.png"			
 	}
 	#army_way
 	SpriteType = {
