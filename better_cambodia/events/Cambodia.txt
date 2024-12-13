@@ -1,5 +1,32 @@
 add_namespace = cambodia
+#Liberals events
 
+country_event = {
+	id = cambodia.L1
+	title = cambodia.L1.t
+	desc = cambodia.L1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = cambodia.L1.a
+		FRA = {
+				country_event = {
+					id = france.L2
+					days = 1
+				}
+			}
+		}
+	option = {
+		name = cambodia.L1.b
+		ENG = {
+				country_event = {
+					id = france.L2
+					days = 1
+				}
+			}
+		}
+	}
 #German autobans events
 country_event = {
 	id = cambodia.1

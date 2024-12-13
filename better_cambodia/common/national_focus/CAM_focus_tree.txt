@@ -7012,6 +7012,9 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_increasing_the_area_of_control
             }
+            available = {
+                has_idea = CAM_absolute_freedom_idea5
+            }
             x = 41
             y = 19
              completion_reward = {
