@@ -5,12 +5,20 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/Goering_way/CAM_human_trafficking_goal.png"			
 	}
 	SpriteType = {
+	name = "GFX_CAM_geidrich_goal"
+	texturefile = "gfx/interface/goals/Goering_way/CAM_geidrich_goal.png"			
+	}
+	SpriteType = {
 	name = "GFX_CAM_german_ostasia_goal"
 	texturefile = "gfx/interface/goals/Goering_way/CAM_german_ostasia_goal.png"			
 	}
 	SpriteType = {
 	name = "GFX_CAM_i_am_reich_goal"
 	texturefile = "gfx/interface/goals/Gimmler_way/CAM_i_am_reich_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_millitary_district_asia_goal"
+	texturefile = "gfx/interface/goals/Goering_way/CAM_millitary_district_asia_goal.png"
 	}
 	SpriteType = {
 	name = "GFX_CAM_ss_ordenstaadt_campuchia_goal"
@@ -177,6 +185,14 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_CAM_deep_bowels_goal"
 	texturefile = "gfx/interface/goals/technokrats_way/CAM_deep_bowels_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_science_capital_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_science_capital_goal.png"
+	}
+	SpriteType = {
+	name = "GFX_CAM_ecumenopolis_goal"
+	texturefile = "gfx/interface/goals/technokrats_way/CAM_ecumenopolis_goal.png"
 	}
 	SpriteType = {
 	name = "GFX_CAM_underground_buildings_goal"

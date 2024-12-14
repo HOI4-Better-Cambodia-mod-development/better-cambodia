@@ -280,39 +280,50 @@ set_popularities = {
     communism = 15
 }
 add_ideas = {CAM_war_alone_idea}
+
 create_country_leader = {
-    name = "Pol Pot"
-    desc = ""
-    picture = GFX_portrait_Pol_Pot
-    expire = "1953.3.1"
+    name = "Военно-повстанчеcкое командование"
+    desc = "Они сражаются за Родину"
+    picture = "Millitary_soviet_portret.dds"
+    expire = "1956.1.1"
+    ideology = despotism
+    traits = {
+        fighting_for_motherland
+        disorganised_soviet
+    }
+}
+create_country_leader = {
+    name = "Шон Нгок Минь"
+    desc = "Мечтает, чтобы ему предложили взятку, дабы отказаться от неё"
+    picture = "GFX_portrait_Norodom_Sihanouk.dds"
+    expire = "1956.1.1"
     ideology = anarchist_communism #insanity
     traits = {
-        captain_of_industry
+        leader_from_people
     }
 }
 
-#non standard english alphabet character
 create_country_leader = {
-    name = "Sisowath Morinet"
-    desc = ""
-    picture = GFX_portrait_Sisowath_Youtevong
-    expire = "1953.3.1"
+    name = "Сисоват Монирет"
+    desc = "Ненавидит вкус воды"
+    picture = "GFX_portrait_CAM_sisovat_morinet.dds"
+    expire = "1956.1.1"
     ideology = liberalism
     traits = {
-
+        people_liberal
     }
 }
 
 create_country_leader = {
-    name = "Bebey Degradach"
-    desc = ""
-    picture = GFX_portrait_Norodom_Sihanouk
-    expire = "1953.3.1"
-    ideology = fascism
+    name = "Сон Нгок Тхань"
+    desc = "Панически боится атеистов"
+    picture = "GFX_portrait_CAM_son_ngok_than.dds"
+    expire = "1956.1.1"
+    ideology = nazism
     traits = {
-
+        a_lot_of_faces
     }
 }
-
-add_offsite_building = { type = arms_factory level = 4 }
-add_offsite_building = { type = industrial_complex level = 4 }
+add_offsite_building = { type = arms_factory level = 40 }
+add_offsite_building = { type = dockyard level = 50 }
+add_offsite_building = { type = industrial_complex level = 150 }

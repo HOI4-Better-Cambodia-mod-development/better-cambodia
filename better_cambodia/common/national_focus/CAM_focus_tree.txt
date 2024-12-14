@@ -920,22 +920,6 @@ focus_tree = {
 
     }
     focus = {
-        id = CAM_formation_of_provisional_government
-        icon = GFX_focus_generic_improve_the_administration
-        cost = 5,00
-        prerequisite = {
-            focus = CAM_independent_cambodia
-        }
-        x = 40
-        y = 1
-        completion_reward = {
-            add_political_power = 100
-            add_stability = 0.1
-            add_war_support = 0.05
-        }
-
-    }
-    focus = {
         id = CAM_create_administration
         icon = GFX_focus_hol_the_foundations_of_defense
         cost = 5,00
@@ -1403,7 +1387,7 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_ss_ordenstaadt_campuchia
             }
-             available = {
+            available = {
                 has_idea = CAM_SS_in_power_idea5
             }
             x = 78
@@ -1414,7 +1398,7 @@ focus_tree = {
                     add_idea = CAM_SS_in_power_idea6
                 }
             }
-            
+
 
         }
         focus = {
@@ -1453,7 +1437,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_geidrich
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_geidrich_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_german_administration
@@ -1481,7 +1465,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_military_district_asia
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_millitary_district_asia_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_geidrich
@@ -2449,7 +2433,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_science_capital
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_science_capital_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_brilliant_isolation
@@ -3373,7 +3357,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_ecumenopolis
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_ecumenopolis_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_deep_bowels
@@ -3871,7 +3855,7 @@ focus_tree = {
             x = 73
             y = 26
             completion_reward = {
-                 add_ideas =  CAM_weapon_of_doom_idea
+                add_ideas =  CAM_weapon_of_doom_idea
             }
 
         }
@@ -3938,7 +3922,7 @@ focus_tree = {
             }
             x = 71
             y = 25
-             completion_reward = {
+            completion_reward = {
                 add_timed_idea = {
                     idea = CAM_best_soldiers_in_the_world_idea
                     days = 730
@@ -4068,7 +4052,7 @@ focus_tree = {
                     add_idea = CAM_esoterichal_order_idea5
                 }
             }
-            
+
 
         }
         focus = {
@@ -4112,8 +4096,8 @@ focus_tree = {
             x = 75
             y = 21
             completion_reward = {
-               add_stability = 0.05
-               add_political_power = 200
+                add_stability = 0.05
+                add_political_power = 200
             }
 
         }
@@ -6587,7 +6571,7 @@ focus_tree = {
             }
             x = 38
             y = 2
-            
+
 
         }
         focus = {
@@ -6812,7 +6796,7 @@ focus_tree = {
             }
             x = 42
             y = 16
-             completion_reward = {
+            completion_reward = {
                 swap_ideas = {
                     remove_idea = CAM_absolute_freedom_idea2
                     add_idea = CAM_absolute_freedom_idea3
@@ -6829,7 +6813,7 @@ focus_tree = {
             }
             x = 42
             y = 17
-             completion_reward = {
+            completion_reward = {
                 swap_ideas = {
                     remove_idea = CAM_absolute_freedom_idea3
                     add_idea = CAM_absolute_freedom_idea4
@@ -7017,7 +7001,7 @@ focus_tree = {
             }
             x = 41
             y = 19
-             completion_reward = {
+            completion_reward = {
                 swap_ideas = {
                     remove_idea = CAM_absolute_freedom_idea5
                     add_idea = CAM_absolute_freedom_idea6
@@ -7112,7 +7096,7 @@ focus_tree = {
             }
             x = 43
             y = 19
-             completion_reward = {
+            completion_reward = {
                 swap_ideas = {
                     remove_idea = CAM_absolute_freedom_idea4
                     add_idea = CAM_absolute_freedom_idea5
