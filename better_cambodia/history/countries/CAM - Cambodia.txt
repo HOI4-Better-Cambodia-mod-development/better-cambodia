@@ -317,13 +317,13 @@ create_country_leader = {
 create_country_leader = {
     name = "Сон Нгок Тхань"
     desc = "Панически боится атеистов"
-    picture = "GFX_portrait_CAM_son_ngok_than.dds"
+    picture = "GFX_portrait_CAM_son_ngok_than1.dds"
     expire = "1956.1.1"
     ideology = nazism
     traits = {
         a_lot_of_faces
     }
 }
-add_offsite_building = { type = arms_factory level = 40 }
-add_offsite_building = { type = dockyard level = 50 }
-add_offsite_building = { type = industrial_complex level = 150 }
+add_offsite_building = { type = arms_factory level = 4 }
+add_offsite_building = { type = dockyard level = 5 }
+add_offsite_building = { type = industrial_complex level = 5 }

@@ -1020,6 +1020,16 @@ focus_tree = {
                 ideology = communism
                 popularity = -0.2
             }
+            create_country_leader = {
+                name = "Лон Нол"
+                desc = "Хочет уничтожить всех, включая себя"
+                picture = "Lon_Nol_portrait.dds"
+                expire = "1965.1.1"
+                ideology = nazism
+                traits = {
+                    millitary_minister
+                }
+            }
         }
     }
     focus = {
@@ -1116,6 +1126,16 @@ focus_tree = {
                 set_politics = {
                     ruling_party = fascism
                     elections_allowed = no
+                }
+                create_country_leader = {
+                    name = "Лон Нол"
+                    desc = "Хочет уничтожить всех, включая себя"
+                    picture = "Lon_Nol_portrait.dds"
+                    expire = "1965.1.1"
+                    ideology = nazism
+                    traits = {
+                        millitary_minister
+                    }
                 }
             }
 
@@ -1321,6 +1341,16 @@ focus_tree = {
                     name = CAM_german_administration_goering_party
                 }
                 add_dynamic_modifier = {modifier = CAM_goering_mode_dynamic_modifier}
+                create_country_leader = {
+                    name = "Герман Геринг"
+                    desc = "Пытается вживить себе второй желудок для десерта"
+                    picture = "CAM_goering_portret.dds"
+                    expire = "1965.1.1"
+                    ideology = nazism
+                    traits = {
+                        brainless_cleptocrat
+                    }
+                }
             }
         }
         focus = {
@@ -1343,6 +1373,16 @@ focus_tree = {
                     name = CAM_german_administration_gimmler_party
                 }
                 add_ideas = CAM_SS_in_power_idea1
+                create_country_leader = {
+                    name = "Генрих Гиммлер"
+                    desc = "Любит солнце, но только когда оно не светит"
+                    picture = "CAM_Gimmler_portrait.dds"
+                    expire = "1965.1.1"
+                    ideology = nazism
+                    traits = {
+                        nazi_executor
+                    }
+                }
             }
 
         }
@@ -1460,6 +1500,16 @@ focus_tree = {
                 }
                 add_stability = -0.2
                 add_political_power = 100
+                create_country_leader = {
+                    name = "Рейнхард Гейдрих"
+                    desc = "Любит медок, но не любит холодок"
+                    picture = "CAM_Geidrich_portrait.dds"
+                    expire = "1965.1.1"
+                    ideology = nazism
+                    traits = {
+                        german_patriot
+                    }
+                }
             }
 
         }
@@ -1845,6 +1895,16 @@ focus_tree = {
                     add_idea = CAM_party_split21
                 }
                 add_ideas = CAM_radical_revolution_idea
+                create_country_leader = {
+                    name = "Пол Пот"
+                    desc = "Считает, что выигрывать грешно, но только когда проигрывает"
+                    picture = "Pol_pot_portret.dds"
+                    expire = "1965.1.1"
+                    ideology = anarchist_communism
+                    traits = {
+                        radical_pol_potist
+                    }
+                }
             }
 
         }
@@ -1924,6 +1984,16 @@ focus_tree = {
                 swap_ideas = {
                     remove_idea = CAM_liberal_conflicts_idea
                     add_idea = CAM_liberal_conflicts2a_idea
+                }
+                create_country_leader = {
+                    name = "Чег Хенг"
+                    desc = "Ради денег способен продать Родину, причём не обязательно свою"
+                    picture = "274px-Vintage-photo-of-cheng-heng.dds"
+                    expire = "1965.1.1"
+                    ideology = liberalism
+                    traits = {
+                        smooth_talking_charmer
+                    }
                 }
             }
         }
@@ -3733,6 +3803,17 @@ focus_tree = {
                 add_popularity = {
                     ideology = fascism
                     popularity = 0.2
+                }
+                create_country_leader = {
+                    name = "Герман Геринг"
+                    desc = "Пытается вживить себе третий желудок для пива"
+                    picture = "CAM_goering_portret.dds"
+                    expire = "1965.1.1"
+                    ideology = nazism
+                    traits = {
+                        brainless_cleptocrat
+                        lightness
+                    }
                 }
             }
         }
