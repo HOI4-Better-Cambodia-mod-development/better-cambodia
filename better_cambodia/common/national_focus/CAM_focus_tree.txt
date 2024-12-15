@@ -1025,7 +1025,7 @@ focus_tree = {
                 desc = "Хочет уничтожить всех, включая себя"
                 picture = "Lon_Nol_portrait.dds"
                 expire = "1965.1.1"
-                ideology = nazism
+                ideology = despotism
                 traits = {
                     millitary_minister
                 }
@@ -1945,6 +1945,10 @@ focus_tree = {
                 remove_ideas = CAM_rural_radicalism
                 add_ideas = CAM_liberal_conflicts_idea
                 add_ideas = CAM_left_resistance_idea
+                set_politics = {
+                    ruling_party = democratic
+                    elections_allowed = yes
+                }
             }
         }
         focus = {
@@ -6093,7 +6097,7 @@ focus_tree = {
         focus = {
             id = CAM_war_for_our_future
             icon = GFX_focus_ETH_freedom_at_gunpoint
-            cost = 2,00
+            cost = 1,00
             x = 20
             y = 0
             completion_reward = {
@@ -6106,7 +6110,7 @@ focus_tree = {
         focus = {
             id = CAM_speed_is_the_key
             icon = GFX_focus_SWE_lynx_armored_car
-            cost = 2,00
+            cost = 1,00
             prerequisite = {
                 focus = CAM_war_for_our_future
             }
@@ -6122,7 +6126,7 @@ focus_tree = {
         focus = {
             id = CAM_national_uprising
             icon = GFX_focus_generic_workers
-            cost = 2,00
+            cost = 1,00
             prerequisite = {
                 focus = CAM_war_for_our_future
             }
@@ -6160,7 +6164,7 @@ focus_tree = {
         focus = {
             id = CAM_give_army_rule
             icon = GFX_focus_GER_expand_ss_security_duties
-            cost = 2,00
+            cost = 1,00
             prerequisite = {
                 focus = CAM_war_for_our_future
             }
@@ -6176,7 +6180,7 @@ focus_tree = {
         focus = {
             id = CAM_help_from_the_otherside
             icon = GFX_focus_BRA_reach_out_to_military_dem
-            cost = 2,00
+            cost = 1,00
             prerequisite = {
                 focus = CAM_war_for_our_future
             }
@@ -6263,6 +6267,9 @@ focus_tree = {
             cost = 5,00
             x = 31
             y = 0
+            available = {
+                has_completed_focus = CAM_endless_glory
+            }
             completion_reward = {
                 add_ideas = CAM_khmer_army_idea
                 add_to_variable = {land_doctrine_cost_factor = 0.25}
@@ -6864,6 +6871,12 @@ focus_tree = {
                 swap_ideas = {
                     remove_idea = CAM_absolute_freedom_idea1
                     add_idea = CAM_absolute_freedom_idea2
+                }
+                CAM = {
+                    country_event = {
+                        id = cambodia.L1
+                        days = 1
+                    }
                 }
             }
 

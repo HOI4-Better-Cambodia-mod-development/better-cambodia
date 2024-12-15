@@ -15,7 +15,7 @@ ideas = {
                 conscription = 0.005
             }
         }
-         CAM_market_mechanisms_idea3 = {
+        CAM_market_mechanisms_idea3 = {
             allowed = {
                 original_tag = CAM
                 always = no
@@ -182,7 +182,7 @@ ideas = {
                 political_power_factor = -0.05
             }
         }
-         CAM_national_democracy_idea6= {
+        CAM_national_democracy_idea6= {
             allowed = {
                 original_tag = CAM
                 always = no
@@ -207,7 +207,7 @@ ideas = {
                 democratic_drift = 0.1
             }
         }
-         CAM_national_democracy_idea5= {
+        CAM_national_democracy_idea5= {
             allowed = {
                 original_tag = CAM
                 always = no
@@ -376,7 +376,7 @@ ideas = {
                 air_range_factor = 0.1
             }
         }
-         CAM_airforce_inovation_idea11 = {
+        CAM_airforce_inovation_idea11 = {
             allowed = {
                 original_tag = CAM
                 always = no
@@ -443,7 +443,7 @@ ideas = {
 
             }
         }
-         CAM_fleet_of_asian_dominating_idea23 = {
+        CAM_fleet_of_asian_dominating_idea23 = {
             allowed = {
                 original_tag = CAM
                 always = no
@@ -609,7 +609,7 @@ ideas = {
                 naval_retreat_speed = 0.15
                 naval_detection = 0.05
                 convoy_retreat_speed = 0.05
-                
+
             }
         }
         CAM_fleet_of_asian_dominating_idea = {
@@ -651,7 +651,7 @@ ideas = {
                 research_speed_factor = 0.3
             }
         }
-         CAM_war_machin_of_victory_idea = {
+        CAM_war_machin_of_victory_idea = {
             allowed = {
                 original_tag = CAM
                 always = no
@@ -690,7 +690,7 @@ ideas = {
                 offensive_war_stability_factor = 0.4
             }
         }
-         CAM_return_to_germany_idea = {
+        CAM_return_to_germany_idea = {
             allowed = {
                 original_tag = CAM
                 always = no
@@ -747,8 +747,8 @@ ideas = {
                 industrial_capacity_dockyard = 0.2
                 justify_war_goal_time = -0.5
 
-                
-                
+
+
             }
         }
         CAM_esoterichal_order_idea5 = {
@@ -995,7 +995,7 @@ ideas = {
 
             }
         }
-         CAM_SS_in_power_idea4 = {
+        CAM_SS_in_power_idea4 = {
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1840,6 +1840,7 @@ ideas = {
             }
         }
         CAM_war_alone_idea = {
+            picture = CAM_war_alone_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no

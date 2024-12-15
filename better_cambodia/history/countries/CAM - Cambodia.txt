@@ -205,7 +205,12 @@ if = {
         CAS1 = 1
     }
 }
-
+CAM = {
+    country_event = {
+        id = cambodia.22
+        days = 35
+    }
+}
 if = {
     limit = {
         NOT = {
@@ -280,7 +285,7 @@ set_popularities = {
     communism = 15
 }
 add_ideas = {CAM_war_alone_idea}
-
+ai_areas = 671
 create_country_leader = {
     name = "Военно-повстанчеcкое командование"
     desc = "Они сражаются за Родину"

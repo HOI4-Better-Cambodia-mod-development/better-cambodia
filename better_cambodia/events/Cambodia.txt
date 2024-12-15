@@ -2,297 +2,318 @@ add_namespace = cambodia
 #Liberals events
 
 country_event = {
-	id = cambodia.L1
-	title = cambodia.L1.t
-	desc = cambodia.L1.d
+    id = cambodia.L1
+    title = cambodia.L1.t
+    desc = cambodia.L1.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.L1.a
-		FRA = {
-				country_event = {
-					id = france.L2
-					days = 1
-				}
-			}
-		}
-	option = {
-		name = cambodia.L1.b
-		ENG = {
-				country_event = {
-					id = france.L2
-					days = 1
-				}
-			}
-		}
-	}
+    option = {
+        name = cambodia.L1.a
+        FRA = {
+            country_event = {
+                id = france.L2
+                days = 1
+            }
+        }
+    }
+    option = {
+        name = cambodia.L1.b
+        ENG = {
+            country_event = {
+                id = france.L2
+                days = 1
+            }
+        }
+    }
+}
 #German autobans events
 country_event = {
-	id = cambodia.1
-	title = cambodia.1.t
-	desc = cambodia.1.d
+    id = cambodia.1
+    title = cambodia.1.t
+    desc = cambodia.1.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.1.a
-	}
+    option = {
+        name = cambodia.1.a
+    }
 }
 #For Germany
 country_event = {
-	id = cambodia.2
-	title = cambodia.2.t
-	desc = cambodia.2.d
+    id = cambodia.2
+    title = cambodia.2.t
+    desc = cambodia.2.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.2.a
-		add_stability = -0.05
-	}
+    option = {
+        name = cambodia.2.a
+        add_stability = -0.05
+    }
 }
 
 #Elections
 country_event = {
-	id = cambodia.4
-	title = cambodia.4.t
-	desc = cambodia.4.d
+    id = cambodia.4
+    title = cambodia.4.t
+    desc = cambodia.4.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.4.a
-		complete_national_focus = CAM_victory_of_the_left
-	}
-	option = {
-		name = cambodia.4.b
-		complete_national_focus = CAM_liberty_victory
-	}
+    option = {
+        name = cambodia.4.a
+        complete_national_focus = CAM_victory_of_the_left
+        ai_chance = {
+            factor = 80
+        }
+    }
+    option = {
+        name = cambodia.4.b
+        complete_national_focus = CAM_liberty_victory
+    }
 }
 
 #Peace events
 country_event = {
-	id = cambodia.3
-	title = cambodia.3.t
-	desc = cambodia.3.d
+    id = cambodia.3
+    title = cambodia.3.t
+    desc = cambodia.3.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.3.a
-		white_peace = CAM
-	}
-	option = {
-		name = cambodia.3.b
-	}
+    option = {
+        name = cambodia.3.a
+        white_peace = CAM
+    }
+    option = {
+        name = cambodia.3.b
+    }
 }
 
 country_event = {
-	id = cambodia.5
-	title = cambodia.5.t
-	desc = cambodia.5.d
+    id = cambodia.5
+    title = cambodia.5.t
+    desc = cambodia.5.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.5.a
-		white_peace = CAM
-		CAM = {
-			transfer_state = 286
-		}
-		286 = { add_core_of = CAM }
-	}
-	option = {
-		name = cambodia.5.b
-	}
+    option = {
+        name = cambodia.5.a
+        white_peace = CAM
+        CAM = {
+            transfer_state = 286
+        }
+        286 = { add_core_of = CAM }
+    }
+    option = {
+        name = cambodia.5.b
+    }
 }
 
 country_event = {
-	id = cambodia.6
-	title = cambodia.6.t
-	desc = cambodia.6.d
+    id = cambodia.6
+    title = cambodia.6.t
+    desc = cambodia.6.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.6.a
-		white_peace = CAM
-		CAM = {
-			transfer_state = 286
-			transfer_state = 670
-		}
-		670 = { add_core_of = CAM }
-		286 = { add_core_of = CAM }
-	}
-	option = {
-		name = cambodia.6.b
-	}
+    option = {
+        name = cambodia.6.a
+        white_peace = CAM
+        CAM = {
+            transfer_state = 286
+            transfer_state = 670
+        }
+        670 = { add_core_of = CAM }
+        286 = { add_core_of = CAM }
+    }
+    option = {
+        name = cambodia.6.b
+    }
 }
 country_event = {
-	id = cambodia.7
-	title = cambodia.7.t
-	desc = cambodia.7.d
+    id = cambodia.7
+    title = cambodia.7.t
+    desc = cambodia.7.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.7.a
-		white_peace = CAM
-		CAM = {
-			transfer_state = 286
-			transfer_state = 670
-			transfer_state = 671
-		}
-		671 = { add_core_of = CAM }
-		670 = { add_core_of = CAM }
-		286 = { add_core_of = CAM }
-	}
+    option = {
+        name = cambodia.7.a
+        white_peace = CAM
+        CAM = {
+            transfer_state = 286
+            transfer_state = 670
+            transfer_state = 671
+        }
+        671 = { add_core_of = CAM }
+        670 = { add_core_of = CAM }
+        286 = { add_core_of = CAM }
+    }
 }
 
 #Pol Pot way final focus event
 country_event = {
-	picture = GFX_final_event_pol_pot_way_icon
-	id = cambodia.8
-	title = cambodia.8.t
-	desc = cambodia.8.d
+    picture = GFX_final_event_pol_pot_way_icon
+    id = cambodia.8
+    title = cambodia.8.t
+    desc = cambodia.8.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.8.a
-	}
+    option = {
+        name = cambodia.8.a
+    }
 }
 
 #Pol Pot way people's ideology focus event
 country_event = {
-	id = cambodia.9
-	title = cambodia.9.t
-	desc = cambodia.9.d
+    id = cambodia.9
+    title = cambodia.9.t
+    desc = cambodia.9.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.9.a
-		add_political_power = -25
-		add_popularity = {
-			ideology = communism
-			popularity = 0.15
-		}
-	}
+    option = {
+        name = cambodia.9.a
+        add_political_power = -25
+        add_popularity = {
+            ideology = communism
+            popularity = 0.15
+        }
+    }
 }
 
 #Pol Pot way ideological discussions focus event
 country_event = {
-	id = cambodia.10
-	title = cambodia.10.t
-	desc = cambodia.10.d
+    id = cambodia.10
+    title = cambodia.10.t
+    desc = cambodia.10.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.10.a
-	}
+    option = {
+        name = cambodia.10.a
+    }
 }
 #Pol Pot way ecological clean territory focus event
 country_event = {
-	id = cambodia.11
-	title = cambodia.11.t
-	desc = cambodia.11.d
+    id = cambodia.11
+    title = cambodia.11.t
+    desc = cambodia.11.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.11.a
-	}
+    option = {
+        name = cambodia.11.a
+    }
 }
 
 #Pol Pot way our way is thorny focus event
 country_event = {
-	id = cambodia.12
-	title = cambodia.12.t
-	desc = cambodia.12.d
+    id = cambodia.12
+    title = cambodia.12.t
+    desc = cambodia.12.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.12.a
-	}
+    option = {
+        name = cambodia.12.a
+    }
 }
 
 #Pol Pot way surrounden by burjuams focus event
 country_event = {
-	id = cambodia.13
-	title = cambodia.13.t
-	desc = cambodia.13.d
+    id = cambodia.13
+    title = cambodia.13.t
+    desc = cambodia.13.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.13.a
-	}
+    option = {
+        name = cambodia.13.a
+    }
 }
 
 #Pol Pot way marx and lenin dreams focus event
 country_event = {
-	id = cambodia.14
-	title = cambodia.14.t
-	desc = cambodia.14.d
+    id = cambodia.14
+    title = cambodia.14.t
+    desc = cambodia.14.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.14.a
-	}
+    option = {
+        name = cambodia.14.a
+    }
 }
 
 #Pol Pot way peasant all countries unite focus event
 country_event = {
-	id = cambodia.15
-	title = cambodia.15.t
-	desc = cambodia.15.d
+    id = cambodia.15
+    title = cambodia.15.t
+    desc = cambodia.15.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.15.a
-	}
+    option = {
+        name = cambodia.15.a
+    }
 }
 
 #Pol Pot way final strange of preparations focus event
 country_event = {
-	id = cambodia.16
-	title = cambodia.16.t
-	desc = cambodia.16.d
+    id = cambodia.16
+    title = cambodia.16.t
+    desc = cambodia.16.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.16.a
-	}
+    option = {
+        name = cambodia.16.a
+    }
 }
 
 #Pol Pot way together to light future focus event
 country_event = {
-	id = cambodia.17
-	title = cambodia.17.t
-	desc = cambodia.17.d
+    id = cambodia.17
+    title = cambodia.17.t
+    desc = cambodia.17.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.17.a
-	}
+    option = {
+        name = cambodia.17.a
+    }
 }
 #Pol Pot way victory over religion focus event
 country_event = {
-	id = cambodia.18
-	title = cambodia.18.t
-	desc = cambodia.18.d
+    id = cambodia.18
+    title = cambodia.18.t
+    desc = cambodia.18.d
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = cambodia.18.a
-	}
+    option = {
+        name = cambodia.18.a
+    }
+}
+country_event = {
+    id = cambodia.22
+    title = cambodia.22.t
+    desc = cambodia.22.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = cambodia.22.a
+        671 = {
+            create_unit = {
+                division = "division_template = \"Cambodia revolutionares division\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+                owner = CAM
+                count = 2
+            }
+        }
+    }
 }

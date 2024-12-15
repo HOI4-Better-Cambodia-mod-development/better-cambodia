@@ -1,88 +1,89 @@
 CAM_category = {
-	peace_decision = {
-		icon = infiltrate_state
+    peace_decision = {
+        icon = infiltrate_state
 
-		allowed = {
-			tag = CAM
-		}
-		fire_only_once = yes
-		available = {
-			controls_state = 741
-		}
-		fire_only_once = yes
-		complete_effect = {
-			FRA = {
-				country_event = {
-					id = cambodia.3
-					days = 1
-				}
-			}
-		}
-	}
-	peace_decision1 = {
-		icon = infiltrate_state
+        allowed = {
+            tag = CAM
+        }
+        fire_only_once = yes
+        available = {
+            controls_state = 741
+        }
+        fire_only_once = yes
+        complete_effect = {
+            FRA = {
+                country_event = {
+                    id = cambodia.3
+                    days = 1
+                }
+            }
+        }
+    }
+    peace_decision1 = {
+        icon = infiltrate_state
 
-		allowed = {
-			tag = CAM
-		}
-		fire_only_once = yes
-		available = {
-			controls_state = 741
-			controls_state = 286
-		}
-		fire_only_once = yes
-		complete_effect = {
-			FRA = {
-				country_event = {
-					id = cambodia.5
-					days = 1
-				}
-			}
-		}
-	}
-	peace_decision2 = {
-		icon = infiltrate_state
+        allowed = {
+            tag = CAM
+        }
+        fire_only_once = yes
+        available = {
+            controls_state = 741
+            controls_state = 286
+        }
+        fire_only_once = yes
+        complete_effect = {
+            FRA = {
+                country_event = {
+                    id = cambodia.5
+                    days = 1
+                }
+            }
+        }
+    }
+    peace_decision2 = {
+        icon = infiltrate_state
 
-		allowed = {
-			tag = CAM
-		}
-		fire_only_once = yes
-		available = {
-			controls_state = 741
-			controls_state = 286
-			controls_state = 670
-		}
-		fire_only_once = yes
-		complete_effect = {
-			FRA = {
-				country_event = {
-					id = cambodia.6
-					days = 1
-				}
-			}
-		}
-	}
-	peace_decision3 = {
-		icon = infiltrate_state
+        allowed = {
+            tag = CAM
+        }
+        fire_only_once = yes
+        available = {
+            controls_state = 741
+            controls_state = 286
+            controls_state = 670
+        }
+        fire_only_once = yes
+        complete_effect = {
+            FRA = {
+                country_event = {
+                    id = cambodia.6
+                    days = 1
+                }
+            }
+        }
+    }
+    peace_decision3 = {
+        icon = infiltrate_state
 
-		allowed = {
-			tag = CAM
-		}
-		fire_only_once = yes
-		available = {
-			controls_state = 741
-			controls_state = 286
-			controls_state = 670
-			controls_state = 671
-		}
-		fire_only_once = yes
-		complete_effect = {
-			FRA = {
-				country_event = {
-					id = cambodia.7
-					days = 1
-				}
-			}
-		}
-	}
+        allowed = {
+            tag = CAM
+        }
+        fire_only_once = yes
+        available = {
+            controls_state = 741
+            controls_state = 286
+            controls_state = 670
+            controls_state = 671
+        }
+        ai_will_do = { factor = 100 }
+        fire_only_once = yes
+        complete_effect = {
+            FRA = {
+                country_event = {
+                    id = cambodia.7
+                    days = 1
+                }
+            }
+        }
+    }
 }

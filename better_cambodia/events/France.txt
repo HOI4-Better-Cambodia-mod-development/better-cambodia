@@ -12,6 +12,10 @@ country_event = {
 
 	option = {
 		name = france.L2.a
+		set_autonomy = {
+			target = CAM
+			autonomous_state = autonomy_puppet
+		}
 	}
 }
 
