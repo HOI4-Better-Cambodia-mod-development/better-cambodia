@@ -9,8 +9,252 @@ spriteTypes = {
     }
     #CAM
     spriteType = {
+        name = "GFX_idea_CAM_international_communism_brigades_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_international_communism_brigades_idea_goal.png"
+    }
+    spriteType = {
         name = "GFX_idea_CAM_war_alone_idea_goal"
         texturefile = "gfx/interface/ideas/CAM_war_alone_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_agrarism_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_agrarism_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_war_for_independent_our_people_idea"
+        texturefile = "gfx/interface/ideas/idea_chi_war_of_resistance3.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_khmer_army_idea"
+        texturefile = "gfx/interface/ideas/idea_chi_army_corruption3.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_disorganised_army_dynamic_modifier"
+        texturefile = "gfx/interface/ideas/idea_generic_army_problems.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_unity_with_the_nature_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_jap_the_unthinkable_option.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_anticolonial_war_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_mex_revolutionary_army.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_industrial_country_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_eng_spirit_of_the_industrial_revolution.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_anti_capitalism_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_eng_tackle_capitalism.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_unquenchable_flame_idea_goal"
+        texturefile = "gfx/interface/ideas/spr_torchbearers_of_tomorrow.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_last_fighters_idea_goal"
+        texturefile = "gfx/interface/ideas/spr_crush_the_revolution.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_corporative_mode_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_tur_etatism.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_give_army_rule_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_tur_kemalist_officers.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_agrarism_paradise_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_gre_agricultural_communes.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_market_mechanisms_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_tur_balkan_central_bank_wealthy_greece.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_food_abundance_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_LIT_invested_in_farms.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_sov_cooping_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_SOV_soviet_hegemony.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_govplan_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_SOV_fourth_five_year_plan.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_the_red_down_jap_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_japanese_conflict.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_the_red_down_usa_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_usa_conflict.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_new_economy_polics_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_new_economic_policy.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_last_strike_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_SWI_spirit_of_helvetia_aggressive_war.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_cambodia_socialism_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_FIN_socialist_welfare.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_bang_thousand_guns_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_SWE_let_fly_all_guns.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_infrastructure_projects_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_ARG_invest_in_roads.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_CAM_ges_energy_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_por_hydroelectric_power.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_airforce_inovation_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_aircraft_support.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_CAM_radical_revolution_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_por_iberian_workers_united.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_go_to_north_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_prc_the_long_march2.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_no_step_back_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_yug_federal_defense_council.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_expand_worker_rights_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil2.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_fleet_of_asian_dominating_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_the_london_naval_treaty.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_rural_radicalism_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_political_support.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_corruption_expansion_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_ETH_corrupt_bureaucracy.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_country_infrastructure_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_train_tracks.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_rapid_industrialization_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_autarkic_economy.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_hit_the_back_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_jap_intervene_in_china.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_working_unity_idea_goal"
+        texturefile = "gfx/interface/ideas/spr_collectivized_society.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_collectivisation_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_POL_looming_peasants_strike.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_international_army_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_ETH_peacekeeping_forces.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_fight_for_light_future_idea_goal"
+        texturefile = "gfx/interface/ideas/spr_class_war.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_the_red_down_ger_idea_goal"
+        texturefile = "gfx/interface/ideas/spr_anti_fascist_crusade.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_spain_volunteers_idea_goal"
+        texturefile = "gfx/interface/ideas/spa_maquis.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_class_struggle_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_class_struggle_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_human_medicine_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_human_medicine_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_way_to_liberation_goal"
+        texturefile = "gfx/interface/ideas/CAM_way_to_liberation_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_uneducated_people_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_uneducated_people_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_centralism_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_centralism_idea_goal.png"
+    }
+     spriteType = {
+        name = "GFX_idea_CAM_lack_of_industry_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_lack_of_industry_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_great_kingdom_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_great_kingdom_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_lenin_cult_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_lenin_cult_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_party_split_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_cze_divided_nation.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_totalism_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_totalism_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_human_trafficking_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_human_trafficking_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_kbnkp_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_kbnkp_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_constitutional_kingdom_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_king_handled.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_king_norodom_sianuk_idea"
+        texturefile = "gfx/interface/ideas/idea_yug_peter_ii.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_against_religion_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_SOV_a_church_of_the_catacombs.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_unity_of_action_icon_goal"
+        texturefile = "gfx/interface/ideas/trotskyite_plot_purged.dds"
+    }
+    SpriteType = {
+        name = "GFX_idea_CAM_absolute_power_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_monarchist_uprising.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_final_purge_goal"
+        texturefile = "gfx/interface/ideas/idea_SWE_neither_death_nor_dishonor.dds"
     }
 
     ### new tfv nat spirit icons

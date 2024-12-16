@@ -120,7 +120,7 @@ CAM_fascist_way_ger_style_dynamic_modifier = {
     fascism_drift = CAM_ger_style_fascism_drift_var
 }
 CAM_disorganised_army_dynamic_modifier = {
-    icon = GFX_idea_SOV_red_army
+    icon = GFX_idea_CAM_disorganised_army_dynamic_modifier
     land_doctrine_cost_factor = CAM_disorganised_army_land_doctrine_cost_factor_var
     conscription = CAM_disorganised_army_conscription_var
     experience_gain_army_factor = CAM_disorganised_army_experience_gain_army_factor_var
@@ -132,7 +132,7 @@ CAM_disorganised_army_dynamic_modifier = {
 }
 CAM_pol_pot_attack_defence_bonuses_dynamic_modifier = {
 
-    icon = GFX_idea_SOV_red_army
+    icon = GFX_idea_CAM_way_to_liberation_goal
     convoy_escort_efficiency = CAM_pol_pot_convoy_escort_efficiency_var
     naval_speed_factor = CAM_pol_pot_naval_speed_factor_var
     naval_defense_factor = CAM_pol_pot_naval_defense_factor_var
@@ -155,7 +155,7 @@ CAM_pol_pot_attack_defence_bonuses_dynamic_modifier = {
 }
 CAM_pol_pot_uneducated_population_dynamic_modifier = {
 
-    icon = GFX_idea_SOV_red_army
+    icon = GFX_idea_CAM_uneducated_people_idea_goal
 
     research_speed_factor = CAM_research_speed_var
 }

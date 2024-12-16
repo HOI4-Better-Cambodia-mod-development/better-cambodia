@@ -16,6 +16,7 @@ ideas = {
             }
         }
         CAM_market_mechanisms_idea3 = {
+            picture = CAM_market_mechanisms_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -33,6 +34,7 @@ ideas = {
             }
         }
         CAM_market_mechanisms_idea2 = {
+            picture = CAM_market_mechanisms_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -47,6 +49,7 @@ ideas = {
             }
         }
         CAM_market_mechanisms_idea1 = {
+            picture = CAM_market_mechanisms_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -294,6 +297,7 @@ ideas = {
             }
         }
         CAM_last_fighters_idea = {
+            picture = CAM_last_fighters_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -305,6 +309,7 @@ ideas = {
             }
         }
         CAM_expand_worker_rights_idea = {
+            picture = CAM_expand_worker_rights_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -318,6 +323,7 @@ ideas = {
             }
         }
         CAM_airforce_inovation_idea22 = {
+            picture = CAM_airforce_inovation_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -339,6 +345,7 @@ ideas = {
             }
         }
         CAM_airforce_inovation_idea21 = {
+            picture = CAM_airforce_inovation_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -357,6 +364,7 @@ ideas = {
             }
         }
         CAM_airforce_inovation_idea12 = {
+            picture = CAM_airforce_inovation_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -377,6 +385,7 @@ ideas = {
             }
         }
         CAM_airforce_inovation_idea11 = {
+            picture = CAM_airforce_inovation_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -396,6 +405,7 @@ ideas = {
             }
         }
         CAM_airforce_inovation_idea = {
+            picture = CAM_airforce_inovation_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -412,6 +422,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea24 = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -444,6 +455,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea23 = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -472,6 +484,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea22 = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -497,6 +510,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea21 = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -517,6 +531,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea14 = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -546,6 +561,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea13 = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -571,6 +587,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea12 = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -593,6 +610,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea11 = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -613,6 +631,7 @@ ideas = {
             }
         }
         CAM_fleet_of_asian_dominating_idea = {
+            picture = CAM_fleet_of_asian_dominating_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1065,6 +1084,7 @@ ideas = {
             }
         }
         CAM_absolute_power_idea5 = {
+            picture = CAM_absolute_power_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1091,6 +1111,7 @@ ideas = {
             }
         }
         CAM_absolute_power_idea4 = {
+            picture = CAM_absolute_power_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1116,6 +1137,7 @@ ideas = {
             }
         }
         CAM_absolute_power_idea3 = {
+            picture = CAM_absolute_power_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1137,6 +1159,7 @@ ideas = {
             }
         }
         CAM_absolute_power_idea2 = {
+            picture = CAM_absolute_power_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1156,6 +1179,7 @@ ideas = {
             }
         }
         CAM_absolute_power_idea1 = {
+            picture = CAM_absolute_power_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1169,6 +1193,7 @@ ideas = {
             }
         }
         CAM_great_kingdom_idea2 = {
+            picture = CAM_great_kingdom_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1184,6 +1209,7 @@ ideas = {
             }
         }
         CAM_king_norodom_sianuk_idea2 = {
+            picture = CAM_king_norodom_sianuk_idea
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1197,6 +1223,7 @@ ideas = {
             }
         }
         CAM_constitutional_kingdom_idea5= {
+            picture = CAM_constitutional_kingdom_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1224,6 +1251,7 @@ ideas = {
             }
         }
         CAM_constitutional_kingdom_idea4= {
+            picture = CAM_constitutional_kingdom_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1248,6 +1276,7 @@ ideas = {
             }
         }
         CAM_constitutional_kingdom_idea3= {
+            picture = CAM_constitutional_kingdom_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1269,6 +1298,7 @@ ideas = {
             }
         }
         CAM_constitutional_kingdom_idea2= {
+            picture = CAM_constitutional_kingdom_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1289,6 +1319,7 @@ ideas = {
             }
         }
         CAM_constitutional_kingdom_idea1= {
+            picture = CAM_constitutional_kingdom_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1302,6 +1333,7 @@ ideas = {
             }
         }
         CAM_king_norodom_sianuk_idea = {
+            picture = CAM_king_norodom_sianuk_idea
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1313,6 +1345,7 @@ ideas = {
             }
         }
         CAM_great_kingdom_idea = {
+            picture = CAM_great_kingdom_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1638,6 +1671,7 @@ ideas = {
             }
         }
         CAM_international_army_idea = {
+            picture = CAM_international_army_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1652,6 +1686,7 @@ ideas = {
             }
         }
         CAM_spain_volunteers_idea = {
+            picture = CAM_spain_volunteers_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1719,6 +1754,7 @@ ideas = {
             }
         }
         CAM_final_purge = {
+            picture = CAM_final_purge_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1765,6 +1801,7 @@ ideas = {
             }
         }
         CAM_bang_thousand_guns_idea = {
+            picture = CAM_bang_thousand_guns_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1798,6 +1835,7 @@ ideas = {
             }
         }
         CAM_khmer_army_idea = {
+            picture = CAM_khmer_army_idea
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1809,6 +1847,7 @@ ideas = {
             }
         }
         CAM_khmer_army2_idea = {
+            picture = CAM_khmer_army_idea
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1823,6 +1862,7 @@ ideas = {
             }
         }
         CAM_khmer_army3_idea = {
+            picture = CAM_khmer_army_idea
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1869,6 +1909,7 @@ ideas = {
             }
         }
         CAM_last_strike_idea = {
+            picture = CAM_last_strike_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1885,6 +1926,7 @@ ideas = {
             }
         }
         CAM_anticolonial_war_idea = {
+            picture = CAM_anticolonial_war_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1898,6 +1940,7 @@ ideas = {
             }
         }
         CAM_give_army_rule_idea = {
+            picture = CAM_give_army_rule_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1913,6 +1956,7 @@ ideas = {
             }
         }
         CAM_no_step_back_idea = {
+            picture = CAM_no_step_back_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1926,6 +1970,7 @@ ideas = {
             }
         }
         CAM_go_to_north_idea = {
+            picture = CAM_go_to_north_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1939,6 +1984,7 @@ ideas = {
             }
         }
         CAM_war_for_independent_our_people_idea = {
+            picture = CAM_war_for_independent_our_people_idea
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1951,6 +1997,7 @@ ideas = {
             }
         }
         CAM_human_trafficking_idea = {
+            picture = CAM_human_trafficking_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -1973,6 +2020,7 @@ ideas = {
             }
         }
         CAM_corruption_expansion_idea = {
+            picture = CAM_corruption_expansion_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2053,6 +2101,7 @@ ideas = {
             }
         }
         CAM_hit_the_back_idea = {
+            picture = CAM_hit_the_back_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2445,6 +2494,7 @@ ideas = {
             }
         }
         CAM_liberal_conflicts_idea = {
+            picture = CAM_party_split_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2457,6 +2507,7 @@ ideas = {
             }
         }
         CAM_liberal_conflicts2_idea = {
+            picture = CAM_party_split_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2469,6 +2520,7 @@ ideas = {
             }
         }
         CAM_liberal_conflicts2a_idea = {
+            picture = CAM_party_split_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2546,6 +2598,7 @@ ideas = {
             }
         }
         CAM_totalism_idea = {
+            picture = CAM_totalism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2561,6 +2614,7 @@ ideas = {
             }
         }
         CAM_totalism1_idea = {
+            picture = CAM_totalism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2578,6 +2632,7 @@ ideas = {
             }
         }
         CAM_totalism2_idea = {
+            picture = CAM_totalism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2597,6 +2652,7 @@ ideas = {
             }
         }
         CAM_against_religion_idea = {
+            picture = CAM_against_religion_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2610,6 +2666,7 @@ ideas = {
             }
         }
         CAM_against_religion1_idea = {
+            picture = CAM_against_religion_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2625,6 +2682,7 @@ ideas = {
             }
         }
         CAM_against_religion2_idea = {
+            picture = CAM_against_religion_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2642,6 +2700,7 @@ ideas = {
             }
         }
         CAM_safety_union_idea = {
+            picture = CAM_safety_union_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2656,6 +2715,7 @@ ideas = {
             }
         }
         CAM_safety_union1_idea = {
+            picture = CAM_safety_union_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2672,6 +2732,7 @@ ideas = {
             }
         }
         CAM_safety_union2_idea = {
+            picture = CAM_safety_union_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2692,6 +2753,7 @@ ideas = {
             }
         }
         CAM_create_kbnkp_idea = {
+            picture = CAM_kbnkp_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2708,6 +2770,7 @@ ideas = {
             }
         }
         CAM_nkvd_cambodia_idea = {
+            picture = CAM_kbnkp_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2727,6 +2790,7 @@ ideas = {
             }
         }
         CAM_nkvd_cambodia1_idea = {
+            picture = CAM_kbnkp_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2749,6 +2813,7 @@ ideas = {
             }
         }
         CAM_nkvd_cambodia2_idea = {
+            picture = CAM_kbnkp_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2771,6 +2836,7 @@ ideas = {
             }
         }
         CAM_lenin_cult_idea = {
+            picture = CAM_lenin_cult_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2818,6 +2884,7 @@ ideas = {
             }
         }
         CAM_the_red_down_jap_idea = {
+            picture = CAM_the_red_down_jap_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2840,6 +2907,7 @@ ideas = {
             }
         }
         CAM_the_red_down_usa_idea = {
+            picture = CAM_the_red_down_usa_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2852,6 +2920,7 @@ ideas = {
             }
         }
         CAM_the_red_down_ger_idea = {
+            picture = CAM_the_red_down_ger_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2976,6 +3045,7 @@ ideas = {
             }
         }
         CAM_unity_of_action_idea = {
+            picture = CAM_unity_of_action_icon_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -2992,6 +3062,7 @@ ideas = {
             }
         }
         CAM_unquenchable_flame_idea = {
+            picture = CAM_unquenchable_flame_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3005,6 +3076,7 @@ ideas = {
             }
         }
         CAM_international_revolutionary_brigades_idea = {
+            picture = CAM_international_communism_brigades_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3032,6 +3104,7 @@ ideas = {
             }
         }
         CAM_fight_for_light_future_idea = {
+            picture = CAM_fight_for_light_future_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3043,6 +3116,7 @@ ideas = {
             }
         }
         CAM_fight_for_light_future1_idea = {
+            picture = CAM_fight_for_light_future_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3056,6 +3130,7 @@ ideas = {
             }
         }
         CAM_humans_medicine_idea = {
+            picture = CAM_human_medicine_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3069,6 +3144,7 @@ ideas = {
             }
         }
         CAM_garmony_human_animals1_idea = {
+            picture = CAM_unity_with_the_nature_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3085,6 +3161,7 @@ ideas = {
             }
         }
         CAM_garmony_human_animals_idea = {
+            picture = CAM_unity_with_the_nature_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3100,6 +3177,7 @@ ideas = {
             }
         }
         CAM_class_struggle_idea = {
+            picture = CAM_class_struggle_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3115,6 +3193,7 @@ ideas = {
             }
         }
         CAM_radical_revolution1_idea = {
+            picture = CAM_radical_revolution_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3126,6 +3205,7 @@ ideas = {
             }
         }
         CAM_radical_revolution2_idea = {
+            picture = CAM_radical_revolution_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3141,6 +3221,7 @@ ideas = {
             }
         }
         CAM_govplan_idea = {
+            picture = CAM_govplan_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3158,6 +3239,7 @@ ideas = {
             }
         }
         CAM_new_economy_polics_idea = {
+            picture = CAM_new_economy_polics_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3179,6 +3261,7 @@ ideas = {
             }
         }
         CAM_peasant_autonomy_idea = {
+            picture = CAM_new_economy_polics_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3195,6 +3278,7 @@ ideas = {
             }
         }
         CAM_collectivisation_idea = {
+            picture = CAM_collectivisation_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3210,6 +3294,7 @@ ideas = {
             }
         }
         CAM_cambodia_socialism_idea = {
+            picture = CAM_cambodia_socialism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3226,6 +3311,7 @@ ideas = {
             }
         }
         CAM_lack_of_industry_prom_update3_idea = {
+            picture = CAM_lack_of_industry_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3238,6 +3324,7 @@ ideas = {
             }
         }
         CAM_lack_of_industry_prom_update31_idea = {
+            picture = CAM_lack_of_industry_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3383,6 +3470,7 @@ ideas = {
             }
         }
         CAM_lack_of_industry_prom_update21 = {
+            picture = CAM_lack_of_industry_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3396,6 +3484,7 @@ ideas = {
             }
         }
         CAM_lack_of_industry_prom_update22 = {
+            picture = CAM_lack_of_industry_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3409,6 +3498,7 @@ ideas = {
             }
         }
         CAM_corporative_mode_idea = {
+            picture = CAM_corporative_mode_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3425,6 +3515,7 @@ ideas = {
             }
         }
         CAM_corporative_mode2_idea = {
+            picture = CAM_corporative_mode_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3497,6 +3588,7 @@ ideas = {
             }
         }
         CAM_country_infrastructure_idea = {
+            picture = CAM_country_infrastructure_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3509,6 +3601,7 @@ ideas = {
             }
         }
         CAM_country_infrastructure2_idea = {
+            picture = CAM_country_infrastructure_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3522,6 +3615,7 @@ ideas = {
             }
         }
         CAM_asian_roads_idea = {
+            picture = CAM_country_infrastructure_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3536,6 +3630,7 @@ ideas = {
             }
         }
         CAM_ges_energy_idea = {
+            picture = CAM_ges_energy_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3547,6 +3642,7 @@ ideas = {
             }
         }
         CAM_working_unity_idea = {
+            picture = CAM_working_unity_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3562,6 +3658,7 @@ ideas = {
             }
         }
         CAM_infrastructure_projects_idea = {
+            picture = CAM_infrastructure_projects_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3591,6 +3688,7 @@ ideas = {
             }
         }
         CAM_industrial_country = {
+            picture = CAM_industrial_country_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3605,6 +3703,7 @@ ideas = {
             }
         }
         CAM_sov_cooping_idea = {
+            picture = CAM_sov_cooping_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3620,6 +3719,7 @@ ideas = {
             }
         }
         CAM_food_abundance_idea = {
+            picture = CAM_food_abundance_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3633,6 +3733,7 @@ ideas = {
             }
         }
         CAM_agrarism_paradise = {
+            picture = CAM_agrarism_paradise_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3646,6 +3747,7 @@ ideas = {
             }
         }
         CAM_rapid_industrialization = {
+            picture = CAM_rapid_industrialization_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3658,6 +3760,7 @@ ideas = {
             }
         }
         CAM_anti_capitalism_idea = {
+            picture = CAM_anti_capitalism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3680,6 +3783,7 @@ ideas = {
             }
         }
         CAM_radical_revolution_idea = {
+            picture = CAM_radical_revolution_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3715,6 +3819,7 @@ ideas = {
             }
         }
         CAM_lack_of_industry_prom_update = {
+            picture = CAM_lack_of_industry_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3729,6 +3834,7 @@ ideas = {
             }
         }
         CAM_lack_of_industry_prom_update1 = {
+            picture = CAM_lack_of_industry_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3744,6 +3850,7 @@ ideas = {
             }
         }
         CAM_lack_of_industry_prom_update2 = {
+            picture = CAM_lack_of_industry_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3784,6 +3891,7 @@ ideas = {
             }
         }
         CAM_agrarism = {
+            picture = CAM_agrarism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3802,6 +3910,7 @@ ideas = {
             }
         }
         CAM_agrarism2 = {
+            picture = CAM_agrarism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3819,6 +3928,7 @@ ideas = {
             }
         }
         CAM_agrarism3 = {
+            picture = CAM_agrarism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3837,6 +3947,7 @@ ideas = {
             }
         }
         CAM_agrarism4 = {
+            picture = CAM_agrarism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3856,6 +3967,7 @@ ideas = {
             }
         }
         CAM_party_split2 = {
+            picture = CAM_party_split_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3870,6 +3982,7 @@ ideas = {
             }
         }
         CAM_centralism = {
+            picture = CAM_centralism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3887,6 +4000,7 @@ ideas = {
             }
         }
         CAM_centralism2 = {
+            picture = CAM_centralism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3905,6 +4019,7 @@ ideas = {
             }
         }
         CAM_centralism3 = {
+            picture = CAM_centralism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3921,6 +4036,7 @@ ideas = {
             }
         }
         CAM_centralism4 = {
+            picture = CAM_centralism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3938,6 +4054,7 @@ ideas = {
             }
         }
         CAM_party_split = {
+            picture = CAM_party_split_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3952,6 +4069,7 @@ ideas = {
             }
         }
         CAM_party_split21 = {
+            picture = CAM_party_split_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3966,6 +4084,7 @@ ideas = {
             }
         }
         CAM_uneducated_population = {
+            picture = CAM_uneducated_people_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3976,6 +4095,7 @@ ideas = {
             }
         }
         CAM_uneducated_population1_idea = {
+            picture = CAM_uneducated_people_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -3986,6 +4106,7 @@ ideas = {
             }
         }
         CAM_lack_of_industry = {
+            picture = CAM_lack_of_industry_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -4036,6 +4157,7 @@ ideas = {
             }
         }
         CAM_rural_radicalism = {
+            picture = CAM_rural_radicalism_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
