@@ -28,7 +28,7 @@
 
 #CAM dynamic modifiers
 CAM_great_way_dynamic_modifier = {
-    icon = GFX_idea_SOV_the_politburo_ccp_2d_sov_compatibility
+    icon = GFX_idea_CAM_great_wat_modifier
     political_power_factor = CAM_great_way_political_power_factor_var
     stability_factor = CAM_great_way_stability_factor_var
     war_support_factor = CAM_great_way_war_support_factor_var
@@ -102,7 +102,7 @@ CAM_goering_mode_dynamic_modifier = {
     dig_in_speed_factor = CAM_goering_mode_dig_in_speed_factor_var
 }
 CAM_fascist_way_ger_style_dynamic_modifier = {
-    icon = GFX_idea_SOV_red_army
+    icon = GFX_idea_CAM_ger_style_modifier_goal
     political_power_factor = CAM_ger_style_political_power_factor_var
     war_support_factor = CAM_ger_style_war_support_factor_var
     army_org_factor = CAM_ger_style_army_org_factor_var
@@ -188,7 +188,7 @@ CAM_stalinist_way_politburo_dynamic_modifier = {
 
 CAM_pol_pot_light_human_dynamic_modifier = {
 
-    icon = GFX_modifiers_sabotaged_resource
+    icon = GFX_CAM_pol_pot_light_human_dynamic_modifier_icon_goal
 
     political_power_factor = CAM_pol_pot_light_human_political_power_factor_var
     war_support_factor = CAM_pol_pot_light_human_war_support_factor_var

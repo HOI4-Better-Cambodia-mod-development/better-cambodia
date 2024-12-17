@@ -21,6 +21,62 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/CAM_agrarism_idea_goal.png"
     }
     spriteType = {
+        name = "GFX_idea_CAM_SS_in_power_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_SS_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_last_war_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_GER_attack_usa.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_ger_style_modifier_goal"
+        texturefile = "gfx/interface/ideas/CAM_men_with_swaston_goal.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_goering_clear_army_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_purge.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_central_asia_agency_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_FIN_maan_turva.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_goering_return_to_motherland_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_FIN_german_threat.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_true_version_of_freedom_idea_goal"
+        texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_weapon_of_doom_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_SOV_atomic_bomb_project.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_absolute_freedom_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_GER_economy_of_conquest.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_national_democracy_idea_goal"
+        texturefile = "gfx/interface/ideas/generic_democratic_drift_bonus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_weapon_of_our_glory_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_GER_wunderwaffen.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_war_machin_of_victory_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_GER_autarky.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_best_soldiers_in_the_world_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_GER_fan_prussian_militarism.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_goering_clear_administration_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_prisoner.dds"
+    }
+    spriteType = {
         name = "GFX_idea_CAM_war_for_independent_our_people_idea"
         texturefile = "gfx/interface/ideas/idea_chi_war_of_resistance3.dds"
     }
@@ -155,6 +211,146 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_CAM_rapid_industrialization_idea_goal"
         texturefile = "gfx/interface/ideas/idea_autarkic_economy.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_right_resistance_idea_gov"
+        texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_nazionale_government_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_nazionale_government_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_jap_style_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_jap_style_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_jap_bridgehead_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_jap_bridgehead_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_great_wat_modifier"
+        texturefile = "gfx/interface/ideas/idea_generic_fascist_workers.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_new_balance_of_powers_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_fascism_rising.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_army_higher_command_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_GER_army.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_asian_shield_of_reich_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_hol_caved_to_the_germans.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_central_asia_commander_idea_goal"
+        texturefile = "gfx/interface/ideas/triumphant_will.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_liberal_economy_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_free_trade.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_new_liberal_constitution_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_constitutional_guarantee.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_useful_contacts_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_rom_carol_ii_hedonist.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_dependence_from_franc_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_chi_hyper_inflation5.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_independent_currency_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_chi_hyper_inflation.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_federalist_republic_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_ARG_growing_nationalism_modifier.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_central_bank_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_tur_balkan_central_bank_wealthy_greece.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_free_economy_idea_goal"
+        texturefile = "gfx/interface/ideas/fra_market_dynamism.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_united_country_idea_goal"
+        texturefile = "gfx/interface/ideas/FRA_national_mobilization_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_left_resistance_idea_goal"
+        texturefile = "gfx/interface/ideas/FRA_factory_strikes.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_nazional_unity_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_nazional_unity_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_foreign_support_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_economic_socialism_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_FIN_finnish_federation_of_trade_unions_light.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_safety_union_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_safety_union_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_blitz_tactic_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_blitz_tactic_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_people_strategy_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_people_strategy_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_plan_is_the_key_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_plan_is_the_key_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_defeat_kulaks_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_usa_great_depression_3.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_the_red_down_col_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_FIN_british_threat.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_pol_pot_light_human_dynamic_modifier_icon_goal"
+        texturefile = "gfx/interface/ideas/CAM_pol_pot_light_human_dynamic_modifier_icon_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_asian_gulag_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_asian_gulag_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_red_down_chi_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_red_down_chi_idea_goal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_the_red_down_idea_goal"
+        texturefile = "gfx/interface/ideas/CAM_the_red_down_idea_goal.png"
+    }
+    SpriteType = {
+        name = "GFX_idea_CAM_moderate_revolution_idea_goal"
+        texturefile = "gfx//interface//ideas//POL_Ideology_Drift_Defence.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_lack_of_administration_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_generic_democratic_opposition.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_CAM_new_soviet_human_idea_goal"
+        texturefile = "gfx/interface/ideas/idea_ARG_women_in_industry.dds"
     }
     spriteType = {
         name = "GFX_idea_CAM_hit_the_back_idea_goal"
