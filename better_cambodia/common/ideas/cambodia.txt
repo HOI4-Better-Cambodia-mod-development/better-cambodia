@@ -3176,6 +3176,7 @@ ideas = {
             }
         }
         CAM_leg_of_time_idea = {
+            picture = CAM_go_to_north_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no

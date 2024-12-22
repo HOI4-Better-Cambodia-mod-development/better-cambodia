@@ -205,6 +205,7 @@ if = {
         CAS1 = 1
     }
 }
+set_cosmetic_tag = CAM_start
 CAM = {
     country_event = {
         id = cambodia.22

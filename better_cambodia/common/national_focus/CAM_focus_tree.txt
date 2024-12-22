@@ -24,6 +24,7 @@ focus_tree = {
             add_dynamic_modifier = {modifier = CAM_disorganised_army_dynamic_modifier}
             add_ideas = CAM_lack_of_industry
             add_ideas = CAM_lack_of_administration
+            set_cosmetic_tag = CAM_independent_cambodia_tag
         }
 
     }
@@ -1030,6 +1031,7 @@ focus_tree = {
                     millitary_minister
                 }
             }
+            set_cosmetic_tag = CAM_millitary_coup_tag
         }
     }
     focus = {
@@ -1400,6 +1402,7 @@ focus_tree = {
                     remove_idea = CAM_SS_in_power_idea1
                     add_idea = CAM_SS_in_power_idea2
                 }
+                set_cosmetic_tag = CAM_ordenshtaadt1
             }
 
         }
@@ -1525,7 +1528,7 @@ focus_tree = {
             completion_reward = {
                 add_ideas = CAM_central_asia_commander_idea
             }
-
+            set_cosmetic_tag = CAM_millitary_district_asia_tag
         }
         focus = {
             id = CAM_eliminate_dissent
@@ -1895,6 +1898,7 @@ focus_tree = {
                     add_idea = CAM_party_split21
                 }
                 add_ideas = CAM_radical_revolution_idea
+                set_cosmetic_tag = CAM_polpot_tag
                 create_country_leader = {
                     name = "Пол Пот"
                     desc = "Считает, что выигрывать грешно, но только когда проигрывает"
@@ -1926,6 +1930,7 @@ focus_tree = {
                     add_idea = CAM_party_split2
                 }
                 add_ideas = CAM_moderate_revolution_idea
+                set_cosmetic_tag = CAM_stalin_tag
             }
 
         }
@@ -1949,6 +1954,7 @@ focus_tree = {
                     ruling_party = democratic
                     elections_allowed = yes
                 }
+                set_cosmetic_tag = CAM_liberty_tag
             }
         }
         focus = {
@@ -2015,6 +2021,7 @@ focus_tree = {
                     remove_idea = CAM_jap_style_idea
                     add_idea = CAM_jap_style2_idea
                 }
+                set_cosmetic_tag = CAM_jap_puppet_tag
             }
         }
         focus = {
@@ -2837,6 +2844,7 @@ focus_tree = {
             y = 18
             completion_reward = {
                 remove_dynamic_modifier = {modifier = CAM_pol_pot_uneducated_population_dynamic_modifier}
+                set_cosmetic_tag = CAM_ost_empire_tag
             }
 
         }
@@ -3166,6 +3174,7 @@ focus_tree = {
                     remove_idea = CAM_jap_style7_idea
                     add_idea = CAM_jap_style8_idea
                 }
+                set_cosmetic_tag = CAM_greater_ostasia_tag
             }
         }
         focus = {
@@ -3535,6 +3544,7 @@ focus_tree = {
                 add_to_variable = {CAM_goering_mode_resistance_target_var = -0.05}
                 add_to_variable = {CAM_goering_mode_production_speed_sea_base_factor_var = 0.15}
                 custom_effect_tooltip = CAM_german_ost_asia_tt
+                set_cosmetic_tag = CAM_german_ostasia_tag
             }
         }
         focus = {
@@ -3819,6 +3829,7 @@ focus_tree = {
                         lightness
                     }
                 }
+                set_cosmetic_tag = CAM_german_ostasia1_tag
             }
         }
         focus = {
@@ -4080,6 +4091,17 @@ focus_tree = {
                     add_idea = CAM_SS_in_power_idea9
                 }
                 add_ideas = CAM_esoterichal_order_idea1
+                set_cosmetic_tag = CAM_ordenshtaadt2
+                create_country_leader = {
+                    name = "Орденимператор Генрих Гиммлер"
+                    desc = "Если он у власти, знайте, мир §0обречён§!"
+                    picture = "CAM_Gimmler_portrait_ordenempire.dds"
+                    expire = "1965.1.1"
+                    ideology = nazism
+                    traits = {
+                        nazi_executor
+                    }
+                }
             }
 
         }
@@ -5493,6 +5515,7 @@ focus_tree = {
                         days = 1
                     }
                 }
+                set_cosmetic_tag = CAM_victory_communism_tag
             }
         }
         focus = {
