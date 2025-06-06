@@ -747,6 +747,7 @@ ideas = {
             }
         }
         CAM_esoterichal_order_idea6 = {
+            picture = GFX_CAM_esoterichal_order_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -790,6 +791,7 @@ ideas = {
             }
         }
         CAM_esoterichal_order_idea5 = {
+            picture = GFX_CAM_esoterichal_order_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -821,6 +823,7 @@ ideas = {
             }
         }
         CAM_esoterichal_order_idea4 = {
+            picture = GFX_CAM_esoterichal_order_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -846,6 +849,7 @@ ideas = {
             }
         }
         CAM_esoterichal_order_idea3 = {
+            picture = GFX_CAM_esoterichal_order_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -865,6 +869,7 @@ ideas = {
             }
         }
         CAM_esoterichal_order_idea2 = {
+            picture = GFX_CAM_esoterichal_order_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no
@@ -881,6 +886,7 @@ ideas = {
             }
         }
         CAM_esoterichal_order_idea1 = {
+            picture = GFX_CAM_esoterichal_order_idea_goal
             allowed = {
                 original_tag = CAM
                 always = no

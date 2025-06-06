@@ -1,5 +1,4 @@
 spriteTypes = {
-
 	spriteType = {
 		name = "GFX_final_event_pol_pot_way_icon"
 		texturefile = "gfx/event_pictures/final_event_pol_pot_way.png"
@@ -614,14 +613,19 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_hitler_china.dds"
 	}
 
+	spriteType = { #Same as above but with Hitler cut from the pic
+		name = "GFX_report_event_generic_china"
+		texturefile = "gfx/event_pictures/report_event_generic_china.dds"
+	}
+
 	spriteType = {
 		name = "GFX_report_event_hitler_croatia_handshake"
 		texturefile = "gfx/event_pictures/report_event_hitler_croatia_handshake.dds"
 	}
 
-	spriteType = {
-		name = "GFX_report_event_hitler_handshake"
-		texturefile = "gfx/event_pictures/report_event_hitler_handshake.dds"
+	spriteType = { #Same as above but with Hitler cut from the pic
+		name = "GFX_report_event_generic_croatia_handshake"
+		texturefile = "gfx/event_pictures/report_event_generic_croatia_handshake.dds"
 	}
 
 	spriteType = {
@@ -630,8 +634,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_report_event_hitler_parade"
-		texturefile = "gfx/event_pictures/report_event_hitler_parade.dds"
+		name = "GFX_report_event_soldiers_parade"
+		texturefile = "gfx/event_pictures/report_event_soldiers_parade.dds"
 	}
 
 	spriteType = {
@@ -1075,6 +1079,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_news_event_hitler_speech2"
+		texturefile = "gfx/event_pictures/news_event_hitler_speech2.dds"
+	}
+
+	spriteType = {
 		name = "GFX_news_event_german_inspect_troops"
 		texturefile = "gfx/event_pictures/news_event_german_inspect_troops.dds"
 	}
@@ -1090,6 +1099,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_news_event_german_rally"
+		texturefile = "gfx/event_pictures/news_event_german_rally.dds"
+	}
+
+	spriteType = {
 		name = "GFX_news_event_german_officers"
 		texturefile = "gfx/event_pictures/news_event_german_officers.dds"
 	}
@@ -1102,6 +1116,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_event_hitler_handshake"
 		texturefile = "gfx/event_pictures/news_event_hitler_handshake.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_generic_handshake"
+		texturefile = "gfx/event_pictures/news_event_generic_handshake.dds"
 	}
 
 	spriteType = {
@@ -3776,8 +3795,87 @@ spriteTypes = {
 
 
 
+		  ####    ##   ####  
+		 #       #  #  #    
+		#   #### #  #  ###  
+		 #   ##  #  #  #  
+		  ###     ##   #### 
 
 
+#### PER ####
+	# Report Event #
+	spriteType = {
+		name = "GFX_report_event_PER_shah_inspection"
+		texturefile = "gfx/event_pictures/report_event_PER_shah_inspection.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_PER_persepolis_party"
+		texturefile = "gfx/event_pictures/report_event_PER_persepolis_party.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_PER_mohammed_reza_shah"
+		texturefile = "gfx/event_pictures/report_event_PER_mohammed_reza_shah.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_PER_iran_invasion"
+		texturefile = "gfx/event_pictures/report_event_PER_iran_invasion.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_PER_reza_shah_pahlavi"
+		texturefile = "gfx/event_pictures/report_event_PER_reza_shah_pahlavi.dds"
+	}
+
+#### IRQ ####
+		# Report Event #
+	spriteType = {
+		name = "GFX_report_event_ENG_middle_eastern_conflict"
+		texturefile = "gfx/event_pictures/report_event_ENG_middle_eastern_conflict.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ENG_middle_eastern_conflict_2"
+		texturefile = "gfx/event_pictures/report_event_ENG_middle_eastern_conflict_2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_troops_in_iraq"
+		texturefile = "gfx/event_pictures/report_event_generic_troops_in_iraq.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_bakr_sidqi"
+		texturefile = "gfx/event_pictures/report_event_IRQ_bakr_sidqi.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_generic_troops_at_rivier_in_iraq"
+		texturefile = "gfx/event_pictures/report_event_generic_troops_at_rivier_in_iraq.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_ghazi_i_death"
+		texturefile = "gfx/event_pictures/report_event_IRQ_ghazi_i_death.dds"
+	}
+
+
+
+
+		# News Event #
+	spriteType = {
+		name = "GFX_news_event_generic_anglo_iraqi_war_1"
+		texturefile = "gfx/event_pictures/news_event_generic_anglo_iraqi_war_1.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ENG_middle_eastern_conflict_2"
+		texturefile = "gfx/event_pictures/news_event_ENG_middle_eastern_conflict_2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_generic_anglo_iraqi_war_2"
+		texturefile = "gfx/event_pictures/news_event_generic_anglo_iraqi_war_2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_generic_arab_revolt"
+		texturefile = "gfx/event_pictures/news_event_generic_arab_revolt.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ENG_middle_eastern_conflict"
+		texturefile = "gfx/event_pictures/news_event_ENG_middle_eastern_conflict.dds"
+	}
 
 }
 
