@@ -1090,6 +1090,7 @@ focus_tree = {
                 }
                 add_stability = 0.2
                 add_political_power = 200
+                custom_effect_tooltip = CAM_destruct_left_organisations_tt
             }
         }
         focus = {
@@ -5224,7 +5225,8 @@ focus_tree = {
             y = 13
             completion_reward = {
                 add_ideas = CAM_asia_gulag_idea
-            }
+                custom_effect_tooltip = CAM_main_directorate_of_labor_camps_system_tt
+			}
         }
         focus = {
             id = CAM_we_will_go_with_stalin
@@ -6499,6 +6501,25 @@ focus_tree = {
                 swap_ideas = {
                     remove_idea = CAM_khmer_army2_idea
                     add_idea = CAM_khmer_army3_idea
+                }
+            }
+        }
+        focus = {
+            id = CAM_elephants
+            icon = GFX_focus_RAJ_thunder_elephants
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_restructured_army
+            }
+            x = 31
+            y = 4
+            completion_reward = {
+                add_tech_bonus = {
+                    name = RAJ_thunder_elephants
+                    ahead_reduction = 1 # was 2
+                    bonus = 1
+                    uses = 1
+                    technology = super_heavy_tank_chassis
                 }
             }
         }
