@@ -1431,11 +1431,12 @@
  PER_islamic_rep_party: "Исламский совет"
  PER_islamic_rep_party_long: "Совет Исламской революции"
  #Cambodia
- CAM_fascism_party: "Кхмерская партия"
+ CAM_fascism_party: "Кхмерская национальная ассоциация"
  CAM_german_administration_goering_party: "Германская администрация - Гёринг"
  CAM_german_administration_geidrich_party: "Германская администрация - Гейдрих"
  CAM_german_administration_gimmler_party: "Германская администрация - Гиммлер"
- CAM_democratic_party: "Демократическая партия" #formed in 1946
- CAM_communism_party: "Независимые кхмеры"
- CAM_neutrality_party: "Временное правительство" #or just Sangkum 1955, democratic but right leaning and anti communist
+ CAM_democratic_party: "Французские лоялисты"
+ CAM_communism_party: "Профсоюзное движение Кампучии"
+ CAM_neutrality_party: "Повстанцы"
+ CAM_technocrats_party: "Совет академиков"
  CAM_people_monarchists_union_party: "Народно-монархический союз"

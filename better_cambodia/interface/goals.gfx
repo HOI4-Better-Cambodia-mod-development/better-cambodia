@@ -1,4 +1,16 @@
-spriteTypes = {	
+spriteTypes = {
+	SpriteType = {
+	name = "GFX_CAM_polpotlag_goal1"
+	texturefile = "gfx/interface/occupation_laws_icons/polpotlag_law_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_conlag_goal1"
+	texturefile = "gfx/interface/occupation_laws_icons/conlag_law_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_gulag_goal1"
+	texturefile = "gfx/interface/occupation_laws_icons/gulag_law_goal.png"			
+	}
 	#Goering_way
 	SpriteType = {
 	name = "GFX_CAM_human_trafficking_goal"
@@ -448,6 +460,10 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_adress_sov"
 	texturefile = "gfx/interface/goals/communist_way/goal_adress_sov.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_polpotlag_goal"
+	texturefile = "gfx/interface/goals/communist_way/CAM_polpotlag_goal.png"			
 	}
 	SpriteType = {
 	name = "GFX_goal_free_discuss"

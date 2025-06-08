@@ -4782,13 +4782,26 @@ focus_tree = {
             prerequisite = {
                 focus = CAM_ecologically_clean_territory
             }
-            x = 14
+            x = 13
             y = 14
             completion_reward = {
                 swap_ideas = {
                     remove_idea = CAM_garmony_human_animals_idea
                     add_idea = CAM_garmony_human_animals1_idea
                 }
+            }
+        }
+        focus = {
+            id = CAM_polpotlag_focus
+            icon = GFX_CAM_polpotlag_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_green_industry
+            }
+            x = 12
+            y = 15
+            completion_reward = {
+                custom_effect_tooltip = CAM_polpotlag_tt
             }
         }
         focus = {
@@ -6514,12 +6527,9 @@ focus_tree = {
             x = 31
             y = 4
             completion_reward = {
-                add_tech_bonus = {
-                    name = RAJ_thunder_elephants
-                    ahead_reduction = 1 # was 2
-                    bonus = 1
-                    uses = 1
-                    technology = super_heavy_tank_chassis
+                set_technology = {
+                    elephantry = 1
+                    popup = no
                 }
             }
         }
