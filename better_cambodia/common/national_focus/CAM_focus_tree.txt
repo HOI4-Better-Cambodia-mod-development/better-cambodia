@@ -2615,6 +2615,53 @@ focus_tree = {
 
         }
         focus = {
+            id = CAM_islam
+            icon = GFX_focus_BRA_restore_brazilian_honor
+            cost = 5,00
+            x = 90
+            y = 22
+            completion_reward ={}
+
+        }
+        focus = {
+            id = CAM_allah
+            icon = GFX_focus_BRA_restore_brazilian_honor
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_islam
+            }
+            x = 91
+            y = 23
+            completion_reward = {}
+        }
+        focus = {
+            id = CAM_christianity
+            icon = GFX_focus_BRA_restore_brazilian_honor
+            cost = 5,00
+            x = 93
+            y = 22
+            completion_reward ={}
+
+        }
+        focus = {
+            id = CAM_sintoism
+            icon = GFX_focus_BRA_restore_brazilian_honor
+            cost = 5,00
+            x = 87
+            y = 22
+            completion_reward ={}
+
+        }
+        focus = {
+            id = CAM_Buddhism
+            icon = GFX_focus_BRA_restore_brazilian_honor
+            cost = 5,00
+            x = 96
+            y = 22
+            completion_reward ={}
+
+        }
+        focus = {
             id = CAM_brilliant_isolation
             icon = GFX_CAM_brilliant_isolation_goal
             cost = 5,00
