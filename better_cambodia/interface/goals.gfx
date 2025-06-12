@@ -1,5 +1,109 @@
 spriteTypes = {
 	SpriteType = {
+	name = "GFX_CAM_panasiatism_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_panasiatism_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_crash_north_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_crash_north_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_go_to_the_south_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_go_to_the_south_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_corporation_rules_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_corporation_rules_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_corporetion_monopoly_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_corporetion_monopoly_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_old_ambitions_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_old_ambitions_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_new_japan_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_new_japan_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_dzaibazu_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_dzaibazu_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_new_emperor_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_new_emperor_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_peaple_state_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_peaple_state_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_restore_samurai_traditions_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_restore_samurai_traditions_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_corporetes_more_power_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_corporetes_more_power_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_war_prepare_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_war_prepare_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_tai_first_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_tai_first_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_only_one_rising_sun_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_only_one_rising_sun_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_contact_with_jap_fleet_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_contact_with_jap_fleet_goal.png"			
+	}
+    SpriteType = {
+	name = "GFX_CAM_get_some_jap_militarists_on_our_side_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_get_some_jap_militarists_on_our_side_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_contact_with_jap_companies_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_contact_with_jap_companies_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_only_one_sintiost_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_only_one_sintiost_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_asia_is_for_cambodia"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_asia_is_for_cambodia.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_jap_not_alone_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_jap_not_alone_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_new_gods_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_new_gods_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_white_sky"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_white_sky.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_deal_with_church"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_deal_with_church.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_red_sun_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_red_sun_goal.png"			
+	}
+	SpriteType = {
+	name = "GFX_CAM_sintoism_goal"
+	texturefile = "gfx/interface/goals/sintoism_way/CAM_sintoism_goal.png"			
+	}
+	SpriteType = {
 	name = "GFX_CAM_polpotlag_goal1"
 	texturefile = "gfx/interface/occupation_laws_icons/polpotlag_law_goal.png"			
 	}

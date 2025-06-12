@@ -60,6 +60,50 @@
 #		}
 #	}
 #}
+CAM_inquisitors = {
+    icon = GFX_CAM_conlag_goal1  # Или кастомная иконка
+    
+    visible = {
+		AND = {
+			original_tag = CAM
+        	has_completed_focus = CAM_destruct_left_organisations
+		}
+    }
+
+    # Модификаторы
+	state_modifier = {
+		resistance_target = -0.2
+		compliance_gain = 0.015
+		required_garrison_factor = -0.1
+		resistance_damage_to_garrison = 0.1
+		local_factories = -0.1
+		local_resources = -0.1
+	}
+
+    #ai_weight = { weight = 100 }  # Вес для ИИ
+}
+CAM_islamisation = {
+    icon = GFX_CAM_conlag_goal1  # Или кастомная иконка
+    
+    visible = {
+		AND = {
+			original_tag = CAM
+        	has_completed_focus = CAM_destruct_left_organisations
+		}
+    }
+
+    # Модификаторы
+	state_modifier = {
+		resistance_target = 0.2
+		compliance_gain = 0.01
+		required_garrison_factor = -0.40
+		resistance_damage_to_garrison = -0.2
+		local_factories = -0.2
+		local_resources = -0.1
+	}
+
+    #ai_weight = { weight = 100 }  # Вес для ИИ
+}
 CAM_conlag = {
     icon = GFX_CAM_conlag_goal1  # Или кастомная иконка
     

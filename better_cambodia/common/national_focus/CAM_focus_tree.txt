@@ -2645,7 +2645,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_sintoism
-            icon = GFX_focus_BRA_restore_brazilian_honor
+            icon = GFX_CAM_sintoism_goal
             cost = 5,00
             x = 87
             y = 22
@@ -2653,7 +2653,7 @@ focus_tree = {
 
         }
         focus = {
-            id = CAM_Buddhism
+            id = CAM_buddhism
             icon = GFX_focus_BRA_restore_brazilian_honor
             cost = 5,00
             x = 96
@@ -7299,4 +7299,1086 @@ focus_tree = {
             }
 
         }
+        focus = {
+            id = CAM_battle_groups
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_islam
+            }
+            x = 89
+            y = 23
+
+        }
+        focus = {
+            id = CAM_europian_pastors
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_christianity
+            }
+            x = 93
+            y = 23
+
+        }
+        focus = {
+            id = CAM_biblia_in_every_house
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_christianity
+            }
+            x = 95
+            y = 23
+
+        }
+        focus = {
+            id = CAM_cambodian_tradition
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_buddhism
+            }
+            x = 97
+            y = 23
+
+        }
+        focus = {
+            id = CAM_deal_with_church
+            icon = GFX_CAM_deal_with_church
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_sintoism
+            }
+            x = 85
+            y = 23
+
+        }
+        focus = {
+            id = CAM_cambodian_red_sun
+            icon = GFX_CAM_red_sun_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_sintoism
+            }
+            x = 87
+            y = 23
+
+        }
+        focus = {
+            id = CAM_propaganda_of_the_new_gods
+            icon = GFX_CAM_new_gods_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_deal_with_church
+            }
+            x = 85
+            y = 24
+
+        }
+        focus = {
+            id = CAM_cambodian_white_sky
+            icon = GFX_CAM_white_sky
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_cambodian_red_sun
+            }
+            x = 87
+            y = 24
+
+        }
+        focus = {
+            id = CAM_japan_is_not_alone
+            icon = GFX_CAM_jap_not_alone_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_propaganda_of_the_new_gods
+            }
+            x = 85
+            y = 25
+
+        }
+        focus = {
+            id = CAM_asia_is_for_cambodia
+            icon = GFX_CAM_asia_is_for_cambodia
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_cambodian_white_sky
+            }
+            x = 87
+            y = 25
+
+        }
+        focus = {
+            id = CAM_radical_is_ours
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_battle_groups
+            }
+            x = 89
+            y = 24
+
+        }
+        focus = {
+            id = CAM_shariat
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_allah
+            }
+            x = 91
+            y = 24
+
+        }
+        focus = {
+            id = CAM_allah_acbar
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_radical_is_ours
+            }
+            x = 89
+            y = 25
+
+        }
+        focus = {
+            id = CAM_from_the_desert
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_shariat
+            }
+            x = 91
+            y = 25
+
+        }
+        focus = {
+            id = CAM_holy_way
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_europian_pastors
+            }
+            x = 93
+            y = 24
+
+        }
+        focus = {
+            id = CAM_icon_in_every_heart
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_biblia_in_every_house
+            }
+            x = 95
+            y = 24
+
+        }
+        focus = {
+            id = CAM_cleaness
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_holy_way
+            }
+            x = 93
+            y = 25
+
+        }
+        focus = {
+            id = CAM_christian_unity
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_icon_in_every_heart
+            }
+            x = 95
+            y = 25
+
+        }
+        focus = {
+            id = CAM_against_everyone
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_cambodian_tradition
+            }
+            x = 97
+            y = 24
+
+        }
+        focus = {
+            id = CAM_united_with_the_religion
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_against_everyone
+            }
+            x = 97
+            y = 25
+
+        }
+        focus = {
+            id = CAM_only_one_sintoist
+            icon = GFX_CAM_only_one_sintiost_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_japan_is_not_alone
+            }
+            prerequisite = {
+                focus = CAM_asia_is_for_cambodia
+            }
+            x = 84
+            y = 26
+
+        }
+        focus = {
+            id = CAM_truly_buddhism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_united_with_the_religion
+            }
+            prerequisite = {
+                focus = CAM_only_asian_religion
+            }
+            x = 100
+            y = 26
+
+        }
+        focus = {
+            id = CAM_conflict_in_islamists
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_allah_acbar
+            }
+            prerequisite = {
+                focus = CAM_from_the_desert
+            }
+            x = 90
+            y = 26
+
+        }
+        focus = {
+            id = CAM_ortodox_or_catholicism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_cleaness
+            }
+            prerequisite = {
+                focus = CAM_christian_unity
+            }
+            x = 94
+            y = 26
+
+        }
+        focus = {
+            id = CAM_radical_way
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_conflict_in_islamists
+            }
+            mutually_exclusive = {
+                focus = CAM_islam_socialism
+            }
+            x = 89
+            y = 27
+
+        }
+        focus = {
+            id = CAM_islam_socialism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_conflict_in_islamists
+            }
+            mutually_exclusive = {
+                focus = CAM_radical_way
+            }
+            x = 91
+            y = 27
+
+        }
+        focus = {
+            id = CAM_shiits
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_radical_way
+            }
+            mutually_exclusive = {
+                focus = CAM_sunnism
+            }
+            x = 85
+            y = 28
+
+        }
+        focus = {
+            id = CAM_sunnism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_radical_way
+            }
+            mutually_exclusive = {
+                focus = CAM_shiits
+            }
+            x = 87
+            y = 28
+
+        }
+        focus = {
+            id = CAM_great_islamic_kingdom
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_radical_way
+            }
+            x = 89
+            y = 28
+
+        }
+        focus = {
+            id = CAM_only_islam
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_great_islamic_kingdom
+            }
+            x = 89
+            y = 29
+
+        }
+        focus = {
+            id = CAM_new_idea_for_the_islam
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_islam_socialism
+            }
+            x = 91
+            y = 28
+
+        }
+        focus = {
+            id = CAM_church_property_na_sredstva_proizvodstva
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_new_idea_for_the_islam
+            }
+            x = 91
+            y = 29
+
+        }
+        focus = {
+            id = CAM_only_truly_christianity
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_ortodox_or_catholicism
+            }
+            mutually_exclusive = {
+                focus = CAM_we_need_progress
+            }
+            x = 93
+            y = 27
+
+        }
+        focus = {
+            id = CAM_we_need_progress
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_ortodox_or_catholicism
+            }
+            mutually_exclusive = {
+                focus = CAM_only_truly_christianity
+            }
+            x = 95
+            y = 27
+
+        }
+        focus = {
+            id = CAM_contact_with_russian_ortodox
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_only_truly_christianity
+            }
+            x = 93
+            y = 28
+
+        }
+        focus = {
+            id = CAM_coming_with_other_europe
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_we_need_progress
+            }
+            x = 95
+            y = 28
+
+        }
+        focus = {
+            id = CAM_old_testament
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_contact_with_russian_ortodox
+            }
+            x = 93
+            y = 29
+
+        }
+        focus = {
+            id = CAM_new_testament
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_coming_with_other_europe
+            }
+            x = 95
+            y = 29
+
+        }
+        focus = {
+            id = CAM_catholizism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_we_need_progress
+            }
+            mutually_exclusive = {
+                focus = CAM_protestantism
+            }
+            x = 97
+            y = 28
+
+        }
+        focus = {
+            id = CAM_protestantism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_we_need_progress
+            }
+            mutually_exclusive = {
+                focus = CAM_catholizism
+            }
+            x = 99
+            y = 28
+
+        }
+        focus = {
+            id = CAM_king_of_the_old_nations
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_truly_buddhism
+            }
+            x = 103
+            y = 27
+
+        }
+        focus = {
+            id = CAM_king_of_the_north_neighbour
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_king_of_the_old_nations
+            }
+            x = 105
+            y = 28
+
+        }
+        focus = {
+            id = CAM_king_of_the_west_neighbour
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_king_of_the_old_nations
+            }
+            x = 101
+            y = 28
+
+        }
+        focus = {
+            id = CAM_tai_throne
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_king_of_the_west_neighbour
+                focus = CAM_king_of_the_north_neighbour
+            }
+            x = 103
+            y = 29
+
+        }
+        focus = {
+            id = CAM_british_sphere
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_king_of_the_west_neighbour
+            }
+            x = 100
+            y = 29
+
+        }
+        focus = {
+            id = CAM_into_delhi
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_tai_throne
+            }
+            prerequisite = {
+                focus = CAM_british_sphere
+            }
+            x = 101
+            y = 30
+
+        }
+        focus = {
+            id = CAM_destroy_south_warlords
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_king_of_the_north_neighbour
+            }
+            x = 106
+            y = 29
+
+        }
+        focus = {
+            id = CAM_claim_pekin_and_nankin
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_tai_throne
+            }
+            prerequisite = {
+                focus = CAM_destroy_south_warlords
+            }
+            x = 105
+            y = 30
+
+        }
+        focus = {
+            id = CAM_new_lord_of_india
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_into_delhi
+            }
+            x = 101
+            y = 31
+
+        }
+        focus = {
+            id = CAM_new_chinese_empire
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_claim_pekin_and_nankin
+            }
+            x = 105
+            y = 31
+
+        }
+        focus = {
+            id = CAM_contact_with_jap_companies
+            icon = GFX_CAM_contact_with_jap_companies_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_japan_is_not_alone
+            }
+            prerequisite = {
+                focus = CAM_asia_is_for_cambodia
+            }
+            x = 86
+            y = 26
+
+        }
+        focus = {
+            id = CAM_get_some_jap_militarists_on_our_side
+            icon = GFX_CAM_get_some_jap_militarists_on_our_side_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_contact_with_jap_companies
+            }
+            x = 85
+            y = 27
+
+        }
+        focus = {
+            id = CAM_contact_with_jap_fleet
+            icon = GFX_CAM_contact_with_jap_fleet_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_contact_with_jap_companies
+            }
+            x = 87
+            y = 27
+
+        }
+        focus = {
+            id = CAM_only_one_rising_sun
+            icon = GFX_CAM_only_one_rising_sun_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_only_one_sintoist
+            }
+            x = 81
+            y = 27
+
+        }
+        focus = {
+            id = CAM_prepare_army
+            icon = GFX_CAM_war_prepare_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_only_one_sintoist
+            }
+            x = 83
+            y = 27
+
+        }
+        focus = {
+            id = CAM_restore_samurai_tradition
+            icon = GFX_CAM_restore_samurai_traditions_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_tai_first
+            }
+            x = 79
+            y = 29
+
+        }
+        focus = {
+            id = CAM_give_jap_corporates_more_power
+            icon = GFX_CAM_corporetes_more_power_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_tai_first
+            }
+            x = 81
+            y = 29
+
+        }
+        focus = {
+            id = CAM_make_people_state
+            icon = GFX_CAM_peaple_state_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_tai_first
+            }
+            x = 83
+            y = 29
+
+        }
+        focus = {
+            id = CAM_dzaibazu_is_our_samurais
+            icon = GFX_CAM_dzaibazu_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_restore_samurai_tradition
+            }
+            prerequisite = {
+                focus = CAM_give_jap_corporates_more_power
+            }
+            x = 80
+            y = 30
+
+        }
+        focus = {
+            id = CAM_become_a_new_emperor
+            icon = GFX_CAM_new_emperor_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_give_jap_corporates_more_power
+            }
+            prerequisite = {
+                focus = CAM_make_people_state
+            }
+            x = 82
+            y = 30
+
+        }
+        focus = {
+            id = CAM_new_japan
+            icon = GFX_CAM_new_japan_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_dzaibazu_is_our_samurais
+            }
+            prerequisite = {
+                focus = CAM_become_a_new_emperor
+            }
+            x = 81
+            y = 31
+
+        }
+        focus = {
+            id = CAM_tai_first
+            icon = GFX_CAM_tai_first_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_only_one_rising_sun
+            }
+            x = 81
+            y = 28
+
+        }
+        focus = {
+            id = CAM_corporation_monopoly
+            icon = GFX_CAM_corporetion_monopoly_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_new_japan
+            }
+            x = 78
+            y = 32
+
+        }
+        focus = {
+            id = CAM_crash_south
+            icon = GFX_CAM_go_to_the_south_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_old_ambitions
+            }
+            x = 82
+            y = 33
+
+        }
+        focus = {
+            id = CAM_crash_west
+            icon = GFX_focus_RAJ_british_investors
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_old_ambitions
+            }
+            x = 80
+            y = 33
+
+        }
+        focus = {
+            id = CAM_crash_north
+            icon = GFX_CAM_crash_north_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_crash_west
+            }
+            prerequisite = {
+                focus = CAM_crash_south
+            }
+            x = 81
+            y = 34
+
+        }
+        focus = {
+            id = CAM_old_ambitions
+            icon = GFX_CAM_old_ambitions_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_new_japan
+            }
+            x = 81
+            y = 32
+
+        }
+        focus = {
+            id = CAM_corporation_rules
+            icon = GFX_CAM_corporation_rules_goal
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_corporation_monopoly
+            }
+            x = 78
+            y = 33
+
+        }
+        focus = {
+            id = CAM_panasiatism
+            icon = GFX_CAM_panasiatism_goal
+            cost = 10,00
+            prerequisite = {
+                focus = CAM_crash_north
+            }
+            x = 81
+            y = 35
+
+        }
+        focus = {
+            id = CAM_contact_with_other_islamists
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_only_islam
+            }
+            x = 85
+            y = 30
+
+        }
+        focus = {
+            id = CAM_restore_gold_age_of_islam
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_only_islam
+            }
+            x = 87
+            y = 30
+
+        }
+        focus = {
+            id = CAM_get_more_industry
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_restore_gold_age_of_islam
+            }
+            x = 87
+            y = 31
+
+        }
+        focus = {
+            id = CAM_more_money_to_science
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_get_more_industry
+            }
+            x = 87
+            y = 32
+
+        }
+        focus = {
+            id = CAM_use_foreign_help
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_contact_with_other_islamists
+            }
+            x = 85
+            y = 31
+
+        }
+        focus = {
+            id = CAM_eliminate_religious_differences
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_use_foreign_help
+            }
+            x = 85
+            y = 32
+
+        }
+        focus = {
+            id = CAM_djihad
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_eliminate_religious_differences
+                focus = CAM_more_money_to_science
+                focus = CAM_new_form_of_revolution
+                focus = CAM_creat_workers_collective
+                focus = CAM_new_for_of_revolution
+            }
+            x = 88
+            y = 34
+
+        }
+        focus = {
+            id = CAM_moderate_collectivisation
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_church_property_na_sredstva_proizvodstva
+            }
+            x = 89
+            y = 31
+
+        }
+        focus = {
+            id = CAM_people_islamism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_church_property_na_sredstva_proizvodstva
+            }
+            x = 91
+            y = 31
+
+        }
+        focus = {
+            id = CAM_islamic_monarcho_socialism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_people_islamism
+            }
+            x = 91
+            y = 32
+
+        }
+        focus = {
+            id = CAM_new_for_of_revolution
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_islamic_monarcho_socialism
+            }
+            x = 91
+            y = 33
+
+        }
+        focus = {
+            id = CAM_use_soviet_example_of_industry
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_moderate_collectivisation
+            }
+            x = 89
+            y = 32
+
+        }
+        focus = {
+            id = CAM_creat_workers_collective
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_use_soviet_example_of_industry
+            }
+            x = 89
+            y = 33
+
+        }
+        focus = {
+            id = CAM_muslim_dream
+            icon = GFX_goal_unknown
+            cost = 10,00
+            prerequisite = {
+                focus = CAM_djihad
+            }
+            x = 88
+            y = 35
+
+        }
+        focus = {
+            id = CAM_arms_against_ateism
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_buddhism
+            }
+            x = 99
+            y = 23
+
+	    }
+        focus = {
+            id = CAM_oldest_religion
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_arms_against_ateism
+            }
+            x = 99
+            y = 24
+
+        }
+        focus = {
+            id = CAM_only_asian_religion
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_oldest_religion
+            }
+            x = 99
+            y = 25
+
+        }
+        focus = {
+            id = CAM_develope_our_country
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_united_with_the_religion
+            }
+            prerequisite = {
+                focus = CAM_only_asian_religion
+            }
+            x = 98
+            y = 26
+
+	    }
+        focus = {
+            id = CAM_upgrade_science
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_develope_our_country
+            }
+            x = 97
+            y = 27
+
+        }
+        focus = {
+            id = CAM_creat_industry
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_develope_our_country
+            }
+            x = 99
+            y = 27
+
+        }
+        focus = {
+            id = CAM_build_new_roads
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_tai_throne
+                focus = CAM_british_sphere
+                focus = CAM_destroy_south_warlords
+            }
+            x = 103
+            y = 30
+
+	    }
+        focus = {
+            id = CAM_upgrade_industry
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_build_new_roads
+            }
+            x = 103
+            y = 31
+
+	    }
+        focus = {
+            id = CAM_king_of_asia
+            icon = GFX_goal_unknown
+            cost = 5,00
+            prerequisite = {
+                focus = CAM_new_lord_of_india
+            }
+            prerequisite = {
+                focus = CAM_new_chinese_empire
+            }
+            x = 103
+            y = 32
+
+	    }
     }
