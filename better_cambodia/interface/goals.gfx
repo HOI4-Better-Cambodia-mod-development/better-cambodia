@@ -1,5 +1,117 @@
 spriteTypes = {
 	SpriteType = {
+	name = "GFX_CAM_shiism_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_shiism_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_sunnit_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_sunnit_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_new_for_revolution_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_new_for_revolution_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_workers_collective_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_workers_collective_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_monarcho_communism_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_monarcho_communism_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_people_islamism_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_people_islamism_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_moderate_collectivisation_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_moderate_collectivisation_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_church_property_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_church_property_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_new_idea_for_islam_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_new_idea_for_islam_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_muslim_dream_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_muslim_dream_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_djihad_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_djihad_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_eliminatereligion_difference_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_eliminatereligion_difference_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_foreign_help_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_foreign_help_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_get_more_industry_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_get_more_industry_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_islam_greate_again_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_islam_greate_again_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_contact_with_other_islamists_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_contact_with_other_islamists_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_islam_only_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_islam_only_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_freat_isamic_kingdom_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_freat_isamic_kingdom_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_isalmic_socialism_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_isalmic_socialism_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_radical_way_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_radical_way_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_condlict_in_islamists_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_condlict_in_islamists_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_from_the_deserts_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_from_the_deserts_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_allah_akbar_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_allah_akbar_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_shariat_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_shariat_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_radical_is_ours_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_radical_is_ours_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_battle_groups_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_battle_groups_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_allah_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_allah_goal.png"	
+	}
+	SpriteType = {
+	name = "GFX_CAM_islam_goal"
+	texturefile = "gfx/interface/goals/islam_way/CAM_islam_goal.png"	
+	}
+	SpriteType = {
 	name = "GFX_CAM_panasiatism_goal"
 	texturefile = "gfx/interface/goals/sintoism_way/CAM_panasiatism_goal.png"			
 	}

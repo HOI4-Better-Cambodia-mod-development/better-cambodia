@@ -2616,7 +2616,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_islam
-            icon = GFX_focus_BRA_restore_brazilian_honor
+            icon = GFX_CAM_islam_goal
             cost = 5,00
             x = 90
             y = 22
@@ -2625,7 +2625,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_allah
-            icon = GFX_focus_BRA_restore_brazilian_honor
+            icon = GFX_CAM_allah_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_islam
@@ -7301,7 +7301,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_battle_groups
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_battle_groups_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_islam
@@ -7411,7 +7411,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_radical_is_ours
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_radical_is_ours_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_battle_groups
@@ -7422,7 +7422,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_shariat
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_shariat_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_allah
@@ -7433,7 +7433,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_allah_acbar
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_allah_akbar_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_radical_is_ours
@@ -7444,7 +7444,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_from_the_desert
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_from_the_deserts_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_shariat
@@ -7549,7 +7549,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_conflict_in_islamists
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_condlict_in_islamists_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_allah_acbar
@@ -7577,7 +7577,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_radical_way
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_radical_way_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_conflict_in_islamists
@@ -7591,7 +7591,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_islam_socialism
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_isalmic_socialism_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_conflict_in_islamists
@@ -7605,7 +7605,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_shiits
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_shiism_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_radical_way
@@ -7619,7 +7619,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_sunnism
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_sunnit_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_radical_way
@@ -7633,7 +7633,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_great_islamic_kingdom
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_freat_isamic_kingdom_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_radical_way
@@ -7644,7 +7644,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_only_islam
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_islam_only_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_great_islamic_kingdom
@@ -7655,7 +7655,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_new_idea_for_the_islam
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_new_idea_for_islam_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_islam_socialism
@@ -7666,7 +7666,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_church_property_na_sredstva_proizvodstva
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_church_property_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_new_idea_for_the_islam
@@ -8118,7 +8118,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_contact_with_other_islamists
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_contact_with_other_islamists_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_only_islam
@@ -8129,7 +8129,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_restore_gold_age_of_islam
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_islam_greate_again_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_only_islam
@@ -8140,7 +8140,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_get_more_industry
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_get_more_industry_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_restore_gold_age_of_islam
@@ -8151,7 +8151,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_more_money_to_science
-            icon = GFX_goal_unknown
+            icon = GFX_goal_invest_to_biology
             cost = 5,00
             prerequisite = {
                 focus = CAM_get_more_industry
@@ -8162,7 +8162,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_use_foreign_help
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_foreign_help_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_contact_with_other_islamists
@@ -8173,7 +8173,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_eliminate_religious_differences
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_eliminatereligion_difference_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_use_foreign_help
@@ -8184,12 +8184,11 @@ focus_tree = {
         }
         focus = {
             id = CAM_djihad
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_djihad_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_eliminate_religious_differences
                 focus = CAM_more_money_to_science
-                focus = CAM_new_form_of_revolution
                 focus = CAM_creat_workers_collective
                 focus = CAM_new_for_of_revolution
             }
@@ -8199,7 +8198,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_moderate_collectivisation
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_moderate_collectivisation_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_church_property_na_sredstva_proizvodstva
@@ -8210,7 +8209,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_people_islamism
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_people_islamism_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_church_property_na_sredstva_proizvodstva
@@ -8221,7 +8220,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_islamic_monarcho_socialism
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_monarcho_communism_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_people_islamism
@@ -8232,7 +8231,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_new_for_of_revolution
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_new_for_revolution_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_islamic_monarcho_socialism
@@ -8243,7 +8242,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_use_soviet_example_of_industry
-            icon = GFX_goal_unknown
+            icon = GFX_focus_chi_mission_to_the_soviet_union
             cost = 5,00
             prerequisite = {
                 focus = CAM_moderate_collectivisation
@@ -8254,7 +8253,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_creat_workers_collective
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_workers_collective_goal
             cost = 5,00
             prerequisite = {
                 focus = CAM_use_soviet_example_of_industry
@@ -8265,7 +8264,7 @@ focus_tree = {
         }
         focus = {
             id = CAM_muslim_dream
-            icon = GFX_goal_unknown
+            icon = GFX_CAM_muslim_dream_goal
             cost = 10,00
             prerequisite = {
                 focus = CAM_djihad
